@@ -1,20 +1,12 @@
 # DomoticaOnlineDE
 
-## Programación
-
-Blocly/code.org
-Scratch
 
 ## Arduino
 
 Visualino/Bitbloq
 Arduino
 
-## Diseño 3D
+## Raspberry
 
-Thinkercad
-Freecad
-Blender
-Impresión 3D
 
-## Robótica
+# [Índice](./indice.md)
