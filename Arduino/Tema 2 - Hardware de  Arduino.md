@@ -1,7 +1,5 @@
 # Hardware de Arduino
 
-# Hardware de Arduino
-
 Arduino es una plataforma basada en un [microcontrolador](http://es.wikipedia.org/wiki/Microcontrolador), que se encuentra alojado en una placa de [circuito impreso](http://es.wikipedia.org/wiki/Circuito_impreso) que contiene todo lo necesario para ser programada y conectada a multitud de sistemas electrónicos.
 
 Un microcontrolador es un dispositivo electrónico con capacidad de procesamiento (similar a una CPU) y que además se puede conectar a otros dispositivos electrónicos de manera que es capaz de leer y controlar voltajes, lo que le permite accionar dispositivos electrónicos. Como veremos a continuación, es autosuficiente en el sentido que casi no necesita componentes externos para funcionar.
@@ -12,14 +10,13 @@ Vamos a empezar comparando un microcontrolador con un portátil actual.
 
 En primer lugar comparamos los “números” de los dos sistemas:
 
-![](https://lh6.googleusercontent.com/ZnMTGq5m3LgyUbvYOK79cpwzJi_mmXPtDfAazAqrzHy3hd3QCaXN8cx0CAUfloYosLH8VcwDVqlHNFuxcbfmtcMUQadMKvXwliLzXJjitj1KyKP-Pmwp)
+![](./images/comparativa1.png)
 
 Como vemos la capacidad bruta del microcontrolador es varios órdenes de magnitud menor que la de un portátil y aparentemente ridícula si la comparamos con los números a los que estamos acostumbrados a referirnos hoy en día.
 
 Sin embargo, si comparamos su autonomía, es decir cuan autónomo es un microcontrolador, vemos que su ventaja sobre el portátil es apabullante.
 
-![](https://lh5.googleusercontent.com/N69tWxBkJBJzLLYNW-y5q1iWGnnliF52X3KWZjTbhfGa-TmowSzUHUD6F4e_Nhq7CbLIKKVhhI4vvzYZpYfUIYrpJsN6tVefNSJoBmd2a2FKpFYFq5Ay)
-
+![](./images/comparativa2.png)
 
 * Es autocontenido en el sentido de que sólo necesita alimentación     para funcionar por sí mismo.
 * En sí mismo tiene todo lo necesario para autoprogramarse
@@ -27,7 +24,7 @@ Sin embargo, si comparamos su autonomía, es decir cuan autónomo es un microcon
 
 Vamos a comparar ahora el tamaño de una placa Arduino con el que solía tener una placa de laboratorio de similares características de hace 5 años:
 
-![](https://lh4.googleusercontent.com/70krwwHMipU6Oxod8y8UoJeN1KWoGcMC-BHVITjgX_8k10HuJ18FxCtdZEW0RJ_7JCXEmafvT8dPsFAJDgAuVtB5wPGue-vmn8SU5X7nYVO-SgkX-sl2)
+![](./images/comparativa3.png)
 
 Salta a la vista que tanto el tamaño como la complejidad se ha redudido enormemente. Además, el coste del entorno de desarrollo podría rondar los 200€ mientras que hoy en día podemos comprar una placa Arduino por 25€
 
@@ -100,7 +97,7 @@ Este trabajo colaborativo, recopila a día de hoy ¡¡casi 200 versiones distint
 
 Veamos algunos de los recien llegados:
 
-![Tre](http://arduino.cc/en/uploads/Main/ArduinoTre_LandingPage.jpg)
+![Tre](./images/ArduinoTre_LandingPage.jpg)
 
 -   Arduino TRE desarrollado por Arduino en colaboración con Texas     Instruments. Del lado de Arduino monta un ATMega32u4 (el que usa Leonardo) que viene siendo el habitual últimamente. Esta placa es el resultado de la colaboración entre los equipos de desarrollo de Arduino y BeagleBoard.
 
@@ -172,7 +169,7 @@ En caso de encontrar algún otro simulador interesante no dudéis en enviarlo a 
 |captura|URL|descripcion|
 |---|---|---|
 |![123d](https://assets.circuits.io/assets/home/Home-Anonymous-HubForEveryGoal-ca150801eb74505bbd8d18e31f4d2321.gif)|[123d.circuit.io](http://123d.circuit.io)|Es un simulador de arduino en la página del diseñador de circuitos 123d.circuit.io. Nos permite simular perfectamente la mayoría de los montajes del curso. He preparado un [**vídeo**](https://www.youtube.com/watch?v=c0edvZIrjUY "Breve Tutorial sobre 123d circuits.io") para que aprendáis a usarlo|
-|![minibloq](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJJtdI1T7wyR5nKleyKsz1ABxrJG6MX82fuKIMPeF4KWvMHMr6 "minibloq")|[Minibloq](http://blog.minibloq.org "minibloq")|Es un entorno de programación de Arduino compuesto por un editor de bloques (al estilo de Scratch). Como salida produce un fichero que podemos introducir en le entorno de Arduino. Está en versión Beta aún. Como incoveniente, no nos permite introducir el código, sino que hemos de usar los bloques predefinidos y a partir de ahí vemos el código resultante.
+|![minibloq](./images/minibloq.jpg)|[Minibloq](http://blog.minibloq.org "minibloq")|Es un entorno de programación de Arduino compuesto por un editor de bloques (al estilo de Scratch). Como salida produce un fichero que podemos introducir en le entorno de Arduino. Está en versión Beta aún. Como incoveniente, no nos permite introducir el código, sino que hemos de usar los bloques predefinidos y a partir de ahí vemos el código resultante.
 |![Virtualbreadboard](http://www.robotshop.com/blog/en/files/virtual-breadboard-arduino.jpg "Virtualbreadboard")|[Virtualbreadboard](http://virtualbreadboard.com/ "virtualbreadboard")|Es un simulador de componentes y de Arduino (también permite simular placas de otra familia de microcontroladores llamadas PicMicro). Es un software **comercial de pago**. La versión gratuita permite simular los componentes eletrónicos pero no a Arduino. Para ello es necesario adquirir el "Arduino Toolkit".
 |![simulator](http://virtronics.com.au/images/SimForArduino.jpg "simulator")|[Simulator for Arduino](http://virtronics.com.au/Simulator-for-Arduino.html)|Software **comercial de pago** bastante potente y bien terminado. Permite simular el funcionamiento de Arduino y hacer programas. Existe una versión gatuita que impone un retardo al cargar los programas.
 ||[emulino](http://)| Entorno gratuito de emulación completo. Se requieren conocimientos medios para ponerlo en funcionamiento. Se puede descargar el código de [github](http://github.com/ghewgill/emulino/tree/master). No recomendado si no tienen conocimientos avanzados para compilar programas|
