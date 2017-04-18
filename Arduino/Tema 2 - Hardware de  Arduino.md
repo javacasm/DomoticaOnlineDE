@@ -56,7 +56,6 @@ Primera versión ya con el aspecto moderno, versión 3 o s3v3 o Arduino Severino
 -   Pines en su característica disposición actual. Es interesante la historia sobre los [pines     "descolocados"](http://brettbeauregard.com/blog/2009/07/Arduino-offset-header/)     y su [origen](http://www.Arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1212632541/13). Podemos ver que la similitud con una placa actual como la Arduino Uno que tenemos a continuación es grande.
 
 ## Hoy
------------
 
 ![3](./images/3.jpg)
 
@@ -65,7 +64,6 @@ Esta es una de las placas actuales: **Arduino UNO** . Un poco más abajo comenta
 Por motivos de compatibilidad se han mantenido los conectores desde las primeras versiones, ya que existían muchos complementos que conectaban directamente en la placa
 
 ## Placas actuales
------------------------------------
 
 Actualmente son muchas las versiones existentes como podemos ver en la imagen siguiente:
 
@@ -88,8 +86,7 @@ Actualmente son muchas las versiones existentes como podemos ver en la imagen si
 
 8.  Arduino **Mini**, similar al Arduino pro Mini pero preparado para usuarios domésticos
 
-[](#los-recien-llegados)Los recien llegados
--------------------------------------------
+## Los recién llegados
 
 En la [página de hardware](http://Arduino.cc/it/main/boards) de Arduino podemos ver todos los modelos de placas “oficiales” creados por la empresa Arduino y algunos creados por ésta en colaboración con grandes
 empresas como Intel o Texas Instruments.
@@ -111,11 +108,11 @@ Veamos algunos de los recien llegados:
 
 -   Arduino **Ethernet**: Es como un Arduino Uno, pero con posibilidad de conexión ethernet, que le permite conectar directamente con otros dispositivos. También incluye lector de tarjeta de memoria SD pero no conector USB
 
-![Leonardo](http://Arduino.cc/en/uploads/Main/ArduinoLeonardoFront_2_450px.jpg)
+![Leonardo](./images/ArduinoLeonardoFront_2_450px.jpg)
 
 -   Arduino **Leonardo**: Además de las características habiltuales de Arduino incorpora la posibilidad de simular dispositivos usb como ratones o teclados
 
-![7](http://ecampus.ugr.es/moodle/draftfile.php/900/user/draft/555980782/imagenes/7.jpg)
+![7](./images/7.jpg)
 
 -   Arduino **Due**: Es uno de los hermanos mayores de la familia con unas prestaciones que practicamente duplican las del Arduino Mega .
 
@@ -136,15 +133,13 @@ Para dar una primera idea se trata de una placa en la que coexisten un arduino L
     Del lado de Arduino monta un ATMega32u4 (el que usa Leonardo) que viene siendo el habitual últimamente. Esta placa es el resultado de la colaboración entre los equipos de desarrollo de Arduino y
     BeagleBoard.
 
-![zum](https://static-bqreaders.s3.amazonaws.com/img/web/productView/zum/zum-details.jpg)
+![zum](./images/bq-zumb-bt-328-placa-arduino-1.jpg)
 
 -   Zum BT-328 desarrollado por Bq. Entre sus virtudes está el tener un interruptor de apagado, soportar 3A de consumo, un dispositivo bluetooth incorporado y pines en 2 formatos lo que facilita el uso. Más información en su [web](http://www.bq.com/es/productos/zum.html)
 
-[](#ampliaciones-o-shields)Ampliaciones o Shields
--------------------------------------------------
+## Ampliaciones o Shields
 
-Además de las placas que hemos visto hasta ahora también existen unas placas que conectadas a una placa Arduino amplían su funcionalidad, se les llama Shields. Estas placas encajan encima de una placa de Arduino
-conectándose entre sí y aumentando la funcionalidad del conjunto. Existen multitud de shields, entre ellos
+Además de las placas que hemos visto hasta ahora también existen unas placas que conectadas a una placa Arduino amplían su funcionalidad, se les llama Shields. Estas placas encajan encima de una placa de Arduino conectándose entre sí y aumentando la funcionalidad del conjunto. Existen multitud de shields, entre ellos
 veamos los siguientes:
 
 ![wifi](./images/8WiFiShield_thumb_a.jpg)
@@ -165,10 +160,9 @@ veamos los siguientes:
 
 * * * * *
 
-Una historia curiosa sobre arduino DUE, el micro que utiliza el Due, el [SAM3X nativamente soporta
-ethernet](http://tronixstuff.com/2013/02/08/first-look-arduino-due/), eso quiere decir que "sólo" hay que añadir un poco de hardware (casi todo electrónica analógica) para que la placa tenga ethernet. En las primeras etapas de desarrollo de la placa todo se complicó y esta características se abandonó.En este [enlace](http://forum.arduino.cc/index.php/topic,142908.0.html) se explica como añadir externamente esa electrónica. Esta historia me la contó un chaval que participó en el desarrollo del DUE. Siempre he mantenido la esperanza de que alguien comercializara una pequeña plaquita, pero parece que no es demasiado fácil, porque hay que acceder a algunos pines del micro que no son accesibles en la placa.
+Una historia curiosa sobre arduino DUE, el micro que utiliza el Due, el [SAM3X nativamente soporta ethernet](http://tronixstuff.com/2013/02/08/first-look-arduino-due/), eso quiere decir que "sólo" hay que añadir un poco de hardware (casi todo electrónica analógica) para que la placa tenga ethernet. En las primeras etapas de desarrollo de la placa todo se complicó y esta características se abandonó.En este [enlace](http://forum.arduino.cc/index.php/topic,142908.0.html) se explica como añadir externamente esa electrónica. Esta historia me la contó un chaval que participó en el desarrollo del DUE. Siempre he mantenido la esperanza de que alguien comercializara una pequeña plaquita, pero parece que no es demasiado fácil, porque hay que acceder a algunos pines del micro que no son accesibles en la placa.
 
-# ¿Y si no tengo ninguna placa de Arduino?
+## ¿Y si no tengo ninguna placa de Arduino?
 
 Veamos ahora los simuladores existentes que nos permiten programar y probar nuestro código sin la necesidad de tener una placa Arduino. Hay que decir que existen multitud de proyectos dedicados a simular placas Arduino, tanto comerciales como gratuitos. Esta lista no pretende ser exhaustiva sino que se basa en la corta experiencia en este campo de los simuladores del autor.
 
