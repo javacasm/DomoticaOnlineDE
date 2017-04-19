@@ -349,7 +349,7 @@ En bitbloq existen 2 formas de generar sonidos
 -   Reproducir notas musicales: podemos escoger la nota que vamos a  reproducir y su duración
 -   Seleccionar la frecuencia exacta que queremos reproducir y su duración
 
-![sonido](./images/sonido.png "sonido")
+![sonido](./images/sonido.png)
 
 Se propone como ejercicio voluntario realizar alguna canción conocida, preferiblemente algo friki con Arduino. Comparte en los foros tu composición/interpretación.
 
