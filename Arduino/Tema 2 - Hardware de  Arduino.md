@@ -29,7 +29,8 @@ Vamos a comparar ahora el tamaño de una placa Arduino con el que solía tener u
 Salta a la vista que tanto el tamaño como la complejidad se ha redudido enormemente. Además, el coste del entorno de desarrollo podría rondar los 200€ mientras que hoy en día podemos comprar una placa Arduino por 25€
 
 ## Hardware de Arduino
-# Un poco de historia del Hardware de Arduino
+
+### Un poco de historia del Hardware de Arduino
 
 Vemos diferentes versiones de Arduino, lo que nos va a servir para ver la evolución a lo largo de su historia.
 
