@@ -126,8 +126,6 @@ Entre estas condiciones utilizaremos operadores lógicos que pueden ser AND o OR
 
 ### Envio de datos al pc
 
-
-
 [Video](http://youtu.be/uAy_reYl8_Y)
 
 [\[vídeo\]](https://youtu.be/hy9t76RLeBU) [\[ejemplo\]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/comunicacion%20serie.json)
@@ -276,9 +274,9 @@ Para introducir una pausa podemos usar las funciones delay y delayMicroseconds. 
 -   **delayMicroseconds(microsegundos)**: espera los microsegundos     indicados El número máximo que soporta es 16383
 
 Así con solo introducir la siguiente línea detrás del incremento de la
-variable i, conseguiremos que el programa se retrase\
+variable i, conseguiremos que el programa se retrase
 
-> delay(1000);\
+    delay(1000);
 
 Ya que estamos hablando de tiempo veamos que otras funciones tiene
 arduino relacionadas con el mismo:
@@ -351,7 +349,7 @@ En bitbloq existen 2 formas de generar sonidos
 -   Reproducir notas musicales: podemos escoger la nota que vamos a  reproducir y su duración
 -   Seleccionar la frecuencia exacta que queremos reproducir y su duración
 
-![sonido](http://ecampus.ugr.es/moodle/draftfile.php/900/user/draft/710283713/imagenes/sonido.png "sonido")
+![sonido](./images/sonido.png "sonido")
 
 Se propone como ejercicio voluntario realizar alguna canción conocida, preferiblemente algo friki con Arduino. Comparte en los foros tu composición/interpretación.
 
