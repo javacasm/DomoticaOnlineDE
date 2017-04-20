@@ -224,7 +224,8 @@ Imagínate que tienes un sensor del que lees valores entre 50 y 100. Quieres ilu
 
 Haríamos lo siguiente:
 
-    int valorSensor=analogRead(pinSensor);  int valorLed=map(valorSensor,50,100,0,255);
+    int valorSensor=analogRead(pinSensor);  
+    int valorLed=map(valorSensor,50,100,0,255);
 
 
 Si tenéis curiosidad por algún sensor y no lo encontráis aquí no dejéis de preguntarlo en el foro e intentaremos entre todos averiguar cómo funciona.
