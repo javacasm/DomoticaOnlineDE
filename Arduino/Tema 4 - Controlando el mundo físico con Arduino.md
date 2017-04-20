@@ -56,7 +56,7 @@ Como ayuda vamos a ver el caso de un Led conectado al pin 13 que parpadea cada s
 
 El montaje en una placa Arduino sería el siguiente, utilizando la salida digital 9
 
-![](./images/dimmer-circuit3.png)
+![Salida PWM](./images/dimmer-circuit3.png)
 
 Podemos hacer más ejemplos conectando más leds a diferentes pines. Cómo sabemos usar esperas y retardos podremos hacer un semáforo!! Comparte tu montaje en los foros.
 
@@ -84,7 +84,7 @@ y para leer el valor usaremos
 
 El montaje sería como el siguiente, utilizando la entrada 2:
 
-![](http://Arduino.cc/en/uploads/Tutorial/button.png)
+![Botón digital](http://Arduino.cc/en/uploads/Tutorial/button.png)
 
 Existen interruptores que tienen 2 juegos de contactos (4 conectores) que funcionan de forma independiente. Antes de usar el interruptor hay que saber la configuración y cuales son los pines del interruptor que se han de usar.
 
@@ -94,7 +94,7 @@ Por esto siempre que leemos un valor debemos introducir un pequeño retardo para
 
 Veamos un ejemplo
 
-![](./images/interruptor.png)
+![Entrada digital](./images/interruptor.png)
 
 Veamos este programa en bitbloq
 
@@ -122,13 +122,13 @@ Leeremos estos valores con la funcion:
 
 Hagamos un ejemplo:
 
-![](./images/EntradaAnalogica.png)
+![Entrada analógica](./images/EntradaAnalogica.png)
 
 Veremos como al girar el potenciómetro, cambia la frecuencia de parpadeo del led.
 
 El montaje de un potenciómetro sería como el siguiente:
 
-![](http://arduino.cc/en/uploads/Tutorial/AnalogReadSerial_BB.png)
+![Potenciómetro](http://arduino.cc/en/uploads/Tutorial/AnalogReadSerial_BB.png)
 
 Como ejercicio voluntario podemos hacer que el valor de un potenciómetro cambie la frecuencia o duración de un tono emitido. Comparte en los foros su montaje y programa.
 
@@ -183,7 +183,7 @@ El montaje es idéntico al de una salida digital, sólo que hay que elegir un pi
 
 #### LED RGB
 
-![led RGB](./images/ledRGB.jpg)
+![Led RGB](./images/ledRGB.jpg)
 
 Un led RGB es un led que internamente tiene 3 led. Normalmente tiene uno rojo, uno verde y un azul (de ahí el nombre Red, Green, Blue). Se unen una de las patillas de cada uno en una patilla común dejando los otros 3 terminales separado.
 
@@ -213,7 +213,7 @@ Como ejercicio voluntario se propone hacer un programa que vaya encendiendo un l
 
 En esta sección veremos una presentación con algunos de los muchos sensores existentes, y veremos cómo se conectan algunos de ellos a Arduino.
 
-Todos tiene en común que miden una magnitud física y producen un voltaje proporcional a esta medida, que mediremos con una entrada analógica (normalmente) de Arduino
+Todos tiene en común que miden una magnitud física y producen un voltaje proporcional a esta medida, que mediremos con una entrada analógica (normalmente) de Arduino.
 
 Muchas veces es necesario convertir el valor que leemos a otra escala. La función map permite re-escalar (proporcionalmente) un valor desde un rango inicial hasta un rango final.
 
