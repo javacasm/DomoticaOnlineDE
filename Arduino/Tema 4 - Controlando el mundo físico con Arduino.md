@@ -1,14 +1,13 @@
-# Controlando el múndo físico con Arduino
+## Controlando el múndo físico con Arduino
 
 
-## Conectando con el múndo físico
+### Conectando con el múndo físico
 
 Está claro que si para algo necesitamos a nuestro Arduino es para que interaccione con el exterior, de ahí el concepto de Computación Física del que hablábamos.
 
 Nuestro objetivo en la mayoría de los proyectos será leer y cuantificar ciertas magnitudes y si es necesario actuar sobre el entorno.
 
-Esta lectura del exterior puede ser por ejemplo determinar las magnitudes meteorológicas o bien detectar la interacción de algún
-elemento exterior.
+Esta lectura del exterior puede ser por ejemplo determinar las magnitudes meteorológicas o bien detectar la interacción de algún elemento exterior.
 
 Nuestras actuaciones pueden ser accionamiento de motores, servos o cualquier otro sistema.
 
@@ -16,24 +15,23 @@ En este módulo veremos como hacerlo.
 
 ### Introducción a la electrónica
 
+En la siguiente presentación puedes ver una introducción a la electrónica:
+
 [Enlace para descarga](https://www.dropbox.com/s/heovmlqccxoc9ta/4.0%20-%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica.pdf?dl=0)
 
 <iframe width="960" height="749" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="https://docs.google.com/presentation/embed?id=1mlXV-Wxtx7rHHfaTzzLYdnhHpBFAmaWu-jC891pyYyE&amp;start=false&amp;loop=false&amp;delayms=60000"></iframe>
 
 ### Múndo digital
 
-![señales
-digitales](./images/Senales.png)
+![Señales digitales](./images/Senales.png)
 
-En el mundo digital sólo existen dos estados, 0 y 1. Eléctricamente estos estados corresponden con 0 voltios y 5 voltios. En sistemas de bajo
-consumo, el estado 1 puede bajar a 3.3 voltios.
+En el mundo digital sólo existen dos estados, 0 y 1. Eléctricamente estos estados corresponden con 0 voltios y 5 voltios. En sistemas de bajo consumo, el estado 1 puede bajar a 3.3 voltios.
 
 En sistemas reales las señales no son realmente como esperamos sino que están mezcladas con ruido. Cómo vemos en la imagen, este ruido complica el reconocer los estados. Para evitar esto se definen un nivel por encima de los cual se toma un valor 1 (la línea roja) y otro por debajo del cual se considera el nivel 0 (la línea azul)
 
 ### Salidas digitales
 
-
-Al activar una patilla como salida, pedimos al micro que intente mantenerla en ese estado, pero dentro de sus posibilidades. Cada patilla puede entregar 40mA (200mW), si el equipo conectado necesita más, arduino no podrá mantener ese estado y la patilla caerá por debajo de los 5v. Si nos pedimos demasiada potencia, estamos forzando la electrónica interna del micro, provocaremos sobrecalentamientos y de hacer continuadamente podemos dañar el micro.
+Al activar una patilla como salida, pedimos al micro que intente mantenerla en ese estado, pero dentro de sus posibilidades. Cada patilla puede entregar 40mA (200mW), si el equipo conectado necesita más, Arduino no podrá mantener ese estado y la patilla caerá por debajo de los 5v. Si nos pedimos demasiada potencia, estamos forzando la electrónica interna del micro, provocaremos sobrecalentamientos y de hacer continuadamente podemos dañar el micro.
 
 En caso de necesitar más potencia tendremos que usar electrónica suplementaria para poder entregar esa potencia.
 
@@ -49,16 +47,15 @@ Para establecer el estado usaremos la función
 
 donde estado puede ser **HIGH** o **LOW**
 
-Siempre que conectemos un LED hemos de usar una resistencia para evitar que le llegue a este demasiado voltaje (un resistencia de 100 o 200
-ohmios está bien)
+Siempre que conectemos un LED hemos de usar una resistencia para evitar que le llegue a este demasiado voltaje (un resistencia de 100 o 200 ohmios está bien)
 
 Ahora que ya sabemos manejar las salidas digitales y también sabemos añadir temporizaciones podemos construir un semáforo. Para ello solo habrá que conectar 3 LEDS de distintos colores (cada uno con su resistencia) en 3 pines diferentes.
 
 Como ayuda vamos a ver el caso de un Led conectado al pin 13 que parpadea cada segundo (el parpadeo debe de sincronizarse con el led de la placa)
 
-![](./images/pinDigital.png)
+![Pines digitales](./images/pinDigital.png)
 
-El montaje en una placa arduino sería el siguiente, utilizando la salida digital 9
+El montaje en una placa Arduino sería el siguiente, utilizando la salida digital 9
 
 ![](./images/dimmer-circuit3.png)
 
@@ -95,11 +92,11 @@ y para leer el valor usaremos
 
 El montaje sería como el siguiente, utilizando la entrada 2:
 
-![](http://arduino.cc/en/uploads/Tutorial/button.png)
+![](http://Arduino.cc/en/uploads/Tutorial/button.png)
 
 Existen interruptores que tienen 2 juegos de contactos (4 conectores) que funcionan de forma independiente. Antes de usar el interruptor hay que saber la configuración y cuales son los pines del interruptor que se han de usar.
 
-El mundo digital de los microcontroladores va a una velocidad muy alta (sabemos que arduino funciona a 16MHz, lo que quiere decir que ejecuta
+El mundo digital de los microcontroladores va a una velocidad muy alta (sabemos que Arduino funciona a 16MHz, lo que quiere decir que ejecuta
 del orden de los 16.000.000 de instrucciones por segundo). Con esas velocidad tan elevadas lo que para nosotros es pulsar un interruptor,
 para el micro pueden ser muchas conexiones/desconexiones debidas a pequeñas irregularidades de los contactos y de pequeñas chispas que saltan entre ellos.
 
@@ -139,7 +136,7 @@ Hagamos un ejemplo:
 
 Veremos como al girar el potenciómetro, cambia la frecuencia de parpadeo del led.
 
-El montaje de un potenciómetro sería como el siguiente
+El montaje de un potenciómetro sería como el siguiente:
 
 ![](http://arduino.cc/en/uploads/Tutorial/AnalogReadSerial_BB.png)
 
@@ -150,8 +147,7 @@ En muchas ocasiones necesitamos convertir el valor inicial a una escala concreta
     valorConvertido=map(valorInicial,minimoRangoInicial,maximoRangoInicial,minimoRangoFinal,maximoRangoFinal);
 
 
-Imagínate que tienes un sensor del que lees valores entre 50 y 100.
-Quieres iluminar un led en todo su rango analógico que es 0 255.
+Imagínate que tienes un sensor del que lees valores entre 50 y 100. Quieres iluminar un led en todo su rango analógico que es 0 255.
 
 Haríamos lo siguiente:
 
@@ -177,20 +173,23 @@ Usaremos la función
 
 Esta modulación de la potencia en el tiempo se conoce como PWM
 
-Veámoslos en un vídeo que grabamos en otro curso de arduino, donde podemos ver como la señal (en la pantalla del osciloscopio se ven 5 de estas señales para hacer más claro el efecto) va cambiando. El programa iba cambiando el valor de la patilla entre 0 y 255 de forma continua.
+Veámoslos en un vídeo que grabamos en otro curso de Arduino, donde podemos ver como la señal (en la pantalla del osciloscopio se ven 5 de estas señales para hacer más claro el efecto) va cambiando. El programa iba cambiando el valor de la patilla entre 0 y 255 de forma continua.
+
 Esta señal se le aplica a un led.
 
 <iframe width="1280" height="720" frameborder="0" src="http://www.youtube.com/embed/lKHofdHzIDs"></iframe>
 
+[Vídeo](http://www.youtube.com/embed/lKHofdHzIDs)
+
 Vamos a hacer un programa que vaya encendiendo progresivamente un led y luego lo vaya apagando poco a poco.
 
-![](./images/SalidaAnalogica2.png)
+![Salida analógica](./images/SalidaAnalogica2.png)
 
 El montaje es idéntico al de una salida digital, sólo que hay que elegir un pin que permite usar PWM (indicados con **~**)
 
 #### Desde bitbloq
 
-![Salida Anaalogica](./images/Salida_Analogica.png)
+![Salida Analogica desde Bitbloq](./images/Salida_Analogica.png)
 
 #### LED RGB
 
@@ -204,8 +203,7 @@ La diferencia es que en unos tienes que aplicar voltaje positivo a los terminale
 
 Podemos usar los pines PWM para hacer combinaciones de color mezclándolos a distintas intensidades.
 
-Usaríamos 3 salidas pwm (por ejemplo la 9,10 y 11 que están marcadas con el **~** de PWM en la placa) que conectamos a los pines R,G y B y a
-tierra.
+Usaríamos 3 salidas pwm (por ejemplo la 9,10 y 11 que están marcadas con el **~** de PWM en la placa) que conectamos a los pines R,G y B y a tierra.
 
 Usando instrucciones del estilo:
 
@@ -223,13 +221,11 @@ Como ejercicio voluntario se propone hacer un programa que vaya encendiendo un l
 
 ## Sensores
 
-En esta sección veremos una presentación con algunos de los muchos sensores existentes, y veremos cómo se conectan algunos de ellos a
-Arduino.
+En esta sección veremos una presentación con algunos de los muchos sensores existentes, y veremos cómo se conectan algunos de ellos a Arduino.
 
 Todos tiene en común que miden una magnitud física y producen un voltaje proporcional a esta medida, que mediremos con una entrada analógica (normalmente) de Arduino
 
-Muchas veces es necesario convertir el valor que leemos a otra escala. La función map permite re-escalar (proporcionalmente) un valor desde un
-rango inicial hasta un rango final.
+Muchas veces es necesario convertir el valor que leemos a otra escala. La función map permite re-escalar (proporcionalmente) un valor desde un rango inicial hasta un rango final.
 
     valorConvertido=map(valorInicial,minimoRangoInicial,maximoRangoInicial,minimoRangoFinal,maximoRangoFinal);
 
@@ -241,10 +237,8 @@ Haríamos lo siguiente:
     int valorSensor=analogRead(pinSensor);  int valorLed=map(valorSensor,50,100,0,255);
 
 
-Si tenéis curiosidad por algún sensor y no lo encontráis aquí no dejéis de preguntarlo en el foro e intentaremos entre todos averiguar cómo
-funciona.
+Si tenéis curiosidad por algún sensor y no lo encontráis aquí no dejéis de preguntarlo en el foro e intentaremos entre todos averiguar cómo funciona.
 
 <iframe width="960" height="749" frameborder="0" src="https://docs.google.com/presentation/embed?id=1EPN5gyd8S8YHc1wgIeuZONmEshDqNo47xLicAjvd-TY&amp;start=false&amp;loop=false&amp;delayms=5000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-[Enlace para
-descargar](https://www.dropbox.com/s/fng1u66lzpu6rf4/4.6%20-%20Sensores.pdf)
+[Enlace para descargar la presentación](https://www.dropbox.com/s/fng1u66lzpu6rf4/4.6%20-%20Sensores.pdf)
