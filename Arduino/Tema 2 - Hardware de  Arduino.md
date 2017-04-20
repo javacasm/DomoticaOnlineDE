@@ -94,42 +94,38 @@ Como ejemplo de hasta dónde puede llegar el hardware libre, vamos a dar un enla
 
 Este trabajo colaborativo, recopila a día de hoy ¡¡casi 200 versiones distintas!!
 
-Veamos algunos de los recien llegados:
+Veamos algunos de los recién llegados:
 
-![Arduino Tre](./images/ArduinoTre_LandingPage.jpg)
+  ![Arduino Tre](./images/ArduinoTre_LandingPage.jpg)
 
 -   Arduino TRE desarrollado por Arduino en colaboración con Texas     Instruments. Del lado de Arduino monta un ATMega32u4 (el que usa Leonardo) que viene siendo el habitual últimamente. Esta placa es el resultado de la colaboración entre los equipos de desarrollo de Arduino y BeagleBoard.
 
-![Arduino Ethernet](./images/5.jpg)
+  ![Arduino Ethernet](./images/5.jpg)
 
 -   Arduino **Ethernet**: Es como un Arduino Uno, pero con posibilidad de conexión ethernet, que le permite conectar directamente con otros dispositivos. También incluye lector de tarjeta de memoria SD pero no conector USB
 
-![Arduino Leonardo](./images/ArduinoLeonardoFront_2_450px.jpg)
+  ![Arduino Leonardo](./images/ArduinoLeonardoFront_2_450px.jpg)
 
--   Arduino **Leonardo**: Además de las características habiltuales de Arduino incorpora la posibilidad de simular dispositivos usb como ratones o teclados
+-   Arduino **Leonardo**: Además de las características habituales de Arduino incorpora la posibilidad de simular dispositivos usb como ratones o teclados
 
-![Arduino DUE](./images/7.jpg)
+  ![Arduino DUE](./images/7.jpg)
 
 -   Arduino **Due**: Es uno de los hermanos mayores de la familia con unas prestaciones que practicamente duplican las del Arduino Mega .
 
-![Arduino Yun](http://arduino.cc/en/uploads/Main/ArduinoYunFront_2_450px.jpg)
+  ![Arduino Yun](http://arduino.cc/en/uploads/Main/ArduinoYunFront_2_450px.jpg)
 
--   Arduino**Yun**: Es la primera placa de una serie que mezcla arduino con sistemas de mayores prestaciones.
+-   Arduino**Yun**: Es la primera placa de una serie que mezcla arduino con sistemas de mayores prestaciones. Para dar una primera idea se trata de una placa en la que coexisten un arduino Leonardo y un microordenador linux con wifi, ethernet y USB host (es decir que acepta controlar otros dispositivos como pendrives, webcam, bluetooth, etc…)
 
-Para dar una primera idea se trata de una placa en la que coexisten un arduino Leonardo y un microordenador linux con wifi, ethernet y USB host (es decir que acepta controlar otros dispositivos como pendrives, webcam, bluetooth, etc…)
+  ![galileo](http://arduino.cc/en/uploads/ArduinoCertified/IntelGalileo_fabD_Front_450px.jpg)
 
-![galileo](http://arduino.cc/en/uploads/ArduinoCertified/IntelGalileo_fabD_Front_450px.jpg)
+-   Intel Galileo creado por Intel pero certificado (un calificativo que veremos a partir de ahora en el mundo Arduino) como 100% compatible. Siguen la misma filosofía de Arduino Yún de integrar un dispositivo     Arduino completo, con su propio microcontrolador ATMEGA comunicado directamente con la CPU principal.
 
--   Intel Galileo creado por Intel pero certificado (un calificativo que veremos a partir de ahora en el mundo Arduino) como 100% compatible. Siguen la misma filosofía de Arduino Yún de integrar un dispositivo
-    Arduino completo, con su propio microcontrolador ATMEGA comunicado directamente con la CPU principal.
+    ![Arduino Tre](http://arduino.cc/en/uploads/Main/ArduinoTre_LandingPage.jpg)
 
-![Arduino Tre](http://arduino.cc/en/uploads/Main/ArduinoTre_LandingPage.jpg)
-
--   Arduino TRE desarrollado por Arduino en colaboración con Texas Instruments.\
-    Del lado de Arduino monta un ATMega32u4 (el que usa Leonardo) que viene siendo el habitual últimamente. Esta placa es el resultado de la colaboración entre los equipos de desarrollo de Arduino y
+-   Arduino TRE desarrollado por Arduino en colaboración con Texas Instruments. Del lado de Arduino monta un ATMega32u4 (el que usa Leonardo) que viene siendo el habitual últimamente. Esta placa es el resultado de la colaboración entre los equipos de desarrollo de Arduino y
     BeagleBoard.
 
-![Arduino Zum](./images/bq-zumb-bt-328-placa-arduino-1.jpg)
+    ![Arduino Zum](./images/bq-zumb-bt-328-placa-arduino-1.jpg)
 
 -   Zum BT-328 desarrollado por Bq. Entre sus virtudes está el tener un interruptor de apagado, soportar 3A de consumo, un dispositivo bluetooth incorporado y pines en 2 formatos lo que facilita el uso. Más información en su [web](http://www.bq.com/es/productos/zum.html)
 
@@ -138,19 +134,19 @@ Para dar una primera idea se trata de una placa en la que coexisten un arduino L
 Además de las placas que hemos visto hasta ahora también existen unas placas que conectadas a una placa Arduino amplían su funcionalidad, se les llama Shields. Estas placas encajan encima de una placa de Arduino conectándose entre sí y aumentando la funcionalidad del conjunto. Existen multitud de shields, entre ellos
 veamos los siguientes:
 
-![Shield Wifi](./images/8WiFiShield_thumb_a.jpg)
+  ![Shield Wifi](./images/8WiFiShield_thumb_a.jpg)
 
 -   **Wifi** : dispone de conectividad Wifi y un conector para tarjeta SD. Aunque no es lo normal, este shield permite funcionamiento aislado, sin necesidad de Arduino.
 
-![Shield Ethernet](./images/9EthernetShield_R3_thumb.jpg)
+  ![Shield Ethernet](./images/9EthernetShield_R3_thumb.jpg)
 
 -   **Ethernet** : añade conectividad ethernet y un conector de tarjeta SD
 
-![Motorshield](./images/10MotorShield_thumb.jpg)
+  ![Motorshield](./images/10MotorShield_thumb.jpg)
 
 -   **Motor** : este shield dispone de toda la electrónica necesaria para controlar motores con Arduino
 
-![Protoshield](./images/11ProtoShield_thumb.jpg)
+  ![Protoshield](./images/11ProtoShield_thumb.jpg)
 
 -   **Protoshield** : permite integrar nuestros propios montajes en una placa Arduino
 
@@ -166,6 +162,7 @@ Veamos ahora los simuladores existentes que nos permiten programar y probar nues
 En caso de encontrar algún otro simulador interesante no dudéis en enviarlo a los foros para que lo estudiemos y lo incluyamos en esta lista.
 
 #### 123d Circuits
+
 ![123d Circuits](https://assets.circuits.io/assets/home/Home-Anonymous-HubForEveryGoal-ca150801eb74505bbd8d18e31f4d2321.gif)
 
 [123d.circuit.io](http://123d.circuit.io)
@@ -193,12 +190,12 @@ Es un simulador de componentes y de Arduino (también permite simular placas de 
 
 
 [Simulator for Arduino](http://virtronics.com.au/Simulator-for-Arduino.html)
+
 Software **comercial de pago** bastante potente y bien terminado. Permite simular el funcionamiento de Arduino y hacer programas. Existe una versión gatuita que impone un retardo al cargar los programas.
 
 #### Emulino
 
 [emulino](http://)
-
 
 Entorno gratuito de emulación completo. Se requieren conocimientos medios para ponerlo en funcionamiento. Se puede descargar el código de [github](http://github.com/ghewgill/emulino/tree/master). No recomendado si no tienen conocimientos avanzados para compilar programas
 
@@ -210,8 +207,9 @@ Entorno gratuito de emulación completo. Se requieren conocimientos medios para 
 [Ardusim](http://sourceforge.net/projects/ardusim/)
 
 Es un emulador gratuito de Arduino que corre dentro de [codeblocks](http://www.codeblocks.org) (un entorno de desarrollo totalmente gratuito para C++ que descargarse e instalar para usarlo). Permite depurar nuestros programas y aunque no tiene una interface gráfica como alguno de los otros emuladores comerciales es bastante cómodo de usar y el mejor, a mi juicio de entre los gratuitos.
-Para instalarlo es necesario descargar previamente el entorno donde se ejecuta llamado codeblocks, del que ya existen versiones compiladas y listas para usar de las plataformas más recientes en la [página de descargas](http://www.codeblocks.org/downloads/binaries). Una vez instalado el entorno hay que descargar el [código de ArduSim](http://sourceforge.net/p/ardusim/code/44/tree/trunk/ardusim/). Como no he visto una manera fácil de descargar sin tener que instalar nada más, copio aquí el [fichero para descargarlo](http://ecampus.ugr.es/moodle/draftfile.php/900/user/draft/924132861/ardusim.zip).
-Para ejecutarlo en codeblocks, tenemos que abrir el fichero ardusim.cbp . Una vez abierto podemos modificar el código de Arduino para ejecutar en el fichero sketch.cpp en la carpeta sketch.\
+Para instalarlo es necesario descargar previamente el entorno donde se ejecuta llamado Codeblocks, del que ya existen versiones compiladas y listas para usar de las plataformas más recientes en la [página de descargas](http://www.codeblocks.org/downloads/binaries). Una vez instalado el entorno hay que descargar el [código de ArduSim](http://sourceforge.net/p/ardusim/code/44/tree/trunk/ardusim/). Como no he visto una manera fácil de descargar sin tener que instalar nada más, copio aquí el [fichero para descargarlo](http://ecampus.ugr.es/moodle/draftfile.php/900/user/draft/924132861/ardusim.zip).
+Para ejecutarlo en codeblocks, tenemos que abrir el fichero ardusim.cbp . Una vez abierto podemos modificar el código de Arduino para ejecutar en el fichero sketch.cpp en la carpeta sketch.
+
 Un tutorial en [vídeo](http://www.youtube.com/watch?v=kj8OXhB5VpA)\
 
 #### Simuino
