@@ -1,7 +1,6 @@
 ## Controlando el múndo físico con Arduino
 
-
-### Conectando con el múndo físico
+### Conectando con el mundo físico
 
 Está claro que si para algo necesitamos a nuestro Arduino es para que interaccione con el exterior, de ahí el concepto de Computación Física del que hablábamos.
 
@@ -59,8 +58,7 @@ El montaje en una placa Arduino sería el siguiente, utilizando la salida digita
 
 ![](./images/dimmer-circuit3.png)
 
-Podemos hacer más ejemplos conectando más leds a diferentes pines. Cómo sabemos usar esperas y retardos podremos hacer un semáforo!! Comparte tu
-montaje en los foros.
+Podemos hacer más ejemplos conectando más leds a diferentes pines. Cómo sabemos usar esperas y retardos podremos hacer un semáforo!! Comparte tu montaje en los foros.
 
 Pista: basta alternar las instrucciones en las que se enciende un led concreto con una espera y el apagado del anterior)
 
@@ -70,19 +68,13 @@ Cuando usamos una patilla como entrada digital, Arduino decidirá si el voltaje 
 
 La forma en la conectamos la entrada (un interruptor en este caso ) a la patilla suele ser la siguiente
 
-![](./images/entradaDigital.png)
+![Entrada digital](./images/entradaDigital.png)
 
-Podríamos pensar que la resistencia no es necesaria, pero no es así. Si no estuviera puesta, cuando el interruptor estuviera abierto, la patilla
-no estaría conectada a nada y por sus características electronicas
-actuaría como una antena recogiendo señales electricas y cambiara de
-estado casi aleatoriamente.
+Podríamos pensar que la resistencia no es necesaria, pero no es así. Si no estuviera puesta, cuando el interruptor estuviera abierto, la patilla no estaría conectada a nada y por sus características electrónicas actuaría como una antena recogiendo señales eléctricas y cambiara de estado casi aleatoriamente.
 
-En esta forma de conexión decimos que las entradas están conectadas con resistencias Pull down, pues la resitancia pone el valor a 0 (al estar
-conectado a tierra). Si estuviera conectado a 5V diramos que tiene
-resistencias Pull Up.
+En esta forma de conexión decimos que las entradas están conectadas con resistencias Pull down, pues la resistencia pone el valor a 0 (al estar conectado a tierra). Si estuviera conectado a 5V diríamos que tiene resistencias Pull Up.
 
-Para indicar a Arduino que vamos a usar una patilla como entrada
-usaremos la función
+Para indicar a Arduino que vamos a usar una patilla como entrada usaremos la función
 
     pinMode(pin,INPUT);
 
@@ -96,9 +88,7 @@ El montaje sería como el siguiente, utilizando la entrada 2:
 
 Existen interruptores que tienen 2 juegos de contactos (4 conectores) que funcionan de forma independiente. Antes de usar el interruptor hay que saber la configuración y cuales son los pines del interruptor que se han de usar.
 
-El mundo digital de los microcontroladores va a una velocidad muy alta (sabemos que Arduino funciona a 16MHz, lo que quiere decir que ejecuta
-del orden de los 16.000.000 de instrucciones por segundo). Con esas velocidad tan elevadas lo que para nosotros es pulsar un interruptor,
-para el micro pueden ser muchas conexiones/desconexiones debidas a pequeñas irregularidades de los contactos y de pequeñas chispas que saltan entre ellos.
+El mundo digital de los microcontroladores va a una velocidad muy alta (sabemos que Arduino funciona a 16MHz, lo que quiere decir que ejecuta del orden de los 16.000.000 de instrucciones por segundo). Con esas velocidad tan elevadas lo que para nosotros es pulsar un interruptor, para el micro pueden ser muchas conexiones/desconexiones debidas a pequeñas irregularidades de los contactos y de pequeñas chispas que saltan entre ellos.
 
 Por esto siempre que leemos un valor debemos introducir un pequeño retardo para evitar estos errores. Es lo que se suele llamar "debouncing" (evitar rebotes)
 
@@ -163,7 +153,7 @@ Los rangos se pueden poner con el mínimo y el máximo invertido, así conseguir
 
 ![PWM](./images/SalidaAnalogica.png)
 
-Una salida analógica es aquella capaz de dar un valor intermedio entre sus límites. La mayoría de los Arduinos no es capaz de hacer eso (sólo el DUE), pero si puede simularlo. Lo que realmente nos interesa la mayor parte de las veces es modular la potencia que enviamos por una patilla (que tiene casi el mismo efecto sobre cargas reales). Así si queremos una salida al 50% lo que haremos será tener la patilla a 1 el 50% del tiempo y a 0 el otro 50%. Haciéndolo suficiencientemente rápido no se nota la diferencia.
+Una salida analógica es aquella capaz de dar un valor intermedio entre sus límites. La mayoría de los Arduinos no es capaz de hacer eso (sólo el DUE), pero si puede simularlo. Lo que realmente nos interesa la mayor parte de las veces es modular la potencia que enviamos por una patilla (que tiene casi el mismo efecto sobre cargas reales). Así si queremos una salida al 50% lo que haremos será tener la patilla a 1 el 50% del tiempo y a 0 el otro 50%. Haciéndolo suficientemente rápido no se nota la diferencia.
 
 Podremos usar como salidas analógicas aquellas etiquetadas con el símbolo **~** y podremos darle valores entre 0 y 255.
 
@@ -179,7 +169,7 @@ Esta señal se le aplica a un led.
 
 <iframe width="1280" height="720" frameborder="0" src="http://www.youtube.com/embed/lKHofdHzIDs"></iframe>
 
-[Vídeo](http://www.youtube.com/embed/lKHofdHzIDs)
+[Vídeo de señal PWM en un osciloscopio](http://www.youtube.com/embed/lKHofdHzIDs)
 
 Vamos a hacer un programa que vaya encendiendo progresivamente un led y luego lo vaya apagando poco a poco.
 
@@ -195,7 +185,7 @@ El montaje es idéntico al de una salida digital, sólo que hay que elegir un pi
 
 ![led RGB](./images/ledRGB.jpg)
 
-Un led RGB es un led que internamente tiene 3 led. Normalmente tiene uno rojo, uno verde y un azul (de ahí el nombre Red,Green,Blue). Se unen una de las patillas de cada uno en una patilla común dejando los otros 3 terminales separado.
+Un led RGB es un led que internamente tiene 3 led. Normalmente tiene uno rojo, uno verde y un azul (de ahí el nombre Red, Green, Blue). Se unen una de las patillas de cada uno en una patilla común dejando los otros 3 terminales separado.
 
 Por esto hay 2 tipos de diodos RGB: los de ánodo común y los cátodo común. Esto se debe a que dependiendo de cual de las patillas se haya unido.
 
@@ -203,7 +193,7 @@ La diferencia es que en unos tienes que aplicar voltaje positivo a los terminale
 
 Podemos usar los pines PWM para hacer combinaciones de color mezclándolos a distintas intensidades.
 
-Usaríamos 3 salidas pwm (por ejemplo la 9,10 y 11 que están marcadas con el **~** de PWM en la placa) que conectamos a los pines R,G y B y a tierra.
+Usaríamos 3 salidas PWM (por ejemplo la 9,10 y 11 que están marcadas con el **~** de PWM en la placa) que conectamos a los pines R,G y B y a tierra.
 
 Usando instrucciones del estilo:
 
