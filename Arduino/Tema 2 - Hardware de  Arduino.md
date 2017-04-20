@@ -114,7 +114,7 @@ Veamos algunos de los recién llegados:
 
   ![Arduino Yun](http://arduino.cc/en/uploads/Main/ArduinoYunFront_2_450px.jpg)
 
--   Arduino**Yun**: Es la primera placa de una serie que mezcla arduino con sistemas de mayores prestaciones. Para dar una primera idea se trata de una placa en la que coexisten un arduino Leonardo y un microordenador linux con wifi, ethernet y USB host (es decir que acepta controlar otros dispositivos como pendrives, webcam, bluetooth, etc…)
+-   Arduino **Yun**: Es la primera placa de una serie que mezcla Arduino con sistemas de mayores prestaciones. Para dar una primera idea se trata de una placa en la que coexisten un Arduino Leonardo y un microordenador linux con wifi, ethernet y USB host (es decir que acepta controlar otros dispositivos como pendrives, webcam, bluetooth, etc…)
 
   ![galileo](http://arduino.cc/en/uploads/ArduinoCertified/IntelGalileo_fabD_Front_450px.jpg)
 
@@ -152,7 +152,7 @@ veamos los siguientes:
 
 * * * * *
 
-Una historia curiosa sobre arduino DUE, el micro que utiliza el Due, el [SAM3X nativamente soporta ethernet](http://tronixstuff.com/2013/02/08/first-look-arduino-due/), eso quiere decir que "sólo" hay que añadir un poco de hardware (casi todo electrónica analógica) para que la placa tenga ethernet. En las primeras etapas de desarrollo de la placa todo se complicó y esta características se abandonó.En este [enlace](http://forum.arduino.cc/index.php/topic,142908.0.html) se explica como añadir externamente esa electrónica. Esta historia me la contó un chaval que participó en el desarrollo del DUE. Siempre he mantenido la esperanza de que alguien comercializara una pequeña plaquita, pero parece que no es demasiado fácil, porque hay que acceder a algunos pines del micro que no son accesibles en la placa.
+Una historia curiosa sobre Arduino DUE, el micro que utiliza el Due, el [SAM3X soporta de forma nativa ethernet](http://tronixstuff.com/2013/02/08/first-look-arduino-due/), eso quiere decir que "sólo" hay que añadir un poco de hardware (casi todo electrónica analógica) para que la placa tenga ethernet. En las primeras etapas de desarrollo de la placa todo se complicó y esta características se abandonó. En este [enlace](http://forum.arduino.cc/index.php/topic,142908.0.html) se explica como añadir externamente esa electrónica. Esta historia me la contó un chaval que participó en el desarrollo del DUE. Siempre he mantenido la esperanza de que alguien comercializara una pequeña plaquita, pero parece que no es demasiado fácil, porque hay que acceder a algunos pines del micro que no son accesibles en la placa.
 
 ## ¿Y si no tengo ninguna placa de Arduino?
 
@@ -167,7 +167,7 @@ En caso de encontrar algún otro simulador interesante no dudéis en enviarlo a 
 
 [123d.circuit.io](http://123d.circuit.io)
 
-Es un simulador de arduino en la página del diseñador de circuitos 123d.circuit.io. Nos permite simular perfectamente la mayoría de los montajes del curso. He preparado un [**vídeo**](https://www.youtube.com/watch?v=c0edvZIrjUY "Breve Tutorial sobre 123d circuits.io") para que aprendáis a usarlo
+Es un simulador de Arduino en la página del diseñador de circuitos 123d.circuit.io. Nos permite simular perfectamente la mayoría de los montajes del curso. He preparado un [vídeo](https://www.youtube.com/watch?v=c0edvZIrjUY "Breve Tutorial sobre 123d circuits.io") para que aprendáis a usarlo
 
 #### MiniBloq
 
@@ -210,7 +210,7 @@ Es un emulador gratuito de Arduino que corre dentro de [codeblocks](http://www.c
 Para instalarlo es necesario descargar previamente el entorno donde se ejecuta llamado Codeblocks, del que ya existen versiones compiladas y listas para usar de las plataformas más recientes en la [página de descargas](http://www.codeblocks.org/downloads/binaries). Una vez instalado el entorno hay que descargar el [código de ArduSim](http://sourceforge.net/p/ardusim/code/44/tree/trunk/ardusim/). Como no he visto una manera fácil de descargar sin tener que instalar nada más, copio aquí el [fichero para descargarlo](http://ecampus.ugr.es/moodle/draftfile.php/900/user/draft/924132861/ardusim.zip).
 Para ejecutarlo en codeblocks, tenemos que abrir el fichero ardusim.cbp . Una vez abierto podemos modificar el código de Arduino para ejecutar en el fichero sketch.cpp en la carpeta sketch.
 
-Un tutorial en [vídeo](http://www.youtube.com/watch?v=kj8OXhB5VpA)\
+Un tutorial en [vídeo](http://www.youtube.com/watch?v=kj8OXhB5VpA)
 
 #### Simuino
 
