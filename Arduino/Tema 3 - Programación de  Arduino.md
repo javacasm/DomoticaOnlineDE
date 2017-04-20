@@ -456,7 +456,7 @@ Nos permite controlar hasta 12 servos en un Arduino UNO y 48 en un Arduino Mega
 
 Veamos un ejemplo
 
-![](https://lh6.googleusercontent.com/-2ukeIBG2vIOMpndqAI2XNUz1CVPuA2i0geMe3bn8wbGKI-5lu-yONO_AfozysOgBuU5_T55uBgPdpMtf7mXoDTxJiTJHLlcJbwqVhGFASy14D51GSQ)\
+![Servo Pinout](./images/ServoPinout.png)
 
     #include <Servo.h>
 
