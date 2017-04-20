@@ -1,6 +1,9 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 % Opciones para el uso del español
 \usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
 % Se añade «es-noquoting» para compatibilidad con tablas
 % desde Gnumeric
 \usepackage[spanish,activeacute,es-noquoting]{babel}
@@ -12,7 +15,7 @@
 % Eliminamos el título del mini-índice
 \renewcommand{\mtctitle}{}
 %
-% 
+%
 \renewcommand\maketitle{}
 %
 $if(fontfamily)$
@@ -73,29 +76,17 @@ $endif$
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
-\usepackage[unicode=true]{hyperref}
+%\usepackage[unicode=true]{hyperref}
 $if(colorlinks)$
 \PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
 $endif$
 \hypersetup{
-$if(title-meta)$
-            pdftitle={$title-meta$},
-$endif$
-$if(author-meta)$
-            pdfauthor={$author-meta$},
-$endif$
-$if(keywords)$
-            pdfkeywords={$for(keywords)$$keywords$$sep$; $endfor$},
-$endif$
-$if(colorlinks)$
-            colorlinks=true,
-            linkcolor=$if(linkcolor)$$linkcolor$$else$Maroon$endif$,
-            citecolor=$if(citecolor)$$citecolor$$else$Blue$endif$,
-            urlcolor=$if(urlcolor)$$urlcolor$$else$Blue$endif$,
-$else$
-            pdfborder={0 0 0},
-$endif$
-            breaklinks=true}
+  colorlinks=true,
+  linkcolor=blue!50!red,
+  urlcolor=green!70!black,
+  breaklinks=true
+}
+
 \urlstyle{same}  % don't use monospace font for urls
 $if(lang)$
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
