@@ -1,22 +1,32 @@
-# Programación de Arduino
+## Programación de Arduino
 
-## Opciones de programación de Arduino
+### Opciones de programación de Arduino
 
 Veamos las diferentes opciones que tenemos para programar Arduino:
 
-| Imagen|Enlace|Descripcion|
-|---|---|---|
-|![Arduino IDE](http://upload.wikimedia.org/wikipedia/commons/a/a7/Arduino_IDE_-_v0011_Alpha.png "Arduino IDE")|[IDE Arduino](http://arduino.cc/en/Main/Software)|entorno multiplataforma que permite la edición, compilación y la programación de arduino
-| ![](http://diwo.bq.com/wp-content/uploads/2014/11/curso_bitbloq.png)|[Bitbloq](http://bitbloq.bq.com/ "bitbloq")| Entorno de desarrollo visual basado en la programación con bloques. Es muy sencillo e intuitivo de usar y solo necesitamos el navegador para usarlo. Existen alternativas offline como Visualino.
-|![codebender](./images/codebender.png "codebender")| [Codebender](http://codebender.cc "codebender")| Entorno de desarrollo totalmente basado en aplicaciones web, decir, sólo necesitamos un navegador web para poder desarrollar con arduino. Permite la edición, compilación y la programación de arduino. Podéis probarlo en [https://codebender.cc/](https://codebender.cc/)|
+#### Arduino IDE
 
-### EL ENTORNO DE PROGRAMACIÓN BITBLOQ
+![Arduino IDE](http://upload.wikimedia.org/wikipedia/commons/a/a7/Arduino_IDE_-_v0011_Alpha.png "Arduino IDE")
+
+[IDE Arduino](http://arduino.cc/en/Main/Software)|entorno multiplataforma que permite la edición, compilación y la programación de Arduino
+
+![](http://diwo.bq.com/wp-content/uploads/2014/11/curso_bitbloq.png)|[Bitbloq](http://bitbloq.bq.com/ "bitbloq")| Entorno de desarrollo visual basado en la programación con bloques. Es muy sencillo e intuitivo de usar y solo necesitamos el navegador para usarlo. Existen alternativas offline como Visualino.
+
+#### CodeBender
+
+![codebender](./images/codebender.png "codebender")
+
+[Codebender](http://codebender.cc "codebender")
+
+Entorno de desarrollo totalmente basado en aplicaciones web, decir, sólo necesitamos un navegador web para poder desarrollar con Arduino. Permite la edición, compilación y la programación de Arduino. Podéis probarlo en [https://codebender.cc/](https://codebender.cc/)|
+
+#### EL ENTORNO DE PROGRAMACIÓN BITBLOQ
 
 Bitbloq es un entorno de programación visual que nos permite crear programas para Arduino y placas compatibles y transferir los mismos a las placas de una forma sencilla.
 
 Podemos acceder directamente desde su web <http://bitbloq.bq.com/>
 
-Como verás cuando entres a su página, funciona con Chrome en todos los sistemas operativos, y el se encarga de avisarte si necesitas drivers o cambiar algo en tu sistema
+Como verás cuando entres a su página, funciona con Chrome en todos los sistemas operativos, y el se encarga de avisarte si necesitas drivers o cambiar algo en tu sistema.
 
 A lo largo de estos vídeos veremos algunas de sus características más importantes. Puedes encontrar más tutoriales en la página [oficial de bitbloq](http://diwo.bq.com/tag/bitbloq/)
 
@@ -28,9 +38,9 @@ A lo largo de estos vídeos veremos algunas de sus características más importa
 
 ![parpadeo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/1%20parpadeo.png)
 
-Bitbloq es un entorno de programación visual por bloques que nos permite programar nuestra placa arduino o compatible de forma sencilla, evitando la complejidad de las sentencias C++
+Bitbloq es un entorno de programación visual por bloques que nos permite programar nuestra placa Arduino o compatible de forma sencilla, evitando la complejidad de las sentencias C++
 
-Además nos permite programar nuestro arduino sin instalar (prácticamente) nada en nuestro ordenador
+Además nos permite programar nuestro Arduino sin instalar (prácticamente) nada en nuestro ordenador
 
 
 [vídeo Ver código C++ de un programa bitbloq](https://youtu.be/cg1YNVSprdo)
@@ -39,27 +49,24 @@ Desde bitbloq siempre podemos ver el código Arduino generado. De momento no pod
 
 [vídeo Transfiriendo el programa bitbloq a Arduino](https://youtu.be/gMe2YDgUUQE)
 
-Bitbloq nos permite programar nuestro arduino sin instalar (prácticamente) nada en nuestro ordenador. Sólo tenemos que pulsar sobre el botón cargar lo que hace que se compile el código, se detecte la placa y se envíe el programa a nuestro Arduino
+Bitbloq nos permite programar nuestro Arduino sin instalar (prácticamente) nada en nuestro ordenador. Sólo tenemos que pulsar sobre el botón cargar lo que hace que se compile el código, se detecte la placa y se envíe el programa a nuestro Arduino
 
 ## Sentencias de control
 
 
 [video sobre sentencias de control ](https://youtu.be/dakh7MTxpBg)
 
-Las sentencias de control son aquellas que nos permite modificar el
-orden o el modo en el que se ejecutan los bloques de nuestro programa
+Las sentencias de control son aquellas que nos permite modificar el orden o el modo en el que se ejecutan los bloques de nuestro programa
 
 ##### Variables
 
-Para utilizar las sentencias de control necesitaremos el concepto de
-variables: que no es otra cosa que un lugar donde almacenar un valor que
-puede se modificar si así lo queremos
+Para utilizar las sentencias de control necesitaremos el concepto de variables: que no es otra cosa que un lugar donde almacenar un valor que puede se modificar si así lo queremos
 
 [video](https://youtu.be/Os-8oHBKsQU)
 
 Con las variables podemos realizar operaciones matemáticas
 
-[\[video\]](https://youtu.be/nvRUCZERScE) [\[ejemplo\]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/operaciones%20variables.json)
+[video](https://youtu.be/nvRUCZERScE) [ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/operaciones%20variables.json)
 
 ![ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/operaciones%20variables.png)
 
@@ -71,8 +78,7 @@ Con las variables podemos realizar operaciones matemáticas
 
 [\[vídeo\]](https://youtu.be/mIAgTdc4oC8) [\[ejemplo\]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/bucle%20for.json)
 
-![bucle
-for](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/bucle%20for.png)
+![bucle for](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/bucle%20for.png)
 
 El bucle **for** permite repetir un conjunto de pasos un número de veces determinado. 
 
@@ -81,14 +87,12 @@ Necesitamos declarar una variables que actuará como contador y definir el valor
 ### Bucle **while**
 
 [\[vídeo\]](https://youtu.be/RVcaaz1NYjk) 
+
 [\[ejemplo\]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/bucle%20while.json)
 
-![bucle
-while](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/bucle%20mientras.png)
+![bucle while](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/bucle%20mientras.png)
 
-Usaremos la sentencia de control **while** para los bucles donde el número de veces que se repite no está definido desde el principio**
-
-
+Usaremos la sentencia de control **while** para los bucles donde el número de veces que se repite no está definido desde el principio
 
 ### Bloque **if** : sentencias condicionales
 
@@ -118,11 +122,11 @@ Podemos hacer que en caso de que se cumpla se ejecute un código (es el bloque i
 
 La condición que determina si se ejecuta un bloque u otro o si salimos de un bloque while puede contener varias comprobaciones.
 
-Entre estas condiciones utilizaremos operadores lógicos que pueden ser AND o OR
+Entre estas condiciones utilizaremos operadores lógicos que pueden ser AND o OR.
 
--   Estas condiciones se tendrán que cumplir todas en el caso del     operador AND
+-   Estas condiciones se tendrán que cumplir todas en el caso del operador AND.
 
--   Con que se cumpla una de ellas se dará por válida toda la condición
+-   Con que se cumpla una de ellas se dará por válida toda la condición.
 
 ### Envio de datos al pc
 
@@ -132,13 +136,15 @@ Entre estas condiciones utilizaremos operadores lógicos que pueden ser AND o OR
 
 ![serial](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/comunicacion%20serie.png)
 
-Podemos enviar contenidos entre nuestra placa y el PC usando las sentencias de comunicaciones. Usaremos print para enviar algo (puede ser el valor de una variable o un texto) al pc o println para enviar y pasar a la siguiente línea.
+Podemos enviar contenidos entre nuestra placa y el PC usando las sentencias de comunicaciones. Usaremos print para enviar algo (puede ser el valor de una variable o un texto) al PC o println para enviar y pasar a la siguiente línea.
 
 ### Variables locales vs variables globales
 
 [Video ](http://youtu.be/D82lXUWH1Jg)
 
-[vídeo](https://youtu.be/U3ulo7rAE58) [ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/variables%20globales.json)
+[vídeo](https://youtu.be/U3ulo7rAE58) 
+
+[ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/variables%20globales.json)
 
 ![ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/variables%20globales.png)
 
@@ -148,18 +154,15 @@ Las variables globales mantienen su valor entre las distintas iteraciones que se
 
 ### Ejemplo de bucle sin sentencias de control 
 
-[\[ejemplo\]](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/ejemplo%20bucle%20arduino.json)
+[ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/ejemplo%20bucle%20arduino.json)
 
 ![ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/ejemplo%20bucle%20arduino.png)
 
-Podemos usar la forma cíclica (y unas variables globales) en la que se
-ejecutan los programas en Arduino para hacer un bucle sin más
-estructuras de control que una simple variable global
+Podemos usar la forma cíclica (y unas variables globales) en la que se ejecutan los programas en Arduino para hacer un bucle sin más estructuras de control que una simple variable global
 
 ### Usando el IDE de Arduino
 
-![](./images/ArduinoIDE.png) El Entorno de Programación Integrado (IDE) de Arduino es sencillo y a la vez potente, incluyendo casi todas las
-funcionalidades que uno espera de un IDE actual.
+![](./images/ArduinoIDE.png) El Entorno de Programación Integrado (IDE) de Arduino es sencillo y a la vez potente, incluyendo casi todas las funcionalidades que uno espera de un IDE actual.
 
 Es un IDE multiplaforma, estando disponible para descargar directamente para Windows, Linux y MaxOS. Al ser una herramienta de código libre podemos descargar también el código fuente para compilarlo.
 
@@ -167,8 +170,7 @@ Está desarrollado en Java y deriva del IDE de Processing y de Wiring.
 
 Ha sido diseñado teniendo en mente que sus usuarios no son expertos desarrolladores y que lo esencial es que los recien llegados sean capaces de familiarizarse con él.
 
-Incluye un editor de código que resalta la sintaxis, indicando cuando es correcta, indicando si las llaves están bien emparejadas y organizando
-el código de forma clara.
+Incluye un editor de código que resalta la sintaxis, indicando cuando es correcta, indicando si las llaves están bien emparejadas y organizando el código de forma clara.
 
 Además el entorno incluye todo lo necesario para compilar y descargar las aplicaciones al microntrolador, sin necesidad de que el usuario conozca la complejidad de este proceso.
 
@@ -179,21 +181,19 @@ El código que se desarrolla es C/C++, aunque el usuario solo incluye las funcio
 Usaremos las versión 1.8.1 (o superior si se liberara)
 
 
-![Arduino
-IDE](./images/ArduinoIDE.png)
+![Arduino IDE](./images/ArduinoIDE.png)
 
 El Entorno de Programación Integrado (IDE) de Arduino es sencillo y a la vez potente, incluyendo casi todas las funcionalidades que uno espera de un IDE actual.
 
-Es un IDE multiplaforma, estando disponible para descargar directamente para Windows, Linux y MaxOS. Al ser una herramienta de código libre podemos descargar también el código fuente para compilarlo.
+Es un IDE multiplaforma, estando disponible para descargar directamente para Windows, Linux y MacOS. Al ser una herramienta de código libre podemos descargar también el código fuente para compilarlo.
 
 Está desarrollado en Java y deriva del IDE de Processing y de Wiring.
 
 Ha sido diseñado teniendo en mente que sus usuarios no son expertos desarrolladores y que lo esencial es que los recien llegados sean capaces de familiarizarse con él.
 
-Incluye un editor de código que resalta la sintaxis, indicando cuando es correcta, indicando si las llaves están bien emparejadas y organizando
-el código de forma clara.
+Incluye un editor de código que resalta la sintaxis, indicando cuando es correcta, indicando si las llaves están bien emparejadas y organizando el código de forma clara.
 
-Además el entorno incluye todo lo necesario para compilar y descargar las aplicaciones al microntrolador, sin necesidad de que el usuario conozca la complejidad de este proceso.
+Además el entorno incluye todo lo necesario para compilar y descargar las aplicaciones al microcontrolador, sin necesidad de que el usuario conozca la complejidad de este proceso.
 
 El entorno viene con una librería llamada Wiring (procedente de dicho proyecto) que facilita el programar pensando en las entradas y las salidas.
 
@@ -203,8 +203,7 @@ Usaremos las versión 1.8.1 (o superior si se liberara)
 
 #### Instalación del entorno
 
-[Enlace para
-descarga](https://www.dropbox.com/s/w1i68d5p6jvjqx5/3.2%20-%20Instalaci%C3%B3n%20del%20IDE.pdf)
+[Enlace para descarga](https://www.dropbox.com/s/w1i68d5p6jvjqx5/3.2%20-%20Instalaci%C3%B3n%20del%20IDE.pdf)
 
 
 #### Descargando el programar a Arduino
@@ -213,17 +212,15 @@ Vamos a comenzar viendo paso a paso una descarga de un programa a Arduino.
 
 Intentaremos hacer una lista paso a paso para poder detectar errores en el caso de que se produzcan
 
-[Enlace para
-descarga](https://www.dropbox.com/s/56rfl7nr4ngs8uo/3.3%20-%20Primeras%20Pruebas.pdf)
+[Enlace para descarga](https://www.dropbox.com/s/56rfl7nr4ngs8uo/3.3%20-%20Primeras%20Pruebas.pdf)
 
 En el siguiente vídeo podemos ver el paso a paso de la descarga de un programa a una placa Arduino
 
-#### Comenzando a programar con Arduino
+### Comenzando a programar con Arduino
 
-## Comenzando a programar
+#### Comenzando a programar
 
-Como hemos visto podemos encontrar multitud de ejemplos en el propio IDE de arduino, de ellos podemos aprender la sintaxis y las posibilidades
-que el entorno tiene.
+Como hemos visto podemos encontrar multitud de ejemplos en el propio IDE de Arduino, de ellos podemos aprender la sintaxis y las posibilidades que el entorno tiene.
 
 Vamos a hacer unos ejemplos nosotros que sin entrar en detalles técnicos nos van a permitir ir haciéndonos con el entorno.
 
@@ -253,7 +250,7 @@ Descargamos el programa
 ![](./images/descarga.png)
 depués de haber comprobado que tenemos bien seleccionado nuestro modelo de placa y el puerto donde está conectada. Una vez descargada, abrimos la consola serie para ver el resultado
 
-![](./images/Consola.png)
+![Consola](./images/Consola.png)
 
 Cuidando de que la velocidad seleccionada será la misma que hemos indicado en el programa
 
@@ -279,12 +276,12 @@ variable i, conseguiremos que el programa se retrase
     delay(1000);
 
 Ya que estamos hablando de tiempo veamos que otras funciones tiene
-arduino relacionadas con el mismo:
+Arduino relacionadas con el mismo:
 
-- **long millis()** : devuelve el número de milisegundos desde que se  encendió la placa. Se vuelve a poner a cero cada 50 días     aproximadamente.
-- **long micros()** : devuelve el número de microsegundos desde que se  encendió la placa. Se vuelve a poner a cero cada 70 minutos     aproximadamente. **Tiene una resolución de 4 microsegundos.**
+- **long millis()** : devuelve el número de milisegundos desde que se  encendió la placa. Se vuelve a poner a cero cada 50 días aproximadamente.
+- **long micros()** : devuelve el número de microsegundos desde que se  encendió la placa. Se vuelve a poner a cero cada 70 minutos aproximadamente. **Tiene una resolución de 4 microsegundos.**
 
-Con todo esto vamos a hacer un programa que envie cada segundo el número de milisegundos que han pasado desde la ultima iteración. Intenta hacerel programa por ti mismo\
+Con todo esto vamos a hacer un programa que envie cada segundo el número de milisegundos que han pasado desde la ultima iteración. Intenta hacer el programa por ti mismo
 
 Quedaría algo así:
 
@@ -323,24 +320,22 @@ Podemos hacer sonidos con las siguientes funciones:
 
 -   Genera una señal cuadrada de la frecuencia y duración definidas.
 
-Para afinar las frecuencias a las notas podemos consultar tablas     como esta:
+Para afinar las frecuencias a las notas podemos consultar tablas como esta:
 
-![tabla
-frecuemcia](http://3.bp.blogspot.com/_42Ez0bRTcnA/TFi0T87BzfI/AAAAAAAADY0/T7FMvFXNxQE/s1600/frec1.jpg "tabla frecuemcia")
+![tabla frecuemcia](http://3.bp.blogspot.com/_42Ez0bRTcnA/TFi0T87BzfI/AAAAAAAADY0/T7FMvFXNxQE/s1600/frec1.jpg "tabla frecuemcia")
 
--   Interfiere con algunas funciones de los pines el 3 y 11 (el pwm     que veremos más adelante)
+-   Interfiere con algunas funciones de los pines el 3 y 11 (el pwm que veremos más adelante)
 
         noTone(pin)
 
 -   detiene la ejecución del tone actual
 -   se utiliza para usar varios pines generando sonido
 
-![como hacer sonido
-arduino](http://arduino.cc/en/uploads/Tutorial/speaker_bb.png "como hacer sonido arduino")
+![como hacer sonido Arduino](http://arduino.cc/en/uploads/Tutorial/speaker_bb.png "como hacer sonido Arduino")
 
 Podemos ver cómo se usan estas funciones en el ejemplo incluido en Arduino sobre el tema. Accederemos a él según la imagen siguiente
 
-![](./images/frec1.jpg)
+![Tabla de frecuencias](./images/frec1.jpg)
 
 
 En bitbloq existen 2 formas de generar sonidos
@@ -364,11 +359,11 @@ Facilita la tarea de desarrollar pues aprovechamos un código ya existente y nos
 Para usarlas solo tenemos que importarlas desde nuestro código con un #include <...>
 
 
-Si queremos instalarlas sólo hay que descargarlas y copiarlas en la carpeta libraries del directorio donde se guardan nuestros sketches de arduino. Creamos un directorio con el nombre de la librería.
+Si queremos instalarlas sólo hay que descargarlas y copiarlas en la carpeta libraries del directorio donde se guardan nuestros sketches de Arduino. Creamos un directorio con el nombre de la librería.
 
 En el caso de Bitbloq, ahora mismo no se pueden usar librerías, de forma manual.
 
-### Librerías básicas
+#### Librerías básicas
 
 -   EEPROM - permite leer y escribir en almacenamiento duradero
 -   Ethernet - para conectar a internet
@@ -382,9 +377,9 @@ En el caso de Bitbloq, ahora mismo no se pueden usar librerías, de forma manual
 -   Wire - comunicaciones I2C
 
 
-### Otras Librerías
+#### Otras Librerías
 
-#### Communication (networking and protocols):
+##### Communication (networking and protocols):
 
 -   [Messenger](http://www.arduino.cc/playground/Code/Messenger) - para procesar mensajes de texto provenientes del PC
 -   [NewSoftSerial](http://sundial.org/arduino/index.php/newsoftserial/) - una versión mejorada de SoftwareSerial
@@ -397,45 +392,41 @@ En el caso de Bitbloq, ahora mismo no se pueden usar librerías, de forma manual
 -   [XBee](http://code.google.com/p/xbee-arduino/) - Comunicaciones XBees en modo API**
 -   [SerialControl](http://www.arduino.cc/playground/Code/SerialControl) - Control remoto de otros Arduinos por medio de comunicaciones serie
 
-
-#### Sensing:
+##### Sensing:
 
 -   [Capacitive Sensing](http://www.arduino.cc/playground/Main/CapSense) - permite usar dos entradas como sensors capacitivos
 -   [Debounce](http://www.arduino.cc/playground/Code/Debounce) - para hacer debounce en entradas
 
-#### Pantallas y LEDs:
+##### Pantallas y LEDs:
 
 -   [Improved LCD
     library](http://web.alfredstate.edu/weimandn/arduino/LiquidCrystal_library/LiquidCrystal_index.html) mejora la libreria LCD library
 -   [GLCD](http://www.arduino.cc/playground/Code/GLCDks0108) - permite manejar LCDs graficas basadas en el chip KS0108 o equivalente.
 -   [LedControl](http://www.arduino.cc/playground/Main/LedControl) - maneja matrices de led con chips MAX7221 o MAX7219.
 -   [LedControl](http://www.wayoda.org/arduino/ledcontrol/index.html) - librería alternativa para los chips anteriores.
--   [LedDisplay](http://www.arduino.cc/playground/Main/LedDisplay) - controla pantallas basadas en
-    [HCMS-29xx](http://sigma.octopart.com/23295/datasheet/Avago-HCMS-2973.pdf) con scroll.
+-   [LedDisplay](http://www.arduino.cc/playground/Main/LedDisplay) - controla pantallas basadas en     [HCMS-29xx](http://sigma.octopart.com/23295/datasheet/Avago-HCMS-2973.pdf) con scroll.
 
 Por estar basado en lenguajes estándar podemos portar (migrar) fácilmente librerías disponibles para otros sistemas
 
 Estas librerías son compatibles con Wiring, los enlaces apuntan a la documentación.
-
 -   [Matrix](http://wiring.org.co/reference/libraries/Matrix/index.html) - facilita el trabajo con Matrices de Leds
 -   [Sprite](http://wiring.org.co/reference/libraries/Sprite/index.html) - Permite usar image básicas (sprite) en matrices leds
 
-Frequency Generation and Audio:
+##### Frequency Generation and Audio:
 
 -   [Tone](http://code.google.com/p/arduino-tone/) - genera sonidos de la frecuencia dada
 
-Motores  y PWM:
+##### Motores  y PWM:
 
 -   [TLC5940](http://www.arduino.cc/playground/Learning/TLC5940) - facilita el usar el chip TLC594016 canales con PWM de 12 bit PWM.
 
-Manejo del tiempo:
+##### Manejo del tiempo:
 
 -   [DateTime](http://www.arduino.cc/playground/Code/DateTime) - facilita el trabajar con fechas y horas.
 -   [Metro](http://www.arduino.cc/playground/Code/Metro) - ayuda a medir intervalos temporales fijos
--   [MsTimer2](http://www.arduino.cc/playground/Main/MsTimer2) -
-    permite ejecutar tareas cada N milisegundos (usa 2 temporizadores).
+-   [MsTimer2](http://www.arduino.cc/playground/Main/MsTimer2) - permite ejecutar tareas cada N milisegundos (usa 2 temporizadores).
 
-Utilidades:
+##### Utilidades:
 
 -   [PString](http://sundial.org/arduino/index.php/pstring/) - clase ligera para imprimir
 -   [Streaming](http://arduiniana.org/libraries/streaming/) - simplifica la manera de imprimir caracteres
@@ -448,12 +439,12 @@ Utilidades:
 -   Usaremos un fichero "nuestralibreria.h" donde declararemos nuestro interface (obligatorio que exista el constructor)
 -   Un fichero "nuestralibreria.cpp" con nuestro código
 -   Incluiremos todos los ficheros en una carpeta "nuestralibreria" en la carpeta libraries del directorio de usuario
--   Cerramos y abrimos el entorno arduino para que la recompile y ya está disponible.
+-   Cerramos y abrimos el entorno Arduino para que la recompile y ya está disponible.
 
 
 #### Ejemplo: Librería Servo
 
-Nos permite controlar hasta 12 servos en un arduino UNO y 48 en un arduino Mega
+Nos permite controlar hasta 12 servos en un Arduino UNO y 48 en un Arduino Mega
 
 
 -   [attach(pin) : conecta el objeto servo con el pin     dado](http://arduino.cc/en/Reference/ServoAttach)
@@ -483,9 +474,7 @@ Veamos un ejemplo
      delay(15);
     }
 
-Para usar la librería Servo con bitbloq podemos usar los bloques
-Servo. Existen 2 tipos de servos: los de rotación continua y los
-normales.
+Para usar la librería Servo con bitbloq podemos usar los bloques Servo. Existen 2 tipos de servos: los de rotación continua y los normales.
 
 Veamos este ejemplo:
 
@@ -493,10 +482,9 @@ Veamos este ejemplo:
 
 #### Ejemplo: Librería EEPROM
 
-Guarda datos en la memoria no volátil EEPROM
+Guarda datos en la memoria no volátil EEPROM:
 
--   EEPROM.write(address, value) escribe el valor value en address
--   EEPROM.read(address): devuelve el valor de la posición address
-
+-   EEPROM.write(address, value) escribe el valor value en address.
+-   EEPROM.read(address): devuelve el valor de la posición address.
 
 En el tema de almacenamiento veremos ejemplos de acceso a EEPROM
