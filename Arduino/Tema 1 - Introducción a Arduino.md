@@ -1,4 +1,4 @@
-# Tema 1 - Introducción a Arduino
+## Introducción a Arduino
 
 ![ArduinoMano](./images/arduinoMano.png)
 
@@ -22,16 +22,16 @@ El objetivo es pues, el conseguir una plataforma fácil de usar para todo tipo d
 
 Algo a recalcar acerca de lo relacionado con Arduino es la enorme base de usuarios que existen y lo buena disposición que suelen tener estos a mostrar sus trabajos y publicar cómo los han realizado, documentándolos. Como es fácil imaginar todo esto facilita enormemente el aprendizaje.
 
-![arduino v0.11](./images/Arduino_IDE_-_v0011_Alpha.png "Arduino IDE v0.11")
+![IDE de Arduino](./images/Arduino_IDE_-_v0011_Alpha.png "IDE de Arduino")
 
 Para programar Arduino sólo necesitamos una placa Arduino, un cable USB y el entorno de programación ([IDE](http://es.wikipedia.org/wiki/Entorno_de_desarrollo)) del que hablaremos en el siguiente módulo.
 
 
-![arduinoUSB](./images/arduinoUSB.jpg "arduino con USB")
+![Arduino con USB](./images/arduinoUSB.jpg "arduino con USB")
 
 Como decíamos antes, al ser Arduino hardware libre, cualquiera con unos conocimientos mínimos de electrónica puede montarse su propio Arduino, a partir de todas las especificaciones que se pueden descargar desde la página [**Arduino.cc**](http://www.Arduino.cc/)
 
-# Proyectos donde se utiliza Arduino
+## Proyectos donde se utiliza Arduino
 
 Basta buscar en la red para ver la cantidad de proyectos que existen basados en Arduino o que lo utilicen.
 
@@ -40,7 +40,7 @@ Un simple vistazo a dos de las comunidades mas activas de DIY, como son [Make](h
 Veamos algunos de ellos para hacernos una idea de qué podemos hacer con
 nuestro Arduino:
 
-## Control de un videojuego de conducción con Arduino
+### Control de un videojuego de conducción con Arduino
 
  <iframe width="420" height="315" frameborder="0" src="http://www.youtube.com/embed/7MU1xxZLpjg"></iframe>
 
@@ -49,7 +49,7 @@ Es proyecto fin de carrera donde se trata de controlar con los movimientos de un
 videojuego. Más [detalles sobre el
 montaje](http://setr-urjc.blogspot.com.es/2012/04/juego-controlado-por-volante.html)
 
-## Generador de arte por medio de una cafetera
+### Generador de arte por medio de una cafetera
 
 <iframe width="640" height="360" frameborder="0" src="http://www.youtube.com/embed/k1YYesjAen4" allowfullscreen="true"></iframe>
 
@@ -58,7 +58,7 @@ Se trata de medir los parámetros de presión, temperatura, tiempo en diferentes
 Detalles [aquí](http://shinymetalthings.net/thenakedespresso/)
 
 
-## The Inebriator: Máquina preparadora de cócteles
+### The Inebriator: Máquina preparadora de cócteles
 
 <iframe width="560" height="315" frameborder="0" src="http://www.youtube.com/embed/hJIkJ9x0-JQ"></iframe>
 
@@ -67,10 +67,10 @@ Este auténtico robot barman capaz de preparar diferentes bebidas.
 
 Podemos ver en el vídeo que incluye un carril móvil por donde se desplaza la vaso. Utiliza diferentes conjuntos de luces de colores para iluminar los diferentes licores. En la imagen de abajo se vé las válvulas que usa para abrir y cerrar la salida de cada botella. Más detalles (aunque no sufivientes) en su [página web](http://www.theinebriator.com/techie-stuff/)
 
-![IMG\_0187-Large-1024x768.jpg](http://www.theinebriator.com/wp-content/uploads/2012/01/IMG_0187-Large-1024x768.jpg "IMG_0187-Large-1024x768.jpg")
+![Robot barman](http://www.theinebriator.com/wp-content/uploads/2012/01/IMG_0187-Large-1024x768.jpg "Robot barman")
 
 
-## Controlador real para el juego Angry Birds
+### Controlador real para el juego Angry Birds
 
 <iframe width="500" height="281" frameborder="0" src="http://player.vimeo.com/video/46975682?title=1&amp;byline=1&amp;portrait=1"></iframe>
 
@@ -81,7 +81,7 @@ from [Andrew Spitz](http://vimeo.com/soundplusdesign) on
 
 Se trata de un controlador par usar en el conocido juego. Permite ajustar de una forma real la inclinación y la fuerza con la que lanzaremos en el juego.
 
-## Alarma de ultrasonidos con módulos 3G, cámara y teclado numérico para contraseña
+### Alarma de ultrasonidos con módulos 3G, cámara y teclado numérico para contraseña
 
 
 <iframe width="560" height="315" frameborder="0" src="http://www.youtube.com/embed/JfW0Ua4Ame4"></iframe>
@@ -94,12 +94,12 @@ Exiten multitud de compilaciones de otros proyectos interesantes, como por ejemp
 Os animo a compartir otros proyectos que os hayan interesado,
 relacionados o no con estos.
 
-# Historia de Arduino
+## Historia de Arduino
 
 ![Arduino
 team](http://spectrum.ieee.org/img/arduino01-1319573198164.jpg "Arduino team"){width="464"
 height="343"}
-** Arduino Team**
+
 
 Estos son los integrantes del equipo de Arduino. Se trata de un equipo multidisciplinar y de 4 paises distintos:
 
@@ -127,7 +127,7 @@ datos de que a día de hoy venden 1 millón de placas al año íntegramente prod
 Podéis leer la historia completa en este [artículo](http://spectrum.ieee.org/geek-life/hands-on/the-making-of-arduino/0)[](http://spectrum.ieee.org/geek-life/hands-on/the-making-of-arduino/0)
 
 
-![fábrica de arduino](http://blog.bricogeek.com/img_cms/1951-visita-fabrica-arduino-italia.jpg "fábrica de arduino")
+![Fábrica de arduino](http://blog.bricogeek.com/img_cms/1951-visita-fabrica-arduino-italia.jpg "Fábrica de arduino")
 
 Podéis ver un vídeo sobre el proceso de fabricación de arduino
 
