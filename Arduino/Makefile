@@ -27,18 +27,28 @@ F4="Tema 4 - Controlando el mundo físico con Arduino.pdf"
 
 3:
 	pandoc --latex-engine=xelatex \
-	      --from=markdown \
-	      -V papersize:a4paper \
-	      --template=./LaTeX_ES.latex \
-	      -o $(F3) \
-	       Cabecera.md     \
-	      $(S3)
+					--from=markdown \
+					-V papersize:a4paper \
+					--template=./LaTeX_ES.latex \
+		      -o $(F3) \
+		       Cabecera.md     \
+		      $(S3)
 4:
-	pandoc --latex-engine=xelatex      \
-					-V papersize:a4paper       \
-					--template=./LaTeX_ES.latex       \
+	pandoc --latex-engine=xelatex       \
+					-V papersize:a4paper        \
+					--template=./LaTeX_ES.latex \
 					-o $(F4) \
 					Cabecera.md           \
 					$(S4)
 clean:
-	rm $(S1) $(S2) $(S3) $(S4)
+	rm $(F1) $(F2) $(F3) $(F4)
+
+cp:
+	cp $(F1) $(F2) $(F3) $(F4) ../../domobot17
+
+push:
+	git commit -m "update" $(F1);
+	git commit -m "update" $(F2);
+	git commit -m "update" $(F3);
+	git commit -m "update" $(F4);
+	git push;
