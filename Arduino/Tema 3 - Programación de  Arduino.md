@@ -20,7 +20,7 @@ Veamos las diferentes opciones que tenemos para programar Arduino:
 
 Entorno de desarrollo totalmente basado en aplicaciones web, decir, sólo necesitamos un navegador web para poder desarrollar con Arduino. Permite la edición, compilación y la programación de Arduino. Podéis probarlo en [https://codebender.cc/](https://codebender.cc/)|
 
-#### EL ENTORNO DE PROGRAMACIÓN BITBLOQ
+#### Entorno de programación Bitbloq
 
 Bitbloq es un entorno de programación visual que nos permite crear programas para Arduino y placas compatibles y transferir los mismos a las placas de una forma sencilla.
 
@@ -30,24 +30,27 @@ Como verás cuando entres a su página, funciona con Chrome en todos los sistema
 
 A lo largo de estos vídeos veremos algunas de sus características más importantes. Puedes encontrar más tutoriales en la página [oficial de bitbloq](http://diwo.bq.com/tag/bitbloq/)
 
-### INTRODUCCIÓN A LA PROGRAMACIÓN CON BITBLOQ
-
-[vídeo de ejemplo básico ](https://youtu.be/rOdMRhhQTUs)
-
-[ejemplo Parpadeo](https://github.com/javacasm/ArduinoBasico/blob/master/bitbloq/1.%20parpadeo.json)
-
-![parpadeo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/1%20parpadeo.png)
+### Introducción a la programación con Bitbloq
 
 Bitbloq es un entorno de programación visual por bloques que nos permite programar nuestra placa Arduino o compatible de forma sencilla, evitando la complejidad de las sentencias C++.
 
 Además nos permite programar nuestro Arduino sin instalar (prácticamente) nada en nuestro ordenador.
 
+Veamos un ejemplo sencillo:
 
-[vídeo Ver código C++ de un programa bitbloq](https://youtu.be/cg1YNVSprdo)
+
+![parpadeo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/1%20parpadeo.png)
+
+[vídeo de ejemplo básico ](https://youtu.be/rOdMRhhQTUs)
+
+[ejemplo Parpadeo](https://github.com/javacasm/ArduinoBasico/blob/master/bitbloq/1.%20parpadeo.json)
+
+
+[vídeo "Cómo ver código C++ de un programa bitbloq"](https://youtu.be/cg1YNVSprdo)
 
 Desde bitbloq siempre podemos ver el código Arduino generado. De momento no podemos modificar este código pero si copiarlo y llevarlo al IDE de Arduino
 
-[vídeo Transfiriendo el programa bitbloq a Arduino](https://youtu.be/gMe2YDgUUQE)
+[vídeo "Transfiriendo el programa bitbloq a Arduino"](https://youtu.be/gMe2YDgUUQE)
 
 Bitbloq nos permite programar nuestro Arduino sin instalar (prácticamente) nada en nuestro ordenador. Sólo tenemos que pulsar sobre el botón cargar lo que hace que se compile el código, se detecte la placa y se envíe el programa a nuestro Arduino
 
@@ -154,13 +157,14 @@ Podemos definir variables locales o globales. Una variable global estará defini
 
 Las variables globales mantienen su valor entre las distintas iteraciones que se realizan del programa.
 
-### Ejemplo de bucle sin sentencias de control 
+#### Creando bucles sin sentencias de control
 
-[ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/ejemplo%20bucle%20arduino.json)
+Podemos usar la forma cíclica (y unas variables globales) en la que se ejecutan los programas en Arduino para hacer un bucle sin más estructuras de control que una simple variable global
 
 ![ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/ejemplo%20bucle%20arduino.png)
 
-Podemos usar la forma cíclica (y unas variables globales) en la que se ejecutan los programas en Arduino para hacer un bucle sin más estructuras de control que una simple variable global
+[ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/ejemplo%20bucle%20arduino.json)
+
 
 ### Usando el IDE de Arduino
 
