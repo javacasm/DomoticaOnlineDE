@@ -10,7 +10,7 @@ Veamos las diferentes opciones que tenemos para programar Arduino:
 
 [IDE Arduino](http://arduino.cc/en/Main/Software)|entorno multiplataforma que permite la edición, compilación y la programación de Arduino
 
-![](http://diwo.bq.com/wp-content/uploads/2014/11/curso_bitbloq.png)|[Bitbloq](http://bitbloq.bq.com/ "bitbloq")| Entorno de desarrollo visual basado en la programación con bloques. Es muy sencillo e intuitivo de usar y solo necesitamos el navegador para usarlo. Existen alternativas offline como Visualino.
+![Bitbloq](http://diwo.bq.com/wp-content/uploads/2014/11/curso_bitbloq.png)|[Bitbloq](http://bitbloq.bq.com/ "bitbloq")| Entorno de desarrollo visual basado en la programación con bloques. Es muy sencillo e intuitivo de usar y solo necesitamos el navegador para usarlo. Existen alternativas offline como Visualino.
 
 #### CodeBender
 
@@ -38,9 +38,9 @@ A lo largo de estos vídeos veremos algunas de sus características más importa
 
 ![parpadeo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/1%20parpadeo.png)
 
-Bitbloq es un entorno de programación visual por bloques que nos permite programar nuestra placa Arduino o compatible de forma sencilla, evitando la complejidad de las sentencias C++
+Bitbloq es un entorno de programación visual por bloques que nos permite programar nuestra placa Arduino o compatible de forma sencilla, evitando la complejidad de las sentencias C++.
 
-Además nos permite programar nuestro Arduino sin instalar (prácticamente) nada en nuestro ordenador
+Además nos permite programar nuestro Arduino sin instalar (prácticamente) nada en nuestro ordenador.
 
 
 [vídeo Ver código C++ de un programa bitbloq](https://youtu.be/cg1YNVSprdo)
@@ -56,7 +56,7 @@ Bitbloq nos permite programar nuestro Arduino sin instalar (prácticamente) nada
 
 [video sobre sentencias de control ](https://youtu.be/dakh7MTxpBg)
 
-Las sentencias de control son aquellas que nos permite modificar el orden o el modo en el que se ejecutan los bloques de nuestro programa
+Las sentencias de control son aquellas que nos permite modificar el orden o el modo en el que se ejecutan los bloques de nuestro programa.
 
 ##### Variables
 
@@ -66,7 +66,9 @@ Para utilizar las sentencias de control necesitaremos el concepto de variables: 
 
 Con las variables podemos realizar operaciones matemáticas
 
-[video](https://youtu.be/nvRUCZERScE) [ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/operaciones%20variables.json)
+[video](https://youtu.be/nvRUCZERScE) 
+
+[ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/operaciones%20variables.json)
 
 ![ejemplo](https://raw.githubusercontent.com/javacasm/ArduinoBasico/master/bitbloq/operaciones%20variables.png)
 
