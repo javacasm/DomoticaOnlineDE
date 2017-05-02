@@ -75,4 +75,4 @@ Qué comprar
 Recomendamos usar Arduino UNO o Arduino Mega (con preferencia por la
 primera) **por ser los más estándares.**
 
-Puedes encontrar una [que hicimos hace algún tiempo en elcacharreo.com](http://blog.elcacharreo.com/2011/06/02/kit-de-iniciacion-de-arduino-i/)
+Puedes encontrar una revisión de kits [que hicimos hace tiempo en elcacharreo.com](http://blog.elcacharreo.com/2011/06/02/kit-de-iniciacion-de-arduino-i/)
