@@ -22,6 +22,16 @@
 
 [Un microscopio para soldadura con Raspberry Pi](https://www.instructables.com/id/Raspberry-Pi-Zero-HDMIWiFi-Soldering-Microscope/)
 
+### Globo aerostático
+
+[hardware](http://www.bristol-seds.co.uk/hab/flight/2017/05/08/ubseds24.html)
+
+![trayectoria globo](https://pbs.twimg.com/media/C_UeJUYXgAEjW1i.jpg)
+
+![hardware](https://pbs.twimg.com/media/C_UeMoHXoAEhqh1.jpg)
+
 ## Avanzados
 
 [Uso de tensorflow (IA)](https://opensource.com/article/17/2/machine-learning-projects-tensorflow-raspberry-pi)
+
+[Cluster de computación](https://blog.nycdatascience.com/student-works/raspberrypi3_bigdatacluster/)
