@@ -1,7 +1,29 @@
-# Instalación de Raspberry
+# Tema 7 - Instalación de Raspberry Pi
+
+## Sistemas operativos disponibles
+
+### [Noobs](https://www.raspberrypi.org/downloads/noobs/)
+
+### [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
+
+### [Ubuntu Mate](https://ubuntu-mate.org/raspberry-pi/)
+
+### [Snappy Ubuntu Core](https://developer.ubuntu.com/en/snappy/start/#snappy-raspi2)
+
+### [Windows 10 IOT Core](http://ms-iot.github.io/content/en-US/Downloads.htm)
+
+### [OSMC](https://osmc.tv/download/)
+
+### [Chrome OS](http://www.hwlibre.com/chrome-os-llega-raspberry-pi-otras-placas-sbc/)
+
+### [Android](https://www.raspberrypi.org/magpi/android-raspberry-pi/)
 
 
-# Instalación
+### ([¿Dónde encontrarlos?](https://www.raspberrypi.org/downloads/))
+
+Una vez elegida la imagen vamos a proceder a instalar
+
+## Instalación
 
 ¿Qué necesitamos?
 
@@ -44,7 +66,11 @@ En cualquier momento podemos volver a reconfigurar
 
 ## Simuladores
 
-[Varios simuladores](https://www.google.es/search?q=raspberry+simulator&oq=raspberry+simulator&aqs=chrome..69i57j69i65l3j69i60l2.3806j0j7&sourceid=chrome&es_sm=93&ie=UTF-8)
+¿Y si no tengo una Raspberry Pi?
+
+Existen [varios simuladores](https://www.google.es/search?q=raspberry+simulator&oq=raspberry+simulator&aqs=chrome..69i57j69i65l3j69i60l2.3806j0j7&sourceid=chrome&es_sm=93&ie=UTF-8) aunque no espere que la experiencia sea la misma....
+
+TODO: Sobre la velocidad....
 
 ### [En windows](http://www.diverteka.com/?p=66)
 
@@ -60,10 +86,8 @@ En cualquier momento podemos volver a reconfigurar
 
 [Vídeo](http://www.youtube.com/watch?feature=player_embedded&v=QvqaNUx7-pU)
 
-## [En ubuntu](http://www.cnx-software.com/2011/10/18/raspberry-pi-emulator-in-ubuntu-with-qemu/)
+### [En ubuntu](http://www.cnx-software.com/2011/10/18/raspberry-pi-emulator-in-ubuntu-with-qemu/)
 
-## [Simulando en virtualBox](https://www.raspberrypi.org/forums/viewtopic.php?f=9&t=2961)
+### [Simulando en virtualBox](https://www.raspberrypi.org/forums/viewtopic.php?f=9&t=2961)
 
-## [Simulando el Sense Hat](https://www.raspberrypi.org/blog/sense-hat-emulator/)
-
-Sobre la velocidad....
+### [Simulando el Sense Hat](https://www.raspberrypi.org/blog/sense-hat-emulator/)
