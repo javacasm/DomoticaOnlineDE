@@ -428,3 +428,15 @@ proyectos básicos, pasando por componentes, como por ejemplo los
 transistores
 *  Página de documentación de la tienda yourduino: Páginas interesantes
 que he visto tratan sobre manejo de potencia con arduino, libros sobre
+
+
+
+## Conexión con Arduino
+
+# Arduino
+
+Si con algún componente se lleva bien, ese es arduino
+
+## Proyectos
+
+## Shields
