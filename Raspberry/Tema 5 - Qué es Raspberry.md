@@ -82,6 +82,15 @@ Versión A (256MB)
 [Comparativa Raspberry 2](https://learn.adafruit.com/introducing-the-raspberry-pi-2-model-b?view=all)
 
 
+## Arquitectura
+
+Un diagrama simplificado de la arquitectura de Raspberry Pi
+
+![Arquitectura de la Raspberry Pi](./images/bloques.png)
+
+
+![Bloques de la Raspberry Pi](./images/estructura.png)
+
 ## ¿Raspberry Pi vs Arduino?
 
 ![vs](./images/arduinovsRaspberry.jpg)
@@ -120,3 +129,33 @@ Han sido muchas las películas y series donde han aparecido últimamente Raspber
 [Vídeo de Mr. Robot](https://www.youtube.com/watch?v=55jypw_xAo0)
 
 * CSI Cyber: lo usan como un router que les permite capturar datos de la red donde están (un parque de atracciones) y así descubren como poder controlar las atracciones.
+
+## Documentación sobre Raspberry Pi
+
+### Revistas
+
+[Revista The MagPy](https://www.raspberrypi.org/magpi/)
+
+[Todos los números](https://www.raspberrypi.org/magpi/issues/)
+
+[Libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/)
+
+
+### Libros
+
+* Programing the Raspberry Pi, Simon Monk
+* Raspberry Pi for Secret Agents
+* Raspberry Pi Gamming
+
+
+### Tutoriales
+
+[Raspberry pi Class (instructables)](http://www.instructables.com/class/Raspberry-Pi-Class/?utm_source=newsletter&utm_medium=email)
+
+[Vídeo tutorial Raspberry Pi (sparkfun)](https://www.youtube.com/watch?v=b6h95jNWg1g)
+
+[Vídeo tutorial Raspberry Pi 2 (sparkfun)](https://www.youtube.com/watch?v=jmPgdcec53s)
+
+[Tutoriales de Adafruit](https://learn.adafruit.com/search?q=raspberry)
+
+[Tutoriales de sparkfun](https://www.sparkfun.com/search/results?term=raspberry)
