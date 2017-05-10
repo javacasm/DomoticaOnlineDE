@@ -91,7 +91,7 @@ En cualquier momento podemos volver a reconfigurar
 
 ¿Y si no tengo una Raspberry Pi?
 
-Existen [varios simuladores](https://www.google.es/search?q=raspberry+simulator&oq=raspberry+simulator&aqs=chrome..69i57j69i65l3j69i60l2.3806j0j7&sourceid=chrome&es_sm=93&ie=UTF-8) aunque no espere que la experiencia sea la misma....
+Existen [varios emuladores](https://www.google.es/search?q=raspberry+simulator&oq=raspberry+simulator&aqs=chrome..69i57j69i65l3j69i60l2.3806j0j7&sourceid=chrome&es_sm=93&ie=UTF-8) aunque no espere que la experiencia sea la misma....
 
 TODO: Sobre la velocidad....
 
@@ -114,3 +114,11 @@ TODO: Sobre la velocidad....
 ### [Simulando en virtualBox](https://www.raspberrypi.org/forums/viewtopic.php?f=9&t=2961)
 
 ### [Simulando el Sense Hat](https://www.raspberrypi.org/blog/sense-hat-emulator/)
+
+### Usando Pixel el entorno de Raspberry Pi
+
+![Pixel](https://www.raspberrypi.org/app/uploads/2016/09/newdesk-500x281.jpg)
+
+Puedes usar Pixel el entorno gráfico de Rasperry en tu PC o MAC, solo necesitas descargar la [imagen](http://downloads.raspberrypi.org/pixel_x86/images/pixel_x86-2016-12-13/2016-12-13-pixel-x86-jessie.iso) desde un CD o USB.
+
+Más detalles en [esta página](https://www.raspberrypi.org/blog/pixel-pc-mac/)
