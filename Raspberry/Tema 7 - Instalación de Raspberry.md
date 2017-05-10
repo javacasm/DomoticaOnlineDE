@@ -4,17 +4,51 @@
 
 ¿Qué necesito para trabajar con la Raspberry Pi?
 
-* Raspbery Pi
-* Tarjeta SD de al menos 4Gb
-* Alimentación de 5V y al menos 2A (mejor si son 2.5A)
-* Caja para evitar cortocircuitos
-* Monitor HDMI (o VGA con adaptador)
-* Teclado y raton USB (mejor si es inalambrico, porque consume menos)
-* Conexión a la red: Cable ethernet o dongle Wifi
-* Hub USB alimentado externamente (para evitar cargar demasiado a la Raspberry)
+![Esquema completo de montaje de una Raspberry Pi](./images/MontajeCompleto.png)
 
+## Componentes Obligatorios
+
+* Raspbery Pi
+* Fuente de alimentación de 5V con conector micro-USB con al menos 2A (mejor si son 2.5A)
+* Tarjeta SD de al menos 4 GB  o más. Se recomienda de clase 10 por su velocidad
+* Cable de red ethernet
+
+Y si la vas a usar como un ordenador
+
+* Monitor HDMI (o VGA con adaptador)
+* Cable HDMI. Existen conversores, pero no todos funcionan bien con cables largos
+* Teclado y raton USB (mejor si es inalambrico, porque consume menos)
+
+## Opcionales
+
+* Una caja o carcasa(para evitar problemas)
+* Conexión a la red: Cable ethernet o dongle Wifi
+* Hub USB con alimentación, así podremos añadir más dispositivos y evitaremos cargar la potencia de la Raspberry
+
+![Carcasa hecha con Lego](./images/carcasaLego.jpg)
+
+[¿Más carcasas?](https://www.google.es/search?q=raspberry+case&safe=off&espv=2&biw=838&bih=896&tbm=isch&tbo=u&source=univ&sa=X&ved=0CD4QsARqFQoTCP2a_r-_nMkCFci0GgodzpUMHA)
 
 ### ¿Dónde encontrarlos?
+
+![Kit Raspberry Pi](http://www.electan.com/product_thumb.php?img=images/RaspberryKit2.jpg)
+
+
+
+## ¿Dónde encontrarlos?
+
+* [Raspberry.org](http://Raspberry.org)
+* [www.electan.com](http://www.electan.com)
+* [www.amazon.es](http://www.amazon.es)
+* [www.bricogeek.com](http://www.bricogeek.com)
+* [www.raspipc.com](http://www.raspipc.com)
+¿Algún sitio donde comprar en Granada?
+
+* [Kit base](http://www.electan.com/kit-raspberry-con-caja-alimentador-microsd-hdmi-usb-p-6584.html)
+* [Shield electronica](http://tinkersphere.com/raspberry-pi-hats/633-starter-raspberry-pi-led-hat.html)
+* [Kit amazon 1](http://www.amazon.es/s/ref=sr_pg_2?rh=i%3Aaps%2Ck%3Araspberry+pi+2+kit+starter&page=2&sort=price-asc-rank&keywords=raspberry+pi+2+kit+starter&ie=UTF8&qid=1449858467)
+* [Kit Amazon 2 1](http://www.amazon.es/Raspberry-Pi-Quad-Core-Starter/dp/B00T7KW3Y0/ref=sr_1_15?ie=UTF8&qid=1449858467&sr=8-15&keywords=raspberry+pi+2+kit+starter)
+* [Kit Amazon 3](http://www.amazon.es/Raspberry-Pi-Quad-Starter-Bundle/dp/B00T7OHE9A/ref=sr_1_18?ie=UTF8&qid=1449858497&sr=8-18&keywords=raspberry+pi+2+kit+starter)
 
 * [Kit base](http://www.electan.com/kit-raspberry-con-caja-alimentador-microsd-hdmi-usb-p-6584.html)
 * [Shield electronica](http://tinkersphere.com/raspberry-pi-hats/633-starter-raspberry-pi-led-hat.html)
