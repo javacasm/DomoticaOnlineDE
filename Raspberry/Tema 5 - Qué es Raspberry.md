@@ -34,11 +34,21 @@ diferentes fines.
 
 Una pregunta muy frecuente es si para determinado proyecto es mejor usar Arduino o Raspberry Pi.
 
-* Arduino es más robusto eléctricamente: si se produce un cortocircuito entre pines o se comente un error se apagará y reseteará pero las probabilidades de romperlo son bajas. En cambio si hacemos esto mismo con una Raspberry lo más seguiro es que la dejemos inservible.
+* Arduino es más robusto eléctricamente: si se produce un cortocircuito entre pines o se comente un error se apagará y reseteará pero las probabilidades de romperlo son bajas. En cambio si hacemos esto mismo con una Raspberry lo más seguro es que la dejemos inservible.
+
+Algunas ventajas de Arduino:
+* Es capaz de dar una mayor corriente por cada patilla (hasta 40mA) mientras que Raspberry no puede dar más de 5mA
+* Dispone de entradas analógicas, es decir, es capaz de leer valores intermedios entre 0 y 5v, no solo digitales como raspberry
+* La sencillez de su funcionamiento (como microcontrolador ) le aporta una gran robustez a la hora de soportar cortes de alimentación.
+* Últimamente están apareciendo diversas versiones de Arduino con mayor capacidad, soportando una programación más compleja y potente, como Yún o Galileo.
 
 * Raspberry Pi tiene una mayor capacidad de procesamiento, lo que la hace más adecuada para determinadas tareas, como reconocimiento de imágenes o cálculos complejos, algo que sería impensable para Arduino.
 
 ![vs](./images/arduinovsRaspberry.png)
+
+* Raspberry Pi dispone de mayor capacidad de almacenamiento y de memoria permitiendo utilizar programación más avanzada.
+
+* Raspberry Pi es un entorno completo, no necesita de ningún dispositivo externo para programarse
 
 * ¿Son incompatibles? en absoluto lo más frecuente y es usarlas conjuntamente, conectándolos y haciendo que la Raspberry actúe como cerebro y Arduino como ejecutor.
 
