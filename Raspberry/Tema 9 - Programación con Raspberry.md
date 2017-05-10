@@ -349,12 +349,13 @@ print mensaje;
 print 'Se encontrado '+str(contador)+' veces';
 ```
 
-**Ejercicio**: haz que el usuario pueda introducir la cadena donde buscar y el caracter
+**Ejercicio**: haz que el usuario pueda introducir la cadena donde buscar y el carácter
 
 ### Diccionarios que nos permitirán relacionar contenidos
 
-Podemos introducir estas líneas en idle (las que empiezan por >>>)
+Un diccionario es una forma sencilla de acceder a contenido a partir de una clave.
 
+Podemos ver un pequeño ejemplo de uso si introducimos estas líneas en idle (las que empiezan por >>>)
 
 ![Usando Diccionarios](./images/diccionarios.png)
 
@@ -363,3 +364,69 @@ Podemos introducir estas líneas en idle (las que empiezan por >>>)
 Veamos una implementación de un programa más elaborado como "Piedra, Papel o Tijera"
 
 ![Ejemplo de piedra, papel o tijera](./images/PPT.png)
+
+### Aplicaciones hechas en python
+
+Vamos a ver cómo hacer aplicaciones con Python.
+
+Utilizaremos la libre pyGTK que permite crear e interaccionar con ventanas desde Python.
+
+[Tutorial de la OSL](https://github.com/oslugr/curso-python-avanzado/blob/master/Interfaces_Graficas_con_PyGTK/contenido_PyGtk.md)
+
+	#!/usr/bin/python
+	# -*- coding: utf-8 -*-
+	from gi.repository import Gtk
+
+	class MyWindow(Gtk.Window):
+
+	    def __init__(self):
+	        Gtk.Window.__init__(self, title="Hola Mundo!")
+
+	        self.button = Gtk.Button(label="Hazme click")
+	        self.button.connect("clicked", self.on_button_clicked)
+	        self.add(self.button)
+
+	    def on_button_clicked(self, widget):
+	        print("Hola Mundo!")
+
+	def main():
+	    win = MyWindow()
+	    win.connect("delete-event", Gtk.main_quit)
+	    win.show_all()
+	    Gtk.main()
+
+	main()
+
+![gtk](https://raw.githubusercontent.com/oslugr/curso-python-avanzado/master/img/InterfacesGtk_01_hola_mundo.png)
+
+Utilizaremos Glade para diseñar el interface
+
+![glade](https://github.com/oslugr/curso-python-avanzado/raw/master/img/InterfacesGtk_02_Glade_01.png)
+
+
+### PyGame
+
+Si lo que queremos hacer es un juego podemos usar pyGame
+
+[Ejemplo sencillo](https://github.com/oslugr/curso-python-avanzado/blob/master/Videojuegos_con_PyGame/hola_pygame.md)
+
+		#!/usr/bin/env python
+		# -*- coding: utf-8 -*-
+
+		# Importamos la librería
+		import pygame
+
+		# Iniciamos Pygame
+		pygame.init()
+
+		# Creamos una surface (la ventana de juego), asignándole un alto y un ancho
+		Ventana = pygame.display.set_mode((600, 400))
+
+		# Le ponemos un título a la ventana
+		pygame.display.set_caption("Hola Mundo")
+
+[Ejemplo de animaciones](https://github.com/oslugr/curso-python-avanzado/blob/master/Videojuegos_con_PyGame/animando_sprites.md)
+
+![Ejemplo de animaciones](https://github.com/oslugr/curso-python-avanzado/raw/master/img/monigotillo.png)
+
+[Tutorial de la OSL](https://github.com/oslugr/curso-python-avanzado/tree/master/Videojuegos_con_PyGame)
