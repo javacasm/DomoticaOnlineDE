@@ -28,6 +28,19 @@ diferentes fines.
 - Conexión con equipos electrónicos y Arduino
 
 
+## ¿Raspberry Pi vs Arduino?
+
+![vs](./images/arduinovsRaspberry.jpg)
+
+Una pregunta muy frecuente es si para determinado proyecto es mejor usar Arduino o Raspberry Pi.
+
+* Arduino es más robusto eléctricamente: si se produce un cortocircuito entre pines o se comente un error se apagará y reseteará pero las probabilidades de romperlo son bajas. En cambio si hacemos esto mismo con una Raspberry lo más seguiro es que la dejemos inservible.
+
+* Raspberry Pi tiene una mayor capacidad de procesamiento, lo que la hace más adecuada para determinadas tareas, como reconocimiento de imágenes o cálculos complejos, algo que sería impensable para Arduino.
+
+![vs](./images/arduinovsRaspberry.png)
+
+* ¿Son incompatibles? en absoluto lo más frecuente y es usarlas conjuntamente, conectándolos y haciendo que la Raspberry actúe como cerebro y Arduino como ejecutor.
 
 ## Raspberry en los medios
 
