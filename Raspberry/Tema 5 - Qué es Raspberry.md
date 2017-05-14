@@ -155,9 +155,6 @@ Uno de los usos más frecuentes es como MediaCenter, hasta existen distribucione
 [Raspberry y Lego Minstorm](https://learn.sparkfun.com/tutorials/getting-started-with-the-brickpi?_ga=1.260570443.733603098.1443800444)
 
 
-### [Cámaras](https://learn.adafruit.com/snappicam-raspberry-pi-camera)
-
-![snapPiCam: cámara basada en Raspberry Pi](https://learn.adafruit.com/system/guides/images/000/000/528/medium310/IMG_2411.JPG?1396715460)
 
 
 ### [Minecraft](https://learn.adafruit.com/running-minecraft-on-a-raspberry-pi)
@@ -166,11 +163,6 @@ Juega a MineCraft desde tu RaspBerry Pi
 
 ![minecraft](https://learn.adafruit.com/system/guides/images/000/000/389/medium310/minecraft2.jpg?1396718054)
 
-### [Instrumentos de tortura... para gatos](https://learn.adafruit.com/raspberry-pi-wifi-controlled-cat-laser-toy)
-
-No te asustes es sólo un láser que se mueve aleatoriamente y que le encantará a tu gato
-
-![Láser que se mueve aleatoriamente](https://learn.adafruit.com/system/guides/images/000/000/368/medium310/carmen.jpg?1396718352)
 
 ### [Arte](https://learn.adafruit.com/light-painting-with-raspberry-pi)
 
@@ -218,6 +210,7 @@ Puedes usar tu Raspberry como [servidor de ficheros](https://www.adslzone.net/20
 
 ![snapPiCam](https://learn.adafruit.com/system/guides/images/000/000/528/medium310/IMG_2411.JPG?1396715460)
 
+
 ## Máquina de juegos
 
 * [Mame](https://learn.adafruit.com/retro-gaming-with-raspberry-pi?view=all)
@@ -228,19 +221,24 @@ Puedes usar tu Raspberry como [servidor de ficheros](https://www.adslzone.net/20
 
 ![mini](https://learn.adafruit.com/system/assets/assets/000/015/450/medium800/gaming_cover.jpg?1395167594)
 
-* [Cómo instalar y jugar Doom](https://learn.sparkfun.com/tutorials/setting-up-raspbian-and-doom?_ga=1.227922267.733603098.1443800444)
 
-![Doom](https://cdn.sparkfun.com/r/600-600/assets/1/e/4/f/a/52a8cbcc757b7f5b198b4567.png)
+
+
+
+* [Cómo instalar y jugar al clásico videojuego  Doom](https://learn.sparkfun.com/tutorials/setting-up-raspbian-and-doom?_ga=1.227922267.733603098.1443800444)
+
+  ![Doom](https://cdn.sparkfun.com/r/600-600/assets/1/e/4/f/a/52a8cbcc757b7f5b198b4567.png)
 
 * [Minecraft](https://learn.adafruit.com/running-minecraft-on-a-raspberry-pi)
 
-![minecraft](https://learn.adafruit.com/system/guides/images/000/000/389/medium310/minecraft2.jpg?1396718054)
+  ![minecraft](https://learn.adafruit.com/system/guides/images/000/000/389/medium310/minecraft2.jpg?1396718054)
 
 ## Instrumentos de tortura
 
-* [Juguete para tu gato](https://learn.adafruit.com/raspberry-pi-wifi-controlled-cat-laser-toy?view=all)
+No te asustes es sólo un [láser que se mueve aleatoriamente](https://learn.adafruit.com/raspberry-pi-wifi-controlled-cat-laser-toy?view=all)
+ y que le encantará a tu gato
 
-![Laser para jugar con gatos](https://learn.adafruit.com/system/guides/images/000/000/368/medium310/carmen.jpg?1396718352)
+  ![Laser para jugar con gatos](https://learn.adafruit.com/system/guides/images/000/000/368/medium310/carmen.jpg?1396718352)
 
 * [Cuadro diabólico](https://learn.adafruit.com/creepy-face-tracking-portrait?view=all)
 
@@ -259,14 +257,6 @@ Puedes usar tu Raspberry como [servidor de ficheros](https://www.adslzone.net/20
 * [Cortina luminosa](https://learn.adafruit.com/1500-neopixel-led-curtain-with-raspberry-pi-fadecandy?view=all)
 
 ![cortina](https://learn.adafruit.com/system/assets/assets/000/018/739/medium800/leds_curtain-anim.gif?1447866960)
-
-### [Juegos](https://learn.sparkfun.com/tutorials/setting-up-raspbian-and-doom?_ga=1.227922267.733603098.1443800444)
-
-El clásico videojuego Doom corriendo en una Raspberry Pi
-
-![El clásico Doom corriendo en una Raspberry Pi](https://cdn.sparkfun.com/r/600-600/assets/1/e/4/f/a/52a8cbcc757b7f5b198b4567.png)
-
-
 
 ### Juegos Portables
 
@@ -301,21 +291,15 @@ El clásico videojuego Doom corriendo en una Raspberry Pi
 
 Su bajo peso, y los pocos periféricos de los que depende, facilitan su uso en entornos aislados
 
-* Aislamiento
+Sí que tendremos que tener en cuenta el aislamiento, para soportar las temperaturas que nos vamos a encontrar, unas buenas baterías para poder alimentarla.
 
-* Temperatura
-
-* Baterias
-
-* ¿Espacio?
-
-	[astroPi](https://astro-pi.org/)
+Incluso podemos llegar a lanzarla al espacio, como en el proyecto [astroPi](https://astro-pi.org/)
 
 	![espacio](http://cdn.arstechnica.net/wp-content/uploads/2012/12/balloon-electronics.jpg)
 
 	![espa](http://cdn.arstechnica.net/wp-content/uploads/2012/12/balloon-shot.jpeg)
 
-* ¿Volando? [Autopilot](http://erlerobotics.com/blog/meet-the-last-autopilot-for-building-robots-erle-brain-2/)
+O volando en drone usando  [Autopilot](http://erlerobotics.com/blog/meet-the-last-autopilot-for-building-robots-erle-brain-2/)
 
 ![autopilot](https://pbs.twimg.com/media/CUAG0x8WoAAeHjp.jpg)
 
@@ -333,23 +317,15 @@ Su bajo peso, y los pocos periféricos de los que depende, facilitan su uso en e
 
 Más detalles en el libro "RP para agentes secretos"
 
-## Hacking
+### Hacking
 
+Otra utilización cada vez más frecuente es como herramienta de Hacking, puesto que su pequeño tamaño y la cantidad de herramientas disponible la hacen ideal para estos usos.
 
-### Wifi sniffer(RP para agentes secretos)(wifi ...)
+En el libro "Raspberry Pi para agentes secretos" puedes encontrar como usarla como sniffer Wifi
 
-### Almacen e Intercambio de contenidos
+Hay quien incluso la esconde dentro de una regleta [Turn a Raspberry Pi Into a Super Cheap, Packet-Sniffing Power Strip](http://lifehacker.com/six-great-diy-projects-for-hacking-computers-and-networ-1649618886)
 
-### Cómo hackear una raspberry pi
-
-[Hacking RaspPi](https://geekytheory.com/hacking-raspberry-pi/)
-
-### Usos hackers de raspberry
-
-Escóndela dentro de una regleta [Turn a Raspberry Pi Into a Super Cheap, Packet-Sniffing Power Strip](http://lifehacker.com/six-great-diy-projects-for-hacking-computers-and-networ-1649618886)
-
-### Ejemplos de cine
-
+Si por el contrario lo que quieres hacer es hackear una Raspberry Pi, en este [enlace](https://geekytheory.com/hacking-raspberry-pi/) puedes ver cómo hacerlo.
 
 
 ## Documentación sobre Raspberry Pi
