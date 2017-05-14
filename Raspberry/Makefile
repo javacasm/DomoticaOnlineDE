@@ -1,3 +1,5 @@
+SFAQ="RasPi FAQ - Preguntas Frecuentas.pdf"
+FFAQ="RasPi FAQ - Preguntas Frecuentas.md"
 S5="Tema 5 - Qué es Raspberry.pdf"
 F5="Tema 5 - Qué es Raspberry.md"
 S6="Tema 6 - Características de Raspberry.md"
@@ -12,7 +14,15 @@ S10="Tema 10 - Electrónica con Raspberry.md"
 F10="Tema 10 - Electrónica con Raspberry.pdf"
 
 
-all: 5 6 7 8 9 10
+all: 5 6 7 8 9 10 FAQ
+
+FAQ:
+	pandoc --latex-engine=xelatex   \
+					-V papersize:a4paper    \
+					--template=./LaTeX_ES.latex    \
+					-o  $(SFAQ)  \
+					Cabecera.md        \
+					$(FFAQ)
 
 
 5:
