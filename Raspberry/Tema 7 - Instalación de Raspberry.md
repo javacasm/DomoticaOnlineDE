@@ -8,20 +8,19 @@
 
 ### Componentes Obligatorios
 
-* Raspbery Pi
+* Raspberry Pi
 * Fuente de alimentación de 5V con conector micro-USB con al menos 2A (mejor si son 2.5A)
-* Tarjeta SD de al menos 4 GB  o más. Se recomienda de clase 10 por su velocidad
-* Cable de red ethernet
+* Tarjeta SD de al menos 4 GB  o más. Se recomienda de clase 10 por su velocidad. La calidad de la tarjeta es crítica, en tarjetas baratas con problemas de rendimiento nos vamos a encontrar cuelgues inesperados e incluso puede que no arranque.
+* Cable de red ethernet (no es necesario si tenemos Wifi, pero facilita la primera conexión que no requiere configuración)
 
 Y si la vas a usar como un ordenador
 
-* Monitor HDMI (o VGA con adaptador)
-* Cable HDMI. Existen conversores, pero no todos funcionan bien con cables largos
-* Teclado y raton USB (mejor si es inalambrico, porque consume menos)
+* Monitor y cable HDMI (o VGA con adaptador. Existen muchos tipos de conversores, pero no todos funcionan bien con cables largos)
+* Teclado y raton USB (mejor si es inalámbrico, porque consume menos)
 
 ### Opcionales
 
-* Una caja o carcasa(para evitar problemas)
+* Una caja o carcasa (para evitar problemas, es muy fácil hacer un contacto con algo metálico)
 * Conexión a la red: Cable ethernet o dongle Wifi
 * Hub USB con alimentación, así podremos añadir más dispositivos y evitaremos cargar la potencia de la Raspberry
 
@@ -34,15 +33,23 @@ Y si la vas a usar como un ordenador
 ![Kit Raspberry Pi](http://www.electan.com/product_thumb.php?img=images/RaspberryKit2.jpg)
 
 
-
-## ¿Dónde encontrarlos?
-
 * [Raspberry.org](http://Raspberry.org)
+* [www.inven.es](http://www.inven.es)
 * [www.electan.com](http://www.electan.com)
 * [www.amazon.es](http://www.amazon.es)
 * [www.bricogeek.com](http://www.bricogeek.com)
 * [www.raspipc.com](http://www.raspipc.com)
-¿Algún sitio donde comprar en Granada?
+
+Veamos algunos kits
+
+*   [Raspberry](http://inven.es/raspberry-pi/557-kit-raspberry-pi-3-tarjeta-16gb-transformador-corriente.html)                      
+* [Raspberry básico](http://inven.es/raspberry-pi/368-inven-pi3-kit-raspberry-pi-3-basico.html)
+
+* [Raspberry completo](http://inven.es/raspberry-pi/369-inven-pi3-kit-raspberry-pi-3-completo.html)
+
+* [Raspberry + electrónica](http://inven.es/raspberry-pi/370-inven-pi3-kit-raspberry-pi-3-electronica.html)
+
+CODIGO de descuento: KITRASPI2017
 
 * [Kit base](http://www.electan.com/kit-raspberry-con-caja-alimentador-microsd-hdmi-usb-p-6584.html)
 * [Shield electronica](http://tinkersphere.com/raspberry-pi-hats/633-starter-raspberry-pi-led-hat.html)
@@ -53,23 +60,43 @@ Y si la vas a usar como un ordenador
 * [Kit base](http://www.electan.com/kit-raspberry-con-caja-alimentador-microsd-hdmi-usb-p-6584.html)
 * [Shield electronica](http://tinkersphere.com/raspberry-pi-hats/633-starter-raspberry-pi-led-hat.html)
 * [kit amazon](http://www.amazon.es/s/ref=sr_pg_2?rh=i%3Aaps%2Ck%3Araspberry+pi+2+kit+starter&page=2&sort=price-asc-rank&keywords=raspberry+pi+2+kit+starter&ie=UTF8&qid=1449858467)
-* [Destacado 1](http://www.amazon.es/Raspberry-Pi-Quad-Core-Starter/dp/B00T7KW3Y0/ref=sr_1_15?ie=UTF8&qid=1449858467&sr=8-15&keywords=raspberry+pi+2+kit+starter)
-* [Destacado 2](http://www.amazon.es/Raspberry-Pi-Quad-Starter-Bundle/dp/B00T7OHE9A/ref=sr_1_18?ie=UTF8&qid=1449858497&sr=8-18&keywords=raspberry+pi+2+kit+starter)
+
 
 
 ## Sistemas operativos disponibles
 
+Existen muchos sistemas operativos (SO) disponibles para Raspberry, cada uno de ellos está pensado para un fin concreto.
+
+Piensa que para cambiar entre SO, sólo tienes que apagar tu Raspberry, cambiar la tarjeta SD y volver a arrancar. Yo suelo tener varias SDs con los diferentes SO
+
 ### [Noobs](https://www.raspberrypi.org/downloads/noobs/)
+
+Es un SO mínimo pensado para facilitar la instalación. Nos arranca el sistema y nos permite luego elegir qué sistema operativo instalar, y si tenemos suficiente espacio en la tarjeta, podremos instalar varios.
+
+![noobs](./images/noobs.png)
 
 ### [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 
+Es la versión para Raspberry de Debian (Linux). Es el sistema operativo más usado y contiene todo lo necesario.
+
 ### [Ubuntu Mate](https://ubuntu-mate.org/raspberry-pi/)
+
+Es una versión de Ubuntu (Linux) para la Raspberry
 
 ### [Snappy Ubuntu Core](https://developer.ubuntu.com/en/snappy/start/#snappy-raspi2)
 
+Es un Ubuntu (Linux) reducido al mínimo para funcionar en equipos más pequeños
+
 ### [Windows 10 IOT Core](http://ms-iot.github.io/content/en-US/Downloads.htm)
 
+Es una versión reducida de Windows 10
+
 ### [OSMC](https://osmc.tv/download/)
+
+Es un SO orientado a convertir la Raspberry Pi en un centro multimedia
+
+![OpenElec](./images/openelec-vs-osmc-ft-500x281.jpg)
+
 
 ### [Chrome OS](http://www.hwlibre.com/chrome-os-llega-raspberry-pi-otras-placas-sbc/)
 
@@ -90,7 +117,7 @@ Una vez elegida la imagen vamos a proceder a instalar
 	* Empecemos con [Noobs](https://www.raspberrypi.org/blog/tag/noobs/)
 	* [Instalación de Noobs](https://www.raspberrypi.org/help/noobs-setup/)
 
-![noobs](./images/noobs.png)
+	![noobs](./images/noobs.png)
 
 * ¡¡¡Arrancar!!!
 * Configuración
