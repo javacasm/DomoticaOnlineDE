@@ -75,7 +75,7 @@ Algunas ventajas de Arduino:
 
 * Raspberry Pi tiene una mayor capacidad de procesamiento, lo que la hace más adecuada para determinadas tareas, como reconocimiento de imágenes o cálculos complejos, algo que sería impensable para Arduino.
 
-![vs](./images/arduinovsRaspberry.png)
+  ![vs](./images/arduinovsRaspberry.png)
 
 * Raspberry Pi dispone de mayor capacidad de almacenamiento y de memoria permitiendo utilizar programación más avanzada.
 
@@ -128,24 +128,20 @@ Añadiendo algo de hardware externo podemos utilizarlo como equipamiento de labo
 * Generadores de onda
 [DAC](https://learn.adafruit.com/mcp4725-12-bit-dac-with-raspberry-pi)
 
-  ![dac](https://learn.adafruit.com/system/guides/images/000/000/092/medium310/DAC_Scope.png?1396720955)
+  ![dac](https://learn.adafruit.com/system/guides/images/000/000/092/medium310/DAC_Scope.png)
 
 * [Analizador de precuencias](https://learn.adafruit.com/freq-show-raspberry-pi-rtl-sdr-scanner)
 
-  ![analizador](https://learn.adafruit.com/system/guides/images/000/000/759/medium310/DSC00699.jpg?1412198364)
+  ![analizador](https://learn.adafruit.com/system/guides/images/000/000/759/medium310/DSC00699.jpg)
 
-
-### [MediaCenter](https://learn.adafruit.com/raspberry-pi-as-a-media-center)
-
-Uno de los usos más frecuentes es como MediaCenter, hasta existen distribuciones dedicadas a ello.
-
-![mediacenter](http://i.imgur.com/2mueVKc.jpg)
 
 ### MediaCenter
 
+Uno de los usos más frecuentes es como MediaCenter, hasta existen distribuciones dedicadas a ello.
+
 [How to make a MediaCenter](https://learn.adafruit.com/raspberry-pi-as-a-media-center?view=all)
 
-![home](https://learn.adafruit.com/system/assets/assets/000/005/897/medium800/raspberry_pi_xbmc_playing_music.jpg?1396829295)
+![Media Center with Raspberry Pi](https://learn.adafruit.com/system/assets/assets/000/005/897/medium800/raspberry_pi_xbmc_playing_music.jpg)
 
 
 ### Robots
@@ -161,20 +157,12 @@ Uno de los usos más frecuentes es como MediaCenter, hasta existen distribucione
 
 Juega a MineCraft desde tu RaspBerry Pi
 
-![minecraft](https://learn.adafruit.com/system/guides/images/000/000/389/medium310/minecraft2.jpg?1396718054)
+![minecraft](https://cdn-learn.adafruit.com/guides/images/000/000/389/medium310/minecraft2.jpg)
 
-
-### [Arte](https://learn.adafruit.com/light-painting-with-raspberry-pi)
-
-![ligth painting](https://learn.adafruit.com/system/guides/images/000/000/086/medium310/fire.jpg?1396721000)
-
-### [Iluminación](https://learn.adafruit.com/neopixels-on-raspberry-pi)
-
-![Sistema de ilumnicación](https://learn.adafruit.com/system/guides/images/000/000/730/medium310/DSC00518_scaled.jpg?1410477592)
 
 ### [Kano: portátil  basado en raspberrypi](http://www.raspberrypi-spy.co.uk/2016/04/kano-computer-kit-first-impressions/)
 
-![Kano](./images/kano_kit_02-1024x683.jpg)
+
 
 ### Cerebro de una instalación domótica
 
@@ -190,94 +178,87 @@ Puedes usar tu Raspberry como [servidor de ficheros](https://www.adslzone.net/20
 
 [Radio wifi](https://learn.adafruit.com/pi-wifi-radio?view=all)
 
-![radio](https://learn.adafruit.com/system/assets/assets/000/007/372/medium800/raspberry_pi_piphi1.jpg?1396850566)
 
-
-## Data crunching: supercoputación
+## Data crunching: supercomputación
 
 * [Cluster de supercomputación](http://www.cyberhades.com/2014/02/19/tutorial-para-instalar-un-cluster-de-40-nodos-con-raspberry-pi/)
 
-![cluster](./images/PiCluster1.JPG)
+  ![cluster](./images/PiCluster1.JPG)
 
 * [Minería de BitCoin](https://learn.adafruit.com/piminer-raspberry-pi-bitcoin-miner)
 
-
-![bitcoin](https://learn.adafruit.com/system/guides/images/000/000/310/medium310/bcminer1_1200.jpg?1396718919)
+  ![bitcoin](./images/bcminer1_1200.jpg)
 
 ## Cámara
 
 [SnapPiCam](https://learn.adafruit.com/snappicam-raspberry-pi-camera)
 
-![snapPiCam](https://learn.adafruit.com/system/guides/images/000/000/528/medium310/IMG_2411.JPG?1396715460)
+![snapPiCam](./images/snappy_cam.jpg)
 
 
 ## Máquina de juegos
 
-* [Mame](https://learn.adafruit.com/retro-gaming-with-raspberry-pi?view=all)
+Uno de los usos más frecuentas de la Raspberry es para jugar, su pequeño tamaño y su capacidad la hacen ideal.
 
-![mame](https://learn.adafruit.com/system/assets/assets/000/008/824/medium800/gaming_joust.jpg?1396874780)
+* [Mame](https://learn.adafruit.com/retro-gaming-with-raspberry-pi?view=all) (Emulador de máquinas recreativas antiguas)
 
-* [Mini máquina recreativa](https://learn.adafruit.com/cupcade-raspberry-pi-micro-mini-arcade-game-cabinet?view=all)
+  ![mame](./images/gaming_joust.jpg)
 
-![mini](https://learn.adafruit.com/system/assets/assets/000/015/450/medium800/gaming_cover.jpg?1395167594)
+* [Mini máquina recreativa](https://learn.adafruit.com/cupcade-raspberry-pi-micro-mini-arcade-game-cabinet?view=all) aprovechando si mini-tamaño
 
-
-
-
+  ![mini](./images/gaming_cover.jpg)
 
 * [Cómo instalar y jugar al clásico videojuego  Doom](https://learn.sparkfun.com/tutorials/setting-up-raspbian-and-doom?_ga=1.227922267.733603098.1443800444)
 
-  ![Doom](https://cdn.sparkfun.com/r/600-600/assets/1/e/4/f/a/52a8cbcc757b7f5b198b4567.png)
+  ![Doom](./images/doom.png)
 
 * [Minecraft](https://learn.adafruit.com/running-minecraft-on-a-raspberry-pi)
 
-  ![minecraft](https://learn.adafruit.com/system/guides/images/000/000/389/medium310/minecraft2.jpg?1396718054)
+  ![minecraft](./images/minecraft.png)
 
 ## Instrumentos de tortura
 
 No te asustes es sólo un [láser que se mueve aleatoriamente](https://learn.adafruit.com/raspberry-pi-wifi-controlled-cat-laser-toy?view=all)
  y que le encantará a tu gato
 
-  ![Laser para jugar con gatos](https://learn.adafruit.com/system/guides/images/000/000/368/medium310/carmen.jpg?1396718352)
+[Cuadro diabólico](https://learn.adafruit.com/creepy-face-tracking-portrait?view=all)
 
-* [Cuadro diabólico](https://learn.adafruit.com/creepy-face-tracking-portrait?view=all)
-
-![cuadro diabólico](https://learn.adafruit.com/system/assets/assets/000/011/659/medium800/raspberry_pi_DSC00316.jpg?1381799690)
+  ![cuadro diabólico](https://learn.adafruit.com/system/assets/assets/000/011/659/medium800/raspberry_pi_DSC00316.jpg)
 
 ## Arte
 
 * [Ligth Painting](https://learn.adafruit.com/light-painting-with-raspberry-pi)
 
-![ligth painting](https://learn.adafruit.com/system/guides/images/000/000/086/medium310/fire.jpg?1396721000)
+  ![ligth painting](https://learn.adafruit.com/system/guides/images/000/000/086/medium310/fire.jpg)
 
-* [Iluminación](https://learn.adafruit.com/neopixels-on-raspberry-pi)
+* [Iluminación con leds](https://learn.adafruit.com/neopixels-on-raspberry-pi)
 
-![ilumnicación](https://learn.adafruit.com/system/guides/images/000/000/730/medium310/DSC00518_scaled.jpg?1410477592)
+  ![iluminación](./images/leds.jpg)
 
 * [Cortina luminosa](https://learn.adafruit.com/1500-neopixel-led-curtain-with-raspberry-pi-fadecandy?view=all)
 
-![cortina](https://learn.adafruit.com/system/assets/assets/000/018/739/medium800/leds_curtain-anim.gif?1447866960)
+  ![cortina](https://learn.adafruit.com/system/assets/assets/000/018/739/medium800/leds_curtain-anim.gif)
 
 ### Juegos Portables
 
 [Raspberry Pi Gameboy](https://learn.adafruit.com/pigrrl-raspberry-pi-gameboy?view=all)
 
-![gameboy](https://learn.adafruit.com/system/assets/assets/000/017/676/medium800/gaming_pigrrl-adabot.jpg?1404136195)
+![gameboy](./images/gaming_pigrrl-adabot.jpg)
 
 [Super consola](https://learn.adafruit.com/super-game-pi?view=all)
 
-![super](https://learn.adafruit.com/system/assets/assets/000/022/249/medium800/gaming_hero-hands1.jpg?1420582925)
+![super](./images/gaming_hero-hands1.jpg)
 
 
-[Retro consola](https://www.instructables.com/id/Breadboard-RetroPie/?utm_source=newsletter&utm_medium=email)
+[Retro consola](https://www.instructables.com/id/Breadboard-RetroPie/)
 
-![retroconsola](https://cdn.instructables.com/FVM/21LH/J2AWUGW5/FVM21LHJ2AWUGW5.MEDIUM.jpg?width=614)
+![retroconsola](./images/retroconsola.jpg)
 
 ## Teléfono
 
 [RaspiPhone es un teléfono basado en Raspberry Pi](https://learn.adafruit.com/piphone-a-raspberry-pi-based-cellphone?view=all)
 
-![phone](https://learn.adafruit.com/system/guides/images/000/000/723/medium800/IMG_0873.JPG?1447863583)
+![phone](./images/RaspiPhone.jpg)
 
 ## Coche
 
@@ -307,12 +288,12 @@ O volando en drone usando  [Autopilot](http://erlerobotics.com/blog/meet-the-las
 
 * [Portable Raspberry](https://learn.adafruit.com/touch-pi-portable-raspberry-pi)
 
-![portable](https://learn.adafruit.com/system/guides/images/000/000/881/medium310/hero-face3-sm.jpg?1421682543)
+![portable](https://learn.adafruit.com/system/guides/images/000/000/881/medium310/hero-face3-sm.jpg)
 
 
 * [MiniPortatil](https://learn.adafruit.com/mini-raspberry-pi-handheld-notebook-palmtop)
 
-![MiniPortatil con Raspberry Pi](https://learn.adafruit.com/system/guides/images/000/001/046/medium310/hero-pitop-sm.jpg?1433426031)
+![MiniPortatil con Raspberry Pi](https://learn.adafruit.com/system/guides/images/000/001/046/medium310/hero-pitop-sm.jpg)
 
 
 Más detalles en el libro "RP para agentes secretos"
