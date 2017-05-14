@@ -3,18 +3,18 @@
 
 
 
-![raspberry](./images/logoRasp.png)
+![Raspberry](./images/logoRasp.png)
 
-Raspberry Pi se ha convertido, junto con Arduino, en uno de los máximos exponentes del desarrollo casero y profesional basado en herramientas libres, pudiendo ser una plataforma hardware de desarrollo, un pequeño ordenador personal sobre el que programar, navegar o editar un documento de texto, un reproductor de música, películas o imágenes, o la base sobre la que construir un sistema de almacenamiento en red para compartir archivos entre los equipos que tengamos en nuestra red.
+Raspberry Pi se ha convertido, junto con Arduino, en uno de los máximos exponentes del desarrollo casero y profesional basado en herramientas libres, pudiendo ser una plataforma hardware de desarrollo, un pequeño ordenador personal sobre el que programar, navegar o editar un documento de texto, un reproductor de música, películas o imágenes, o la base sobre la que construir un sistema de almacenamiento en red para compartir archivos entre los equipos que tengamos conectados.
 
-El Raspberry Pi se puede convertir fácilmente, por tanto, en un ordenador versátil utilizando cualquier teclado y ratón convencional USB. Además tiene un conector Ethernet para enchufarse a la red local y a Internet y una salida HDMI de vídeo. Por sus características y bajo precio, se ha convertido en una plataforma con muchísimo potencial que contribuye a desarrollar habilidades tecnológicas, promoviendo el aprendizaje de lenguajes de programación como Python, C o Perl, llevando el mundo de la programación a todo aquel que tenga interés en aprender, experimentar y realizar sus propios proyectos.
+Raspberry Pi se puede convertir fácilmente, por tanto, en un ordenador versátil utilizando cualquier teclado y ratón convencional USB. Además tiene un conector Ethernet para enchufarse a la red local y a Internet y una salida HDMI de vídeo. Por sus características y bajo precio, se ha convertido en una plataforma con muchísimo potencial que contribuye a desarrollar habilidades tecnológicas, promoviendo el aprendizaje de lenguajes de programación como Python, C o Perl, llevando el mundo de la programación a todo aquel que tenga interés en aprender, experimentar y realizar sus propios proyectos.
 
 ### Los objetivos del curso son:
 
 * Familiarizarse con la plataforma Raspberry Pi, aprendiendo a instalar y a usarla para
 diferentes fines.
-* Aprender a realizar programas usando lenguajes de scripts como Python o Perl
-* Aprender a montar proyectos con electrónica que se puedan controlar desde la plataforma
+* Aprender a realizar programas sencillos usando lenguajes de scripts como Python o Shell
+* Aprender a montar proyectos fáciles con electrónica que se puedan controlar desde la plataforma
 
 ![esquema](./images/esquema.png)
 
@@ -24,19 +24,18 @@ diferentes fines.
 - Características generales de la placa Raspberry Pi. Hardware
 - Primeros pasos con Raspberry Pi. Software
 - Lenguaje de programación y entorno de desarrollo integrado
-- Utilización de librerías externas para programación
 - Conexión con equipos electrónicos y Arduino
 
 
 ## Orígenes
 
-La intención era crear un sistema barato que nos permitiera enseñar a programar a niños y adultos.
+La intención de los creadores de Raspberry era crear un sistema barato que nos permitiera enseñar a programar a niños y adultos.
 
 * En 2005, la Universidad de Cambridge notó como cada vez menos estudiantes quería estudiar informática
 
 * Pensaron que la solución podía ser un ordenador superbarato con el que pudieran jugar, aprendiendo en el camino.
 
-* Se empezó a construir en 2006, pero era difícil
+* Se empezó a construir en 2006, pero era difícil con la electrónica de la época
 ![Prototipo de Raspberry Pi](./images/prototipoRaspi.jpg)
 
 * En 2009 ya existía la tecnología necesaria y se creó "Raspberry Pi Fundation" administrada por Eben Upton
@@ -46,50 +45,17 @@ La intención era crear un sistema barato que nos permitiera enseñar a programa
 ![Placa beta de Raspberry Pi](./images/betaPi.png)
 
 
-Utiliza un diseño avanzado
+Utiliza un diseño avanzado, como podemos ver en la imagen donde se ve que se ha colocado un chip encima de otro.
 
 ![Diseño avanzado](./images/EncapsuladoCPU-RAM.JPG)
 
-##  [Versiones](https://www.raspberrypi.org/documentation/hardware/raspberrypi/models/README.md)
-
-![Diferentes modelos de Raspberry Pi](images/raspberry-pi-models.jpg)
-
-[Version 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) (1.2GHz quad core 1Gb Wifi y bluetooth)
-
-[Version 0](https://www.raspberrypi.org/products/pi-zero/) (1Ghz 512Mb)
-
-[Versión 2 B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) (900MHz quad core y 1Gb)
-
-[Versión B+](https://www.raspberrypi.org/documentation/hardware/raspberrypi/models/README.md#modelbplus) 2014
-
-![modeloB](./images/ModeloB.jpg)
-
-Versión B (512M y ethernet)
-
-Versión A (256MB)
-
-[La llegada de los clones](./clones.md)
+La versión más actual es la [Versión 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) (1.2GHz quad core 1Gb Wifi y bluetooth)
 
 
 ### Refencias
 
 [Artículo de la wikipedia sobre RaspBerry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
 
-[Products at Raspberry.org](https://www.raspberrypi.org/products/ )
-
-[Tabla de los distintos modelos y sus características](https://es.wikipedia.org/wiki/Raspberry_Pi#Especificaciones_t.C3.A9cnicas)
-
-[Comparativa Raspberry 2](https://learn.adafruit.com/introducing-the-raspberry-pi-2-model-b?view=all)
-
-
-## Arquitectura
-
-Un diagrama simplificado de la arquitectura de Raspberry Pi
-
-![Arquitectura de la Raspberry Pi](./images/bloques.png)
-
-
-![Bloques de la Raspberry Pi](./images/estructura.png)
 
 ## ¿Raspberry Pi vs Arduino?
 
@@ -100,8 +66,8 @@ Una pregunta muy frecuente es si para determinado proyecto es mejor usar Arduino
 * Arduino es más robusto eléctricamente: si se produce un cortocircuito entre pines o se comente un error se apagará y reseteará pero las probabilidades de romperlo son bajas. En cambio si hacemos esto mismo con una Raspberry lo más seguro es que la dejemos inservible.
 
 Algunas ventajas de Arduino:
-* Es capaz de dar una mayor corriente por cada patilla (hasta 40mA) mientras que Raspberry no puede dar más de 5mA
-* Dispone de entradas analógicas, es decir, es capaz de leer valores intermedios entre 0 y 5v, no solo digitales como raspberry
+* Es capaz de dar una mayor corriente por cada patilla (hasta 40mA) mientras que Raspberry Pi no puede dar más de 5mA
+* Dispone de entradas analógicas, es decir, es capaz de leer valores intermedios entre 0 y 5v, no solo digitales como Raspberry Pi
 * La sencillez de su funcionamiento (como microcontrolador ) le aporta una gran robustez a la hora de soportar cortes de alimentación.
 * Últimamente están apareciendo diversas versiones de Arduino con mayor capacidad, soportando una programación más compleja y potente, como Yún o Galileo.
 
