@@ -155,20 +155,32 @@ Lo más importante es cambiar la contraseña para evitar que cualquiera pudiera 
 
 ### Configuración de Interfaces
 
-![ConfRaspiInterfaces](./images/ConfRaspiInterfaces.png)
+![Configuración de las Interfaces](./images/ConfRaspiInterfaces.png)
 
 Aquí veremos qué drivers activamos (porque vayamos a usar esos dispositivos) o que protocolos de comunicación usaremos para acceder.
 
-Si vamos a acceder desde otro ordenador deberemos activar SSH si accederemos vía consola (texto) o VNC para acceder al escritorio.
+Si vamos a acceder desde otro ordenador deberemos activar SSH en el caso de  acceder vía consola (texto) o VNC para acceder al escritorio.
 
+### Configuración de rendimiento
 
-![ConfRaspiInterfaces](./images/ConfRaspRendimiento.png)
+![Configuración de rendimiento](./images/ConfRaspRendimiento.png)
+
+En la versión 3 de Raspberry no se puede cambiar la velocidad del procesador desde este interface (en las versiones anteriores sí), pero sí que podemos cambiar la cantidad de memoria que se asigna al procesador gráfico con lo que conseguiremos que aplicación que usan intensivamente gráficos vayan más rápidas
+
+### Configuración de idiomas y teclado
 
 ![ConfRaspiInterfaces](./images/ConfRaspLocalizacion.png)
 
+Esta parte de la configuración es fundamental para configurar la zona horaria, el idioma (Local) y el teclado
+
+### Configuración desde consola
+
+Si necesitamos configurar desde consola de texto  podemos lanzar la aplicación de configuración escribiendo:
+
 	sudo raspi-config
 
-(Puede variar algo según la versión)
+
+Y obtendremos las pantallas de configuración. (Puede variar algo según la versión)
 
 ![config](./images/config.png)
 
@@ -178,14 +190,13 @@ Si vamos a acceder desde otro ordenador deberemos activar SSH si accederemos ví
 
 ![overclock](./images/overcock.png)
 
-
 Una vez configurado podemos abrir el entorno visual con
 
 	startx
 
 ![Arrancamos el entorno visual con startx](./images/raspX.png)
 
-En cualquier momento podemos volver a reconfigurar
+En cualquier momento podemos volver a reconfigurar con
 
 	sudo raspi-config
 
