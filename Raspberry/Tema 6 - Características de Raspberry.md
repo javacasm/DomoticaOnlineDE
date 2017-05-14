@@ -103,11 +103,15 @@ Veamos algunos de ellos:
 
 * [Nanode y waspmote](http://blogthinkbig.com/4-alternativas-arduino-beaglebone-raspberrypi-nanode-waspmote/)
 
-* [Banana Pi](http://www.bananapi.org/) Es una de las más parecidas
+* [Banana Pi](http://www.bananapi.org/) Es una de las más parecidas a Raspberry y se puede encontrar en varias versiones y a unos precios muy reducidos.
 
   ![Banana Pi](http://3.bp.blogspot.com/-GoEelIoko-w/U2h3F0qXJJI/AAAAAAAAA1M/1XcSOrhLnlk/s1600/BananaPi-A+45degree.jpg)
 
+  En el esquema vemos que algunos modelos de hecho tienen más conectores que la Raspberry Pi (por ejemplo el conectr SATA)
+
   ![Esquema de Banana Pi](http://1.bp.blogspot.com/-azSvZIIpG34/U8jNKCkvGsI/AAAAAAAAAro/stwR2lJqlnI/s1600/Banana-pi-%E6%AD%A3%E9%9D%A2.png)
+
+  Los pines del conector GPIO son muy similares
 
   ![GPio Banana Pi](http://3.bp.blogspot.com/-t3ox6yvnWXw/U2h33S-_sGI/AAAAAAAAA1s/LwXUm6z7AmM/s1600/26pins-header.png)
 
