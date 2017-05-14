@@ -98,7 +98,7 @@ Han sido muchas las películas y series donde han aparecido últimamente Raspber
 
 * CSI Cyber: lo usan como un router que les permite capturar datos de la red donde están (un parque de atracciones) y así descubren como poder controlar las atracciones.
 
-  ![Raspberry en CSI Cyber](https://lh3.googleusercontent.com/-lQWEqNDaezk/VQOJTPtv_5I/AAAAAAAAEbQ/uPOQZ0hh4ao/w927-h593/RaspberryPi_on_CSI-Cyber.jpg)
+  ![Raspberry en CSI Cyber](./images/RaspberryPi_on_CSI-Cyber.jpg)
 
 ¿Cónoces alguna aparición más en los medios? No dudes en contárnosla.
 
