@@ -189,9 +189,9 @@ El montaje es idéntico al de una salida digital, sólo que hay que elegir un pi
 
 ![Led RGB](./images/ledRGB.jpg)
 
-Un led RGB es un led que internamente tiene 3 led. Normalmente tiene uno rojo, uno verde y un azul (de ahí el nombre Red, Green, Blue). Se unen una de las patillas de cada uno en una patilla común dejando los otros 3 terminales separado.
+Un led RGB es un led que internamente tiene 3 led. Normalmente tiene uno rojo, uno verde y un azul (de ahí el nombre Red, Green, Blue). Se unen una de las patillas de cada uno en una patilla común dejando los otros 3 terminales separados.
 
-Por esto hay 2 tipos de diodos RGB: los de ánodo común y los cátodo común. Esto se debe a que dependiendo de cual de las patillas se haya unido.
+Por esto hay 2 tipos de diodos RGB: los de **ánodo común** y los **cátodo común**,  dependiendo de cual de las patillas se haya unido.
 
 La diferencia es que en unos tienes que aplicar voltaje positivo a los terminales (mayor que los 0v que hay en el común)de los colores y en los otros voltaje negativo (menor a los 5V que hay en el común).
 
