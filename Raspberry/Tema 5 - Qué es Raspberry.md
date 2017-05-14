@@ -1,15 +1,13 @@
 # Tema 5 - ¿Qué es Raspberry?
 
 
-
-
 ![Raspberry](./images/logoRasp.png)
 
 Raspberry Pi se ha convertido, junto con Arduino, en uno de los máximos exponentes del desarrollo casero y profesional basado en herramientas libres, pudiendo ser una plataforma hardware de desarrollo, un pequeño ordenador personal sobre el que programar, navegar o editar un documento de texto, un reproductor de música, películas o imágenes, o la base sobre la que construir un sistema de almacenamiento en red para compartir archivos entre los equipos que tengamos conectados.
 
 Raspberry Pi se puede convertir fácilmente, por tanto, en un ordenador versátil utilizando cualquier teclado y ratón convencional USB. Además tiene un conector Ethernet para enchufarse a la red local y a Internet y una salida HDMI de vídeo. Por sus características y bajo precio, se ha convertido en una plataforma con muchísimo potencial que contribuye a desarrollar habilidades tecnológicas, promoviendo el aprendizaje de lenguajes de programación como Python, C o Perl, llevando el mundo de la programación a todo aquel que tenga interés en aprender, experimentar y realizar sus propios proyectos.
 
-### Los objetivos del curso son:
+### Objetivos del módulo
 
 * Familiarizarse con la plataforma Raspberry Pi, aprendiendo a instalar y a usarla para
 diferentes fines.
@@ -18,7 +16,7 @@ diferentes fines.
 
 ![esquema](./images/esquema.png)
 
-### Esquema del curso
+### Esquema del módulo
 
 - Introducción
 - Características generales de la placa Raspberry Pi. Hardware
@@ -27,7 +25,7 @@ diferentes fines.
 - Conexión con equipos electrónicos y Arduino
 
 
-## Orígenes
+## Orígenes de Raspberry Pi
 
 La intención de los creadores de Raspberry era crear un sistema barato que nos permitiera enseñar a programar a niños y adultos.
 
@@ -52,12 +50,10 @@ Utiliza un diseño avanzado, como podemos ver en la imagen donde se ve que se ha
 La versión más actual es la [Versión 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) (1.2GHz quad core 1Gb Wifi y bluetooth)
 
 
-### Refencias
-
-[Artículo de la wikipedia sobre RaspBerry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
+Puedes encontrar más detalles en la [página de la wikipedia]([Artículo de la wikipedia sobre RaspBerry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
 
 
-## ¿Raspberry Pi vs Arduino?
+## Raspberry Pi vs Arduino
 
 ![vs](./images/arduinovsRaspberry.jpg)
 
@@ -96,22 +92,27 @@ Han sido muchas las películas y series donde han aparecido últimamente Raspber
 
 * CSI Cyber: lo usan como un router que les permite capturar datos de la red donde están (un parque de atracciones) y así descubren como poder controlar las atracciones.
 
+¿Cónoces alguna aparición más en los medios? No dudes en contárnosla.
+
 ## Documentación sobre Raspberry Pi
+
+Existe mucha documentación sobre Raspberry Pi, veamos alguna de ella.
 
 ### Revistas
 
-[Revista The MagPy](https://www.raspberrypi.org/magpi/)
+La principal revista (mensual) sobre Rasperry Pi es [The MagPy](https://www.raspberrypi.org/magpi/). Es una fuente de información extraordinaria, repleta de proyectos y consejos. Se puede descargar gratuitamente pero si compras la edición en papel suele traer regalos. El famoso número 40 de la revista ¡regalaban un Rasperry Pi Zero! por los 5€ que cuesta. Ni que decir tiene que se agotó rápidamente.
 
-[Todos los números](https://www.raspberrypi.org/magpi/issues/)
+Puedes descargar [todos los números](https://www.raspberrypi.org/magpi/issues/) directamente.
 
-[Libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/)
-
+También ha creado un [libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/)
 
 ### Libros
 
-* Programing the Raspberry Pi, Simon Monk
-* Raspberry Pi for Secret Agents
-* Raspberry Pi Gamming
+Te recomiendo estos 3 libros.  
+
+* Programing the Raspberry Pi, Simon Monk: es un clásico y en sus 90 páginas encontrarás casi todo lo que necesitas saber para manejar y programar tu Raspberry Pi.
+* Raspberry Pi for Secret Agents: tiene proyectos más avanzados
+* Raspberry Pi Gamming: te enseña a hacer juegos con la Raspberry Pi
 
 
 ### Tutoriales
