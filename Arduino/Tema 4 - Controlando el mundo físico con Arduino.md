@@ -232,4 +232,4 @@ Si tenéis curiosidad por algún sensor y no lo encontráis aquí no dejéis de 
 
 <iframe width="960" height="749" frameborder="0" src="https://docs.google.com/presentation/embed?id=1EPN5gyd8S8YHc1wgIeuZONmEshDqNo47xLicAjvd-TY&amp;start=false&amp;loop=false&amp;delayms=5000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-[Enlace para descargar la presentación](https://www.dropbox.com/s/fng1u66lzpu6rf4/4.6%20-%20Sensores.pdf)
+[Enlace para descargar la presentación](https://www.dropbox.com/s/w4wd1asce3dvxox/4.6%20-%20Sensores.pdf?dl=0)
