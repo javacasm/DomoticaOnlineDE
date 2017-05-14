@@ -106,11 +106,20 @@ Han sido muchas las películas y series donde han aparecido últimamente Raspber
 
 Vamos a ver algunos proyectos donde se usa una (o varias) Raspberry Pi
 
-### [Aulas informatica de bajo coste](https://www.raspberrypi.org/blog/bringing-computing-to-rural-cameroon/)
+### Enseñanza
 
-Se trata de construir un aula entera de informática usando Raspberry Pi
+Existen [distribuciones  educativas](https://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro)
+
+Podemos montar [Aulas informatica](https://www.raspberrypi.org/blog/bringing-computing-to-rural-cameroon/)
 
 ![Aula con Raspberry Pi](./images/AulaPi.jpg)
+
+También podemos hacer un [servidor de aula con los contenidos de (Kahn Academy Offline)](http://www.raspberrypi.org/archives/3829?sf12291563=1)
+
+	Raspebrry 35$
+	SD 64Gb 50$
+	Wifi USB 5$
+	Caja 9$
 
 ### Instrumentación de Laboratorio
 
@@ -150,11 +159,6 @@ Uno de los usos más frecuentes es como MediaCenter, hasta existen distribucione
 
 ![snapPiCam: cámara basada en Raspberry Pi](https://learn.adafruit.com/system/guides/images/000/000/528/medium310/IMG_2411.JPG?1396715460)
 
-[Juegos](https://learn.sparkfun.com/tutorials/setting-up-raspbian-and-doom?_ga=1.227922267.733603098.1443800444)
-
-El clásico videojuego Doom corriendo en una Raspberry Pi
-
-![El clásico Doom corriendo en una Raspberry Pi](https://cdn.sparkfun.com/r/600-600/assets/1/e/4/f/a/52a8cbcc757b7f5b198b4567.png)
 
 ### [Minecraft](https://learn.adafruit.com/running-minecraft-on-a-raspberry-pi)
 
@@ -196,20 +200,6 @@ Puedes usar tu Raspberry como [servidor de ficheros](https://www.adslzone.net/20
 
 ![radio](https://learn.adafruit.com/system/assets/assets/000/007/372/medium800/raspberry_pi_piphi1.jpg?1396850566)
 
-## Enseñanza
-
-[Distribución educativa](https://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro)
-
-[Aulas informatica](https://www.raspberrypi.org/blog/bringing-computing-to-rural-cameroon/)
-
-![aula](./images/AulaPi.jpg)
-
-[Servidor de aula (Kahn Academy Offline)](http://www.raspberrypi.org/archives/3829?sf12291563=1)
-
-	Raspebrry 35$
-	SD 64Gb 50$
-	Wifi USB 5$
-	Caja 9$
 
 ## Data crunching: supercoputación
 
@@ -270,24 +260,32 @@ Puedes usar tu Raspberry como [servidor de ficheros](https://www.adslzone.net/20
 
 ![cortina](https://learn.adafruit.com/system/assets/assets/000/018/739/medium800/leds_curtain-anim.gif?1447866960)
 
-## Portables
+### [Juegos](https://learn.sparkfun.com/tutorials/setting-up-raspbian-and-doom?_ga=1.227922267.733603098.1443800444)
 
-* [Raspberry Pi Gameboy](https://learn.adafruit.com/pigrrl-raspberry-pi-gameboy?view=all)
+El clásico videojuego Doom corriendo en una Raspberry Pi
+
+![El clásico Doom corriendo en una Raspberry Pi](https://cdn.sparkfun.com/r/600-600/assets/1/e/4/f/a/52a8cbcc757b7f5b198b4567.png)
+
+
+
+### Juegos Portables
+
+[Raspberry Pi Gameboy](https://learn.adafruit.com/pigrrl-raspberry-pi-gameboy?view=all)
 
 ![gameboy](https://learn.adafruit.com/system/assets/assets/000/017/676/medium800/gaming_pigrrl-adabot.jpg?1404136195)
 
-* [Super consola](https://learn.adafruit.com/super-game-pi?view=all)
+[Super consola](https://learn.adafruit.com/super-game-pi?view=all)
 
 ![super](https://learn.adafruit.com/system/assets/assets/000/022/249/medium800/gaming_hero-hands1.jpg?1420582925)
 
 
-* [Retro consola](https://www.instructables.com/id/Breadboard-RetroPie/?utm_source=newsletter&utm_medium=email)
+[Retro consola](https://www.instructables.com/id/Breadboard-RetroPie/?utm_source=newsletter&utm_medium=email)
 
 ![retroconsola](https://cdn.instructables.com/FVM/21LH/J2AWUGW5/FVM21LHJ2AWUGW5.MEDIUM.jpg?width=614)
 
 ## Teléfono
 
-* [RaspiPhone](https://learn.adafruit.com/piphone-a-raspberry-pi-based-cellphone?view=all)
+[RaspiPhone es un teléfono basado en Raspberry Pi](https://learn.adafruit.com/piphone-a-raspberry-pi-based-cellphone?view=all)
 
 ![phone](https://learn.adafruit.com/system/guides/images/000/000/723/medium800/IMG_0873.JPG?1447863583)
 
