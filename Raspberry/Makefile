@@ -26,7 +26,7 @@ FAQ:
 
 
 5:
-	pandoc --latex-engine=xelatex   \
+	pandoc  --latex-engine=xelatex   \
 					-V papersize:a4paper    \
 					--template=./LaTeX_ES.latex    \
 					-o  $(S5)  \
