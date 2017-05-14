@@ -120,9 +120,51 @@ Una vez elegida la imagen vamos a proceder a instalar
 	![noobs](./images/noobs.png)
 
 * ¡¡¡Arrancar!!!
-* Configuración
+
+Aparecerá una pantalla multicolor
+
+![Imagen multicolor en el arranque de Raspberry pi](./images/raspberry-pi-boot-rainbow.jpg)
+
+Y después se verá en formato texto el arranque
+
+![Arranque de Raspberry Pi](./images/raspi2boot.jpg)
+
+Si todo va bien veremos el escritorio Pixel
+
+![Escritorio Pixel](./images/PixelMenu.png)
+
+A la izquierda tenemos el menú de aplicaciones y a la derecha podemos pulsar sobre el icono del Wifi o de la red para configurarla si fuera necesario.
+
+![Configuración Wifi de Raspberry](./images/wifi2.png)
 
 ## Configuración
+
+Existe un asistente para configurar la manera en la que funcionará nuestra Raspberry. Podemos hacerlo desde el menú de configuración
+
+![Menú de configuración de Raspberry](./images/ConfiguracionRaspberry.png)
+
+Al abrirlo veremos que hay 4 pestañas, cada una de ellas dedicada a unos aspectos diferentes de la configuración:
+
+### Configuración del sistema
+
+![Configuración del sistema](./images/ConfRaspiSistema.png)
+
+Aquí podemos decidir si el sistema arranca en modo texto o escritorio visual o la configuración de red.
+
+Lo más importante es cambiar la contraseña para evitar que cualquiera pudiera entrar.
+
+### Configuración de Interfaces
+
+![ConfRaspiInterfaces](./images/ConfRaspiInterfaces.png)
+
+Aquí veremos qué drivers activamos (porque vayamos a usar esos dispositivos) o que protocolos de comunicación usaremos para acceder.
+
+Si vamos a acceder desde otro ordenador deberemos activar SSH si accederemos vía consola (texto) o VNC para acceder al escritorio.
+
+
+![ConfRaspiInterfaces](./images/ConfRaspRendimiento.png)
+
+![ConfRaspiInterfaces](./images/ConfRaspLocalizacion.png)
 
 	sudo raspi-config
 
