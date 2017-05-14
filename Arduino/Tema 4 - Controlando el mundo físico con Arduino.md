@@ -16,9 +16,11 @@ En este módulo veremos como hacerlo.
 
 En la siguiente presentación puedes ver una introducción a la electrónica:
 
+<iframe width="960" height="749" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="https://docs.google.com/presentation/embed?id=1mlXV-Wxtx7rHHfaTzzLYdnhHpBFAmaWu-jC891pyYyE&amp;start=false&amp;loop=false&amp;delayms=60000"></iframe>
+[Presentación: introducción a la electrónica](https://docs.google.com/presentation/embed?id=1mlXV-Wxtx7rHHfaTzzLYdnhHpBFAmaWu-jC891pyYyE&amp;start=false&amp;loop=false&amp;delayms=60000)
+
 [Enlace para descarga](https://www.dropbox.com/s/heovmlqccxoc9ta/4.0%20-%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica.pdf?dl=0)
 
-<iframe width="960" height="749" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="https://docs.google.com/presentation/embed?id=1mlXV-Wxtx7rHHfaTzzLYdnhHpBFAmaWu-jC891pyYyE&amp;start=false&amp;loop=false&amp;delayms=60000"></iframe>
 
 ### Múndo digital
 
@@ -175,6 +177,8 @@ Vamos a hacer un programa que vaya encendiendo progresivamente un led y luego lo
 
 ![Salida analógica](./images/SalidaAnalogica2.png)
 
+
+
 El montaje es idéntico al de una salida digital, sólo que hay que elegir un pin que permite usar PWM (indicados con **~**)
 
 #### Desde bitbloq
@@ -231,5 +235,6 @@ Haríamos lo siguiente:
 Si tenéis curiosidad por algún sensor y no lo encontráis aquí no dejéis de preguntarlo en el foro e intentaremos entre todos averiguar cómo funciona.
 
 <iframe width="960" height="749" frameborder="0" src="https://docs.google.com/presentation/embed?id=1EPN5gyd8S8YHc1wgIeuZONmEshDqNo47xLicAjvd-TY&amp;start=false&amp;loop=false&amp;delayms=5000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+[Presentación sobre sensores](https://docs.google.com/presentation/embed?id=1EPN5gyd8S8YHc1wgIeuZONmEshDqNo47xLicAjvd-TY&amp;start=false&amp;loop=false&amp;delayms=5000)
 
 [Enlace para descargar la presentación](https://www.dropbox.com/s/w4wd1asce3dvxox/4.6%20-%20Sensores.pdf?dl=0)
