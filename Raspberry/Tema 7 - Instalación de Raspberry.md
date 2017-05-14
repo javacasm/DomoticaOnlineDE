@@ -6,7 +6,7 @@
 
 ![Esquema completo de montaje de una Raspberry Pi](./images/MontajeCompleto.png)
 
-## Componentes Obligatorios
+### Componentes Obligatorios
 
 * Raspbery Pi
 * Fuente de alimentación de 5V con conector micro-USB con al menos 2A (mejor si son 2.5A)
@@ -19,7 +19,7 @@ Y si la vas a usar como un ordenador
 * Cable HDMI. Existen conversores, pero no todos funcionan bien con cables largos
 * Teclado y raton USB (mejor si es inalambrico, porque consume menos)
 
-## Opcionales
+### Opcionales
 
 * Una caja o carcasa(para evitar problemas)
 * Conexión a la red: Cable ethernet o dongle Wifi
@@ -125,9 +125,8 @@ En cualquier momento podemos volver a reconfigurar
 
 ¿Y si no tengo una Raspberry Pi?
 
-Existen [varios emuladores](https://www.google.es/search?q=raspberry+simulator&oq=raspberry+simulator&aqs=chrome..69i57j69i65l3j69i60l2.3806j0j7&sourceid=chrome&es_sm=93&ie=UTF-8) aunque no espere que la experiencia sea la misma....
+Existen [varios emuladores](https://www.google.es/search?q=raspberry+simulator&oq=raspberry+simulator&aqs=chrome..69i57j69i65l3j69i60l2.3806j0j7&sourceid=chrome&es_sm=93&ie=UTF-8) aunque no esperes que la experiencia sea la misma....
 
-TODO: Sobre la velocidad....
 
 ### [En windows](http://www.diverteka.com/?p=66)
 
@@ -149,7 +148,7 @@ TODO: Sobre la velocidad....
 
 ### [Simulando el Sense Hat](https://www.raspberrypi.org/blog/sense-hat-emulator/)
 
-### Usando Pixel el entorno de Raspberry Pi
+### Usando Pixel el entorno de Raspberry Pi en tu PC
 
 ![Pixel](https://www.raspberrypi.org/app/uploads/2016/09/newdesk-500x281.jpg)
 
