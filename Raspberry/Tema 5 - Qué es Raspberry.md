@@ -40,7 +40,7 @@ La intención de los creadores de Raspberry era crear un sistema barato que nos 
 
 * En 2011 aparecen los primeros prototipos y se ven factibles modelos de 25$ y 35$. Aparece el modelo B Beta
 
-![Placa beta de Raspberry Pi](./images/betaPi.png)
+  ![Placa beta de Raspberry Pi](./images/betaPi.png)
 
 
 Utiliza un diseño avanzado, como podemos ver en la imagen donde se ve que se ha colocado un chip encima de otro.
@@ -48,6 +48,12 @@ Utiliza un diseño avanzado, como podemos ver en la imagen donde se ve que se ha
 ![Diseño avanzado](./images/EncapsuladoCPU-RAM.JPG)
 
 La versión más actual es la [Versión 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) (1.2GHz quad core 1Gb Wifi y bluetooth)
+
+![Raspberry Pi versión 3](https://www.raspberrypi.org/app/uploads/2016/02/Raspberry-Pi-3-top-down-web.jpg)
+
+y la versión [Zero](https://www.raspberrypi.org/products/pi-zero/) (1Ghz 512Mb)
+
+![Raspberry Pi Zero](https://www.raspberrypi.org/app/uploads/2016/02/Raspberry-Pi-Zero-web.jpg)
 
 
 Puedes encontrar más detalles en la [página de la wikipedia]([Artículo de la wikipedia sobre RaspBerry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
@@ -88,9 +94,11 @@ Han sido muchas las películas y series donde han aparecido últimamente Raspber
 
 * [Serie Mr. Robot](http://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/): utilizan como punto de acceso externo y para inyectar datos erróneos en el sistema de control de temperatura y así poder controlarlo.
 
-[Vídeo de Mr. Robot](https://www.youtube.com/watch?v=55jypw_xAo0)
+  ![Raspberry usada en Mr. Robot](http://therobotacademy.com/sites/default/files/hacks-mr-robot-build-hacking-raspberry-pi-2_0.jpg)
 
 * CSI Cyber: lo usan como un router que les permite capturar datos de la red donde están (un parque de atracciones) y así descubren como poder controlar las atracciones.
+
+  ![Raspberry en CSI Cyber](https://lh3.googleusercontent.com/-lQWEqNDaezk/VQOJTPtv_5I/AAAAAAAAEbQ/uPOQZ0hh4ao/w927-h593/RaspberryPi_on_CSI-Cyber.jpg)
 
 ¿Cónoces alguna aparición más en los medios? No dudes en contárnosla.
 
@@ -104,11 +112,19 @@ Se trata de construir un aula entera de informática usando Raspberry Pi
 
 ![Aula con Raspberry Pi](./images/AulaPi.jpg)
 
-### [Instrumentación de Laboratorio](https://learn.adafruit.com/mcp4725-12-bit-dac-with-raspberry-pi)
+### Instrumentación de Laboratorio
 
 Añadiendo algo de hardware externo podemos utilizarlo como equipamiento de laboratorio.
 
-![DAC con Raspberry Pi](https://learn.adafruit.com/system/guides/images/000/000/092/medium310/DAC_Scope.png?1396720955)
+* Generadores de onda
+[DAC](https://learn.adafruit.com/mcp4725-12-bit-dac-with-raspberry-pi)
+
+  ![dac](https://learn.adafruit.com/system/guides/images/000/000/092/medium310/DAC_Scope.png?1396720955)
+
+* [Analizador de precuencias](https://learn.adafruit.com/freq-show-raspberry-pi-rtl-sdr-scanner)
+
+  ![analizador](https://learn.adafruit.com/system/guides/images/000/000/759/medium310/DSC00699.jpg?1412198364)
+
 
 ### [MediaCenter](https://learn.adafruit.com/raspberry-pi-as-a-media-center)
 
@@ -116,18 +132,19 @@ Uno de los usos más frecuentes es como MediaCenter, hasta existen distribucione
 
 ![mediacenter](http://i.imgur.com/2mueVKc.jpg)
 
-### [Robots](https://learn.sparkfun.com/tutorials/getting-started-with-the-brickpi?_ga=1.260570443.733603098.1443800444)
+### MediaCenter
+
+[How to make a MediaCenter](https://learn.adafruit.com/raspberry-pi-as-a-media-center?view=all)
+
+![home](https://learn.adafruit.com/system/assets/assets/000/005/897/medium800/raspberry_pi_xbmc_playing_music.jpg?1396829295)
+
+
+### Robots
 
 ![Placa para conectar Lego y Raspberry Pi](https://cdn.sparkfun.com/r/600-600/assets/8/3/6/4/0/Brick_Pi_Hookup_Guide-12.jpg)
 
-### [Supercomputación](http://www.cyberhades.com/2014/02/19/tutorial-para-instalar-un-cluster-de-40-nodos-con-raspberry-pi/)
+[Raspberry y Lego Minstorm](https://learn.sparkfun.com/tutorials/getting-started-with-the-brickpi?_ga=1.260570443.733603098.1443800444)
 
-![Cluster formado por 64 Raspberry Pi](./images/PiCluster1.JPG)
-
-### [Minería de BitCoin](https://learn.adafruit.com/piminer-raspberry-pi-bitcoin-miner)
-
-
-![Placa dedicada a minería de Bitcoin basada en Raspberry Pi](https://learn.adafruit.com/system/guides/images/000/000/310/medium310/bcminer1_1200.jpg?1396718919)
 
 ### [Cámaras](https://learn.adafruit.com/snappicam-raspberry-pi-camera)
 
@@ -151,57 +168,33 @@ No te asustes es sólo un láser que se mueve aleatoriamente y que le encantará
 
 ![Láser que se mueve aleatoriamente](https://learn.adafruit.com/system/guides/images/000/000/368/medium310/carmen.jpg?1396718352)
 
-## [Arte](https://learn.adafruit.com/light-painting-with-raspberry-pi)
+### [Arte](https://learn.adafruit.com/light-painting-with-raspberry-pi)
 
 ![ligth painting](https://learn.adafruit.com/system/guides/images/000/000/086/medium310/fire.jpg?1396721000)
 
-## [Iluminación](https://learn.adafruit.com/neopixels-on-raspberry-pi)
+### [Iluminación](https://learn.adafruit.com/neopixels-on-raspberry-pi)
 
 ![Sistema de ilumnicación](https://learn.adafruit.com/system/guides/images/000/000/730/medium310/DSC00518_scaled.jpg?1410477592)
 
-## [Kano: portátil  basado en raspberrypi](http://www.raspberrypi-spy.co.uk/2016/04/kano-computer-kit-first-impressions/)
+### [Kano: portátil  basado en raspberrypi](http://www.raspberrypi-spy.co.uk/2016/04/kano-computer-kit-first-impressions/)
 
 ![Kano](./images/kano_kit_02-1024x683.jpg)
 
-
-
-## MediaCenter
-
-[How to make a MediaCenter](https://learn.adafruit.com/raspberry-pi-as-a-media-center?view=all)
-
-![home](https://learn.adafruit.com/system/assets/assets/000/005/897/medium800/raspberry_pi_xbmc_playing_music.jpg?1396829295)
-
-## Laboratorio
-
-* Generador de onda
-[DAC](https://learn.adafruit.com/mcp4725-12-bit-dac-with-raspberry-pi)
-![dac](https://learn.adafruit.com/system/guides/images/000/000/092/medium310/DAC_Scope.png?1396720955)
-
-* [Analizador de precuencias](https://learn.adafruit.com/freq-show-raspberry-pi-rtl-sdr-scanner)
-
-![analizador](https://learn.adafruit.com/system/guides/images/000/000/759/medium310/DSC00699.jpg?1412198364)
-
-## Cerebro de una instalación domótica
+### Cerebro de una instalación domótica
 
 [Regulación de temperatura](https://tackk.com/nightcooling)
 
 ## Servidor NAS
 
-## Cortafuegos/acceso remoto
+Puedes usar tu Raspberry como [servidor de ficheros](https://www.adslzone.net/2016/08/24/convierte-cualquier-disco-duro-nas-gracias-la-raspberry-pi-3/)
 
-## Monitorización
+![Raspberry Pi como servidor de ficheros](http://www.davidhunt.ie/wp-content/uploads/2013/01/IMG_7585.jpg)
 
-## Sistema aislado recogida de datos
+### Streaming
 
-## Streaming
-
-* [Radio wifi](https://learn.adafruit.com/pi-wifi-radio?view=all)
+[Radio wifi](https://learn.adafruit.com/pi-wifi-radio?view=all)
 
 ![radio](https://learn.adafruit.com/system/assets/assets/000/007/372/medium800/raspberry_pi_piphi1.jpg?1396850566)
-
-## [Hacking](./hacking.md)
-
-## [Vigilancia](./vigilancia.md)
 
 ## Enseñanza
 
@@ -218,12 +211,7 @@ No te asustes es sólo un láser que se mueve aleatoriamente y que le encantará
 	Wifi USB 5$
 	Caja 9$
 
-## Robótica
-[Raspberry y Lego Minstorm](https://learn.sparkfun.com/tutorials/getting-started-with-the-brickpi?_ga=1.260570443.733603098.1443800444)
-
-![Robot Lego controlado por Raspberry Pi](https://cdn.sparkfun.com/r/600-600/assets/8/3/6/4/0/Brick_Pi_Hookup_Guide-12.jpg)
-
-## Data crunching
+## Data crunching: supercoputación
 
 * [Cluster de supercomputación](http://www.cyberhades.com/2014/02/19/tutorial-para-instalar-un-cluster-de-40-nodos-con-raspberry-pi/)
 
