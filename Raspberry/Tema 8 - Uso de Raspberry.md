@@ -55,8 +55,6 @@ Al menos 2Gb por sistema operativo, mejor 4Gb
 ## Usos
 
 
-
-
 ### Para hacer cálculos con Mathematica
 
 Hay una versión gratuita de Worlfram por defecto en Raspbian
