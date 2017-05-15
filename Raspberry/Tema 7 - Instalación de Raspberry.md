@@ -135,7 +135,10 @@ Si todo va bien veremos el escritorio Pixel
 
 A la izquierda tenemos el menú de aplicaciones y a la derecha podemos pulsar sobre el icono del Wifi o de la red para configurarla si fuera necesario.
 
+
+
 ![Configuración Wifi de Raspberry](./images/wifi2.png)
+
 
 ## Configuración
 
@@ -173,6 +176,14 @@ En la versión 3 de Raspberry no se puede cambiar la velocidad del procesador de
 
 Esta parte de la configuración es fundamental para configurar la zona horaria, el idioma (Local) y el teclado
 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vHs_3HmI3mc" frameborder="0" allowfullscreen></iframe>
+
+[Vídeo de la primera configuración de Raspberry Pi](https://youtu.be/vHs_3HmI3mc)
+
+
+
 ### Configuración desde consola
 
 Si necesitamos configurar desde consola de texto  podemos lanzar la aplicación de configuración escribiendo:
@@ -199,6 +210,10 @@ Una vez configurado podemos abrir el entorno visual con
 En cualquier momento podemos volver a reconfigurar con
 
 	sudo raspi-config
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ERFH8AYjWxM" frameborder="0" allowfullscreen></iframe>
+
+[Vídeo de la configuración desde la consola de texto de Raspberry Pi](https://www.youtube.com/embed/ERFH8AYjWxM)
 
 
 ## Simuladores
