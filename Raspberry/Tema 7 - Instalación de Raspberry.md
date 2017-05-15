@@ -28,6 +28,8 @@ Y si la vas a usar como un ordenador
 
 [¿Más carcasas?](https://www.google.es/search?q=raspberry+case&safe=off&espv=2&biw=838&bih=896&tbm=isch&tbo=u&source=univ&sa=X&ved=0CD4QsARqFQoTCP2a_r-_nMkCFci0GgodzpUMHA)
 
+[Vídeo](https://youtu.be/m_cJlvNBRu0) sobre las cajas para Raspberry Pi
+
 ### ¿Dónde encontrarlos?
 
 ![Kit Raspberry Pi](http://www.electan.com/product_thumb.php?img=images/RaspberryKit2.jpg)
