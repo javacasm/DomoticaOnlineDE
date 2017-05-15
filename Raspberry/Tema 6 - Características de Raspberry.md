@@ -48,15 +48,29 @@ Es una versión superreducida con el mismo procesador pero a 1Ghz y  512Mb de RA
 
 ### Versión antiguas
 
-[Versión 2 B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) (900MHz quad core y 1Gb)
 
-[Versión B+](https://www.raspberrypi.org/documentation/hardware/raspberrypi/models/README.md#modelbplus) 2014
+
+#### Raspberry Versión B
+Tenía 512M de RAM, ethernet y 2 puertos USB
 
 ![modeloB](./images/ModeloB.jpg)
 
-Versión B (512M y ethernet)
+#### Raspberry Versión A
+Apareció en 2011 y tenía 256MB de RAM, un único USB y no tenía conector Ethernet. Costaba unos 25€
 
-Versión A (256MB)
+![Raspberry Versión A](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Raspberry_Pi_-_Model_A.jpg/220px-Raspberry_Pi_-_Model_A.jpg)
+
+#### [Versión 2 B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
+
+El micro quad core va a 900MHz  y tiene 1Gb de RAM, 4 puertos USBs. Incorporan el nuevo formato de los 40 pines GPIO
+
+![Modelo 2 B](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Raspberry_Pi_2_Model_B_v1.1_top_new.jpg/220px-Raspberry_Pi_2_Model_B_v1.1_top_new.jpg)
+
+#### [Versión B+](https://www.raspberrypi.org/documentation/hardware/raspberrypi/models/README.md#modelbplus)
+
+En 2014 se libera esta versión con algunas mejoras internas, pero sin grandes cambios
+
+[Vídeo](https://youtu.be/urPX8uvKWIc) sobre los distintos modelos/versiones de Raspberry Pi
 
 
 ### Referencias
@@ -122,7 +136,9 @@ Veamos algunos de ellos:
 
 ¿Conoces algún clon más? No dudes en decirlo.
 
-### Refencias
+[Vídeo](https://youtu.be/-4eTGF2BCkg) sobre los clones de Raspberry Pi
+
+### Referencias
 
 [Alternativas](http://blogthinkbig.com/alternativas-raspberry-pi/)
 
