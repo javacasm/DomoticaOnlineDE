@@ -139,6 +139,10 @@ A la izquierda tenemos el menú de aplicaciones y a la derecha podemos pulsar so
 
 ![Configuración Wifi de Raspberry](./images/wifi2.png)
 
+En este [Vídeo](https://www.youtube.com/embed/IrjWoxWfewo) podéis ver el uso del entorno visual  Pixel de Raspberry Pi
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IrjWoxWfewo" frameborder="0" allowfullscreen></iframe>
+
 
 ## Configuración
 
