@@ -10,7 +10,7 @@
 
 * Raspberry Pi
 * Fuente de alimentación de 5V con conector micro-USB con al menos 2A (mejor si son 2.5A)
-* Tarjeta SD de al menos 4 GB  o más. Se recomienda de clase 10 por su velocidad. La calidad de la tarjeta es crítica, en tarjetas baratas con problemas de rendimiento nos vamos a encontrar cuelgues inesperados e incluso puede que no arranque.
+* Tarjeta SD de al menos 4 GB  o más ([máximo 128Gb par la Raspberry Pi 3](https://www.raspberrypi.org/help/faqs/#sdMax)). Se recomienda de clase 10 por su velocidad. La calidad de la tarjeta es crítica, en tarjetas baratas con problemas de rendimiento nos vamos a encontrar cuelgues inesperados e incluso puede que no arranque.
 * Cable de red ethernet (no es necesario si tenemos Wifi, pero facilita la primera conexión que no requiere configuración)
 
 Y si la vas a usar como un ordenador
