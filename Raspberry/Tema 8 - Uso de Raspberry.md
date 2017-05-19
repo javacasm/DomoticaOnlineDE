@@ -32,9 +32,12 @@ Para instalar un paquete determinado
 
 Vemos como en todos los comandos utilizamos la palabra "sudo" esto es debido a que se necesitan privilegios de administrador para todo lo relacionado con la actualización del sistema.
 
+
+[Vídeo: Actualizar e instalar software desde terminal en Raspberry Pi](https://youtu.be/BaVfTWFUHtU)
+
 Siempre podemos instalar desde la herramienta visual "Añadir programas" en el menú Preferencias.
 
-TODO: VIDEO DE ACTUALIZAR
+[Vídeo: Cómo actualizar e instalar software Raspberry Pi](https://youtu.be/3eeIHe-NCZs)
 
 ## Problemas
 
@@ -68,7 +71,7 @@ Como sabes es una máquina Linux, con lo que podrás manejarla igual que se mane
 
 #### Comandos básicos:
 
-TODO: VIDEO de comandos
+[Vídeo: Uso del terminal y comandos Linux en Raspberry Pi](https://youtu.be/BF0Kjb4g454)
 
 Veamos algunos de los comandos más utilizados:
 
@@ -118,7 +121,7 @@ Algo muy frecuente es que queramos acceder a nuestra Raspberry Pi remotamente, e
 
 ### SSH (vía consola)
 
-TODO: VIDEO ssh
+[Vídeo: Conexión vía SSH a Raspberry Pi](https://youtu.be/-BH3spberkc)
 
 SSH es el protocolo de acceso por consola
 
@@ -230,9 +233,11 @@ Veamos cómo podemos utilizar lo aprendido...
 
 ### Para hacer cálculos con Mathematica
 
-Hay una versión gratuita de Worlfram por defecto en Raspbian
+Hay una versión gratuita (para uso no comercial) de Worlfram  Mathematica instalada por defecto en Raspbian
 
-TODO: IMAGEN Y ENLACE
+![Mathematica en Raspberry Pi](./images/Mathematica.png)
+
+[Vídeo: Trabajando con Mathematica en Raspberry](https://youtu.be/VVHoREZ8Rc4)
 
 
 ### Vigilancia
