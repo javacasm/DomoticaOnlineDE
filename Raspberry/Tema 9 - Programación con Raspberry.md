@@ -433,7 +433,7 @@ Si lo que queremos hacer es un juego podemos usar pyGame
 
 [Ejemplo de animaciones](https://github.com/oslugr/curso-python-avanzado/blob/master/Videojuegos_con_PyGame/animando_sprites.md)
 
-![Ejemplo de animaciones](https://github.com/oslugr/curso-python-avanzado/raw/master/img/monigotillo.png)
+![Ejemplo de animaciones](https://raw.githubusercontent.com/oslugr/curso-python-avanzado/master/img/monigotillo.png)
 
 [Tutorial de la OSL](https://github.com/oslugr/curso-python-avanzado/tree/master/Videojuegos_con_PyGame)
 
