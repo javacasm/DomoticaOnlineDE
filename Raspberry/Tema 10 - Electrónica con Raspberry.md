@@ -45,6 +45,9 @@ O esta otra versión del gran @pighixxx con los diferentes etiquetados
 
 ![Etiquetas ping](https://pbs.twimg.com/media/DACXWfzXkAE--mT.jpg)
 
+
+[Añadir etiquetas a los gpio de Raspberry](https://youtu.be/9UiZ7m6UacM)
+
 Las distintas versiones tienen algunos pines distintos
 
 ![GPIO para la versión 2](./images/GPIOV2.png)
@@ -213,6 +216,10 @@ Para identificar más fácilmente los pines podemos usar una etiqueta
 
 ## Placas GPIO
 
+Existen muchas placas que facilitan la conexión de electrónica
+
+[Vídeo: Cómo conectar shields a RaspBerry Pi](https://www.youtube.com/watch?v=J9ZolkLrbdg)
+
 ### Clobber
 
 * Es bastante arriesgado y complicado trabajar directamente con los pines del conector GPIO de la RaspBerry.
@@ -224,14 +231,20 @@ Para identificar más fácilmente los pines podemos usar una etiqueta
 
 ![Clobber](./images/clobber.jpg)
 
-Son simples adaptadores que nos facilitan la vida permitiendo conectar de manera sencilla
-con las placas de prototipo
+Son simples adaptadores que nos facilitan la vida permitiendo conectar de manera sencilla con las placas de prototipo
+
+
+[Vídeo: Conectando electrónica a Raspberry - Cobbler DIY](https://youtu.be/CyNVsgw-t3U?list=PLDxBiw1MlK6SqyPGhhox9WlsximiNrcgK)
+
 
 ### PiPlate
 
 ![piplate](./images/piplate.png)
 
 Se trata de una placa de prototipo especialmente adaptada al tamaño de la Raspberry y que nos permite acceder de forma sencilla a los pines por nombre y funcionalidad.
+
+[Video: Placa de prototipo para Raspberry Pi - Pi Plate](https://youtu.be/AB50mlF0ikU?list=PLDxBiw1MlK6SqyPGhhox9WlsximiNrcgK)
+
 
 ### PiFace
 
@@ -272,6 +285,10 @@ Es una placa de desarrollo con una enorme cantidad de complementos, como son con
 	* El funcionamiento de los motores hace que estos generen al acelerar unas corrientes de inducción de sentido opuesto a las que les aplicamos para funcionar y que de no ser suprimidas podrían dañar la electrónica a la que están conectados.
 
 En la [web de raspbirobot](https://github.com/simonmonk/raspirobotboard/wiki) vemos instrucciones de montaje
+
+[Vídeo: Raspirobot - Controlando robots con Raspberry](https://youtu.be/FjjP8007DXA?list=PLDxBiw1MlK6SqyPGhhox9WlsximiNrcgK)
+
+¿Qué podemos hacer con RaspiRobot?
 
 * Controla 2 motores,
 * 2 leds,
