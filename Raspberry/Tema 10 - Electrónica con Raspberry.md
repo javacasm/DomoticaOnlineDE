@@ -1,15 +1,30 @@
 # Tema 10 - Electrónica con Raspberry Pi
 
+En este tema vamos a ver como conectar dispositivos electrónicos a la Raspberry Pi.
 
-# Electronica
+## Cuidados eléctricos
 
-## Cuidados
+Trabajar con electrónica es siempre algo delicado pero mucho más cuando trabajamos conectados a un ordenador.
+
+* No existe protección en los terminales, con lo que es muy, muy sencillo quemar la placa.
+* Cuidado con colocar la placa sobre un instrumento o superficie metálica. Mejor usar una caja
+* Cuidado con los dispositivos que conectamos, pudieran demandar más potencia de la que le puede dar
+
+* Antes de realizar cualquier tipo de conexión en los conectores o pines debemos de tener siempre la precaución de tener desconectada la alimentación de la Raspberry Pi.
+* Evitaremos derivaciones eléctricas o cortos .
+* Conviene recordar que los pines de la CPU de la placa están conectados directamente a los diferentes conectores y pines, con lo que cualquier cosa que hagamos sobre los pines la estamos haciendo directamente sobre la CPU.
+* También hay que tener en cuenta que los pines GPIO no soportan 5 V, sólo 3.3V y un máximo de 16 mA, por lo que hay que tomar precauciones en este sentido.
+
 
 ## Adaptadores
 
+Existen diferentes adaptadores que nos facilitan el uso de electrónica y ademas protegen a la Raspberry. En la sección de las placas hablaremos de ellas.
+
 ## Potencia
 
-# GPIO
+Los pines de la Raspberry no proporcionan potencia, si necesitas mñas potencia tendrás que añadir electrónica.
+
+## GPIO
 
 ![GPIO](./images/GPIORasp.png)
 
@@ -19,12 +34,6 @@
 * Algunos de ellos se pueden usar como comunicaciones especializadas: SPI, I2C, UART
 
 
-# Precauciones
-
-* Antes de realizar cualquier tipo de conexión en los conectores o pines debemos de tener siempre la precaución de tener desconectada la alimentación de la Raspberry Pi.
-* Evitaremos derivaciones eléctricas o cortos .
-* Conviene recordar que los pines de la CPU de la placa están conectados directamente a los diferentes conectores y pines, con lo que cualquier cosa que hagamos sobre los pines la estamos haciendo directamente sobre la CPU.
-* También hay que tener en cuenta que los pines GPIO no soportan 5 V, sólo 3.3V y un máximo de 16 mA, por lo que hay que tomar precauciones en este sentido.
 
 ## Pines
 
@@ -32,7 +41,11 @@ Hay que tener cuidado con no equivocarse. Podemos usar una etiqueta
 
 ![Etiquetas para los pines](./images/etiquetas.png)
 
-Las distinas versiones tienen algunos pines distintos
+O esta otra versión del gran @pighixxx con los diferentes etiquetados
+
+![Etiquetas ping](https://pbs.twimg.com/media/DACXWfzXkAE--mT.jpg)
+
+Las distintas versiones tienen algunos pines distintos
 
 ![GPIO para la versión 2](./images/GPIOV2.png)
 
@@ -40,9 +53,9 @@ Las versiones de 40 pines
 
 ![GPIO de 40 pines](./images/RP2_Pinout.png)
 
-## Librerías
+### Librerías
 
-Hay 4 librerías GPIO
+Hay 4 librerías GPIO que nos facilitarán el utilizarlos (todas en python)
 
 * Shell (línea de comandos)
 * Rpi. GPIO
@@ -53,7 +66,7 @@ Veamos como llaman a los distintos pines
 
 ![Nombre de los GPIOs](./images/NombresGPIO.png)
 
-## Wiring
+#### Wiring
 
 Para instalarlo tenemos que tener instalado parte del entorno de desarrollo de python
 
@@ -74,7 +87,7 @@ Y ya podemos udarla
 
 ![Leer el estado de todos los pines](./images/readall.png)
 
-## Conectando un led
+### Conectando un led
 
 Este es el esquema para conectar un led
 
@@ -109,7 +122,7 @@ Para ejecutar estos programas necesitamos permiso de administrador
 
 		sudo python blink.py
 
-# Conectado un pulsador
+### Conectado un pulsador
 
 ![Conectando un pulsador](./images/pulsador.png)
 
@@ -117,7 +130,7 @@ Usando el código
 
 ![Código para usar un pulsador](./images/codigopulsador.png)
 
-## Usando GPIO
+### Usando GPIO
 
 Instalamos la librería
 
@@ -152,7 +165,7 @@ O este ejemplo más complejo
 			time.sleep(1)
 
 
-## Usando más potencia
+### Usando más potencia
 
 En el caso bastante normal de que necesitemos más potencia de las que nos da un pin (16mA) Podemos utilizar un transistor. Veamos el montaje
 
@@ -161,13 +174,13 @@ En el caso bastante normal de que necesitemos más potencia de las que nos da un
 
 A la salida de este transistor podemos conectar un relé para obtener aún más potencia
 
-## Leyendo valores analógicos
+### Leyendo valores analógicos
 
 Para leer valores analógicos usaremos electrónica externa, com pueden se [esta placa](http://www.abelectronics.co.uk/products/3/Raspberry-Pi/17/) o [esta otra](http://www.adafruit.com/products/1085), ambas de 16 bits. El [montaje es sencillo](http://learn.adafruit.com/reading-a-analog-in-and-controlling-audio-volume-with-the-raspberry-pi)
 
 ![ADC](./images/adc.png)
 
-## Usos de los GPIOs
+### Usos de los GPIOs
 
 * Encender apagar LEDs (no podemos aspirar a encender nada de mayor potencia directamente). Estas son las salidas digitales, capaces de estar en estado alto o bajo.
 * Algunos de estos pines pueden generar PWM (modulación por ancho de pulso) protocolo que usan los servos.
@@ -337,7 +350,7 @@ Veamos un ejemplo de su precisión
 
 ![Robot polarplot](./images/polarplot.png)		
 
-## Servos
+### Servos
 
 Los servos son motores pensados para mantener una posición concreta, disponen de electrónica de control propia y a la se le indica la posición que deben mantener mediante un pulso que hay que enviar 50 veces por segundo.
 
@@ -366,7 +379,7 @@ Si lo probamos veremos que el servo vibra debido a la mala calidad de la señal 
 Podemos mejorar la calidad de la señal utilizando un programa escrito en C que producirá una mejor temporización.
 
 
-## Uniendolo todo
+### Uniéndolo todo
 
 Vamos a utilizar un par de servos para hacer que una cámara [siga una cara](http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/?ALLSTEPS)
 
@@ -428,8 +441,6 @@ proyectos básicos, pasando por componentes, como por ejemplo los
 transistores
 *  Página de documentación de la tienda yourduino: Páginas interesantes
 que he visto tratan sobre manejo de potencia con arduino, libros sobre
-
-
 
 ## Conexión con Arduino
 
