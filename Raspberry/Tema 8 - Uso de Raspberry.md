@@ -36,12 +36,6 @@ Siempre podemos instalar desde la herramienta visual "Añadir programas" en el m
 
 TODO: VIDEO DE ACTUALIZAR
 
-### Cuidados eléctricos
-
-* No existe protección en los terminales, con lo que es muy, muy sencillo quemar la placa.
-* Cuidado con colocar la placa sobre un instrumento o superficie metálica. Mejor usar una caja
-* Cuidado con los dispositivos que conectamos, pudieran demandar más potencia de la que le puede dar
-
 ## Problemas
 
 Siempre podemos encontrarnos con problemas. Veamos los más frecuentes
