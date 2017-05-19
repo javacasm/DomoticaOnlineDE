@@ -1,5 +1,7 @@
 # Tema 9 - Programando con Raspberry Pi
 
+En este tema veremos como programar con nuestra Raspberry Pi.
+
 ## Programación en la Raspberry Pi
 
 Existen distintas alternativas, dependiendo de los conocimientos previos, para programar en la Raspberry Pi.
@@ -16,7 +18,6 @@ Principalmente están pensados para facilitar la instalación de los entornos, q
 
 	Tiene varios [proyectos](https://googlecreativelab.github.io/coder-projects/) de diferente complejidad, con tutoriales
 
-
 * [WebIDE](https://learn.adafruit.com/webide?view=all) Entorno Web que permite programar en Python, Ruby, Javascript y otros lenguajes
 
 ![webide](https://learn.adafruit.com/system/assets/assets/000/002/173/medium800/adafruit_products_Using2.jpg?1396780152)
@@ -28,6 +29,8 @@ Es un entorno de programación gráfico que nos permite hacer programas usando b
 Podemos probarlo [online](https://scratch.mit.edu/projects/editor/)
 
 ![scratch](./images/scratch.png)
+
+
 
 Está pensado para enseñar a programar sin la complejidad de la sintaxis.
 
@@ -44,11 +47,11 @@ Otros similares
 La imagen Raspbian trae instalada una versión de Scratch
 
 TODO: IMAGEN DE SCRATCH EN LA RASPI
-
+TODO: VIDEO SCRATCH
 
 ## Shell Script
 
-Los scripts son ficheros donde introduciomos distintas órdenes que se irán ejecutando de forma consecutiva una tras otra
+Los scripts son ficheros donde introducimos distintas órdenes que se irán ejecutando de forma consecutiva una tras otra
 
 Vamos a ver algunos ejemplos de cómo utilizarlos junto con la cámara.
 
@@ -65,6 +68,7 @@ Antes de poder utilizarla tenemos que activarla
 
 ![Configuración para activar la cámara](./images/activaCamara.png)
 
+TODO: VIDEO CAMARA
 
 Tenemos 2 aplicaciones para usar la cámara
 
@@ -265,6 +269,8 @@ Se utiliza en la web, en aplicaciones de escritorio, etc... Gran parte del inter
 
 Existen dos versiones de python ahora mismo: la rama 2.x y la 3.x
 Por sencillez vamos a usar la sintaxis de la rama 2.x
+
+TODO: VIDEO DE PYTHON
 
 Podemos utilizar la herramienta Idle o python directamente para programar con él.
 
