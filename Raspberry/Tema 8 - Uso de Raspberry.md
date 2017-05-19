@@ -1,12 +1,18 @@
 # Tema 8 - Uso de Raspberry Pi
 
+En este tema vamos a ver los usos normales de Raspberry Pi.
+
+Dado que el uso de los típicos programas de ofimática o similares es idéntico al que se hace en otros ordenadores nos vamos a hablar de ellos.
+
+Nos centraremos en los usos más típicos donde se trabaja con la consola/terminal. Es el típido uso que se hace en los sistemas Linux. La mayoría de los veremos se puede hacer en los sistemas con Linux de las distribuciones [Debian](https://www.debian.org/index.es.html) y [Ubuntu](https://www.ubuntu.com/) en los que está basado Raspbian.
+
 ## Mantenimiento
 
-Una vez instalado el sistema, necesitamos de vez en cuando actualizarlo.
+Una vez instalado el sistema, necesitamos de vez en cuando actualizarlo. Veamos como hacerlo.
 
 ### Actualización (update)
 
-Des un terminal/consola
+Desde un terminal/consola tecleamos lo siguiente
 
 Para buscar cambios
 
@@ -24,7 +30,11 @@ Para instalar un paquete determinado
 
 	sudo apt-get install paquete
 
-(siempre podemos instalar desde la herramienta visual "Añadir programas" en el menú Preferencias)
+Vemos como en todos los comandos utilizamos la palabra "sudo" esto es debido a que se necesitan privilegios de administrador para todo lo relacionado con la actualización del sistema.
+
+Siempre podemos instalar desde la herramienta visual "Añadir programas" en el menú Preferencias.
+
+TODO: VIDEO DE ACTUALIZAR
 
 ### Cuidados eléctricos
 
@@ -38,53 +48,19 @@ Siempre podemos encontrarnos con problemas. Veamos los más frecuentes
 
 ### Alimentación
 
-Necesitamos un mínimo de 2A
+Necesitamos un mínimo de 2A, si la alimentación está por debajo se pueden producir cuelgues inesperados e incluso que no arranque.
 
 ### Velocidad de la tarjeta
 
-Se recomienda velocidad 10, una velocidad menor da problemas a bloqueos
+Se recomienda velocidad 10, una velocidad menor da problemas como bloqueos
 
 ### Espacio en disco
 
-Al menos 2Gb por sistema operativo, mejor 4Gb
+Al menos 4Gb por sistema operativo, mejor 8Gb o más
 
 ### No se ve nada en el monitor
 
-¿Lo arrancaste con el monitor conectado? Es necesario arrancar con el monitor conectado
-
-## Usos
-
-
-### Para hacer cálculos con Mathematica
-
-Hay una versión gratuita de Worlfram por defecto en Raspbian
-
-TODO: IMAGEN Y ENLACE
-
-
-### Vigilancia
-
-Podemos usar su cámara (la original o una USB)
-
-Usaremos un software standard de Linux: motion
-
-	sudo apt-get install motion
-
-Editamos la configuracion
-
-	sudo nano /etc/motion/motion.conf
-
-![usando motion](./images/motion.jpg)
-
-Lo arrancamos
-
-	sudo montion -n
-
-
-Podremos acceder a la imagen en vivo de la cámara con
-
-	 http://rasperry_ip:8001
-
+¿Lo arrancaste con el monitor conectado? Es necesario arrancar con el monitor conectado.
 
 
 ## Manejando tu Raspberry Pi
@@ -98,6 +74,11 @@ Como sabes es una máquina Linux, con lo que podrás manejarla igual que se mane
 
 #### Comandos básicos:
 
+TODO: VIDEO de comandos
+
+Veamos algunos de los comandos más utilizados:
+
+* La tecla Tabulador nos permite completar el nombre del fichero/directorio
 * **ls** : muestra los archivos y directorios ( **ls -l** para más detalles y **ls -a** para mostrar todos)
 * **cd** : cambia de directorio (**cd ~** nos lleva a nuestro directorio home y **cd ..** sale del directorio actual)
 * **chmod** : cambia los permisos de un fichero/directorio (**chmod ugo-w fichero** quita todos los permisos de escritura)
@@ -116,7 +97,6 @@ Como sabes es una máquina Linux, con lo que podrás manejarla igual que se mane
 * **sudo halt** apaga la raspberry
 * **sudo shutdown -h now** apaga la raspberry
 * **history** : muestra todos los comandos que se han ejecutado antes. Podemos ejecutar el comando de la posición n, con !n . Las teclas abajo/arriba del cursor nos permiten iterar por los comandos usados.
-* La tecla Tabulador nos permite completar el nombre del fichero/directorio
 * **man comando**: Para obtener ayuda sobre comando
 * Para hacer fichero script: añadimos los comandos, chmod u+x fichero y para ejecutarlo ./fichero
 
@@ -140,13 +120,15 @@ Para arrancar el interface gráfico (si no está arrancado) usaremos
 
 ### Acceso remoto
 
-Algo muy frecuente es que queramos acceder a nuestra Raspberry Pi remotamente, es decir sin un teclado ni monitor conectado directamente. Evidementemente necesitamos tener un SO instalado y habilitar el acceso remoto. Veamos algunas de las formas de hacerlo.
+Algo muy frecuente es que queramos acceder a nuestra Raspberry Pi remotamente, es decir sin un teclado ni monitor conectado directamente. Evidentemente necesitamos tener un SO instalado y habilitar el acceso remoto. Veamos algunas de las formas de hacerlo.
 
 ### SSH (vía consola)
 
-Es el protocolo de acceso por consola
+TODO: VIDEO ssh
 
-Entramos en la configuración avanzada
+SSH es el protocolo de acceso por consola
+
+Tenemos que activarlo en la configuración para poder acceder desde fuera.Entramos en la configuración avanzada
 
 	sudo raspi-config
 
@@ -247,3 +229,37 @@ Ahora solo falta probar que tenemos conectividad, haciendo un ping
 	ping 192.168.0.90
 
 Si todo es correcto ya podremos acceder via ssh o  VNC
+
+## Usos
+
+Veamos cómo podemos utilizar lo aprendido...
+
+### Para hacer cálculos con Mathematica
+
+Hay una versión gratuita de Worlfram por defecto en Raspbian
+
+TODO: IMAGEN Y ENLACE
+
+
+### Vigilancia
+
+Podemos usar su cámara (la original o una USB)
+
+Usaremos un software standard de Linux: motion
+
+	sudo apt-get install motion
+
+Editamos la configuracion
+
+	sudo nano /etc/motion/motion.conf
+
+![usando motion](./images/motion.jpg)
+
+Lo arrancamos
+
+	sudo montion -n
+
+
+Podremos acceder a la imagen en vivo de la cámara con
+
+	 http://rasperry_ip:8001
