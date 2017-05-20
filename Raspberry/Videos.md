@@ -23,3 +23,17 @@ Videos Raspberry
 [Raspirobot - Controlando robots con Raspberry](https://youtu.be/FjjP8007DXA?list=PLDxBiw1MlK6SqyPGhhox9WlsximiNrcgK)
 [Placa de prototipo para Raspberry Pi - Pi Plate](https://youtu.be/AB50mlF0ikU?list=PLDxBiw1MlK6SqyPGhhox9WlsximiNrcgK)
 [Uso de matriz led con Raspberry Pi con MCP23017](https://youtu.be/hajZVknrCP0?list=PLDxBiw1MlK6SqyPGhhox9WlsximiNrcgK)
+
+## Uso
+[Cómo actualizar e instalar software Raspberry Pi](https://youtu.be/3eeIHe-NCZs)
+[Actualizar e instalar software desde terminal en Raspberry Pi](https://youtu.be/BaVfTWFUHtU)
+[Uso del terminal y comandos Linux en Raspberry Pi](https://youtu.be/BF0Kjb4g454)
+[Conexión via SSH a Raspberry Pi](https://youtu.be/-BH3spberkc)
+[Trabajando con Mathematica en Raspberry](https://youtu.be/VVHoREZ8Rc4)
+
+## Programación
+
+[Programación con Raspberry Pi](https://youtu.be/vpWt8iOGArM)
+[Programando con Scratch en Raspberry Pi](https://youtu.be/6veM85OpsKI)
+[Trabajando con Shell  Scripts Raspberry pi](https://youtu.be/L5HfjbKyth0)
+[Python en Raspberry Pi](https://youtu.be/Yy2oad1Xnoo)
