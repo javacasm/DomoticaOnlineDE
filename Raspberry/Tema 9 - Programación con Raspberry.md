@@ -6,6 +6,8 @@ En este tema veremos como programar con nuestra Raspberry Pi.
 
 Existen distintas alternativas, dependiendo de los conocimientos previos, para programar en la Raspberry Pi.
 
+[Vídeo: Programación con Raspberry Pi](https://youtu.be/vpWt8iOGArM)
+
 * Scratch: para gente sin conocimientos previos de programación
 * Python: lenguaje profesional, se necesitan otras habilidades (manejo de editores,...)
 * Shell script: creando ficheros scripts podemos automatizar tareas
@@ -44,10 +46,11 @@ Otros similares
 
 ### Scratch en nuestra Raspberry Pi
 
-La imagen Raspbian trae instalada una versión de Scratch
+La imagen Raspbian trae instalada la versión 1.4 de Scratch
 
-TODO: IMAGEN DE SCRATCH EN LA RASPI
-TODO: VIDEO SCRATCH
+![Usando Scratch en Raspberry Pi](./images/ScratchRaspberry.png)
+
+[Programando con Scratch en Raspberry Pi](https://youtu.be/6veM85OpsKI)
 
 ## Shell Script
 
@@ -68,7 +71,6 @@ Antes de poder utilizarla tenemos que activarla
 
 ![Configuración para activar la cámara](./images/activaCamara.png)
 
-TODO: VIDEO CAMARA
 
 Tenemos 2 aplicaciones para usar la cámara
 
@@ -143,6 +145,8 @@ Una imagen cada 2 segundos durante 25 segundos Cada foto tendrá un número de s
 		/opt/vc/bin/raspistill -o $SAVEDIR/$filename
 		sleep 4;
 		done;
+
+[Vídeo: Trabajando con Shell  Scripts Raspberry pi](https://youtu.be/L5HfjbKyth0)
 
 ### Vídeo
 
@@ -270,7 +274,7 @@ Se utiliza en la web, en aplicaciones de escritorio, etc... Gran parte del inter
 Existen dos versiones de python ahora mismo: la rama 2.x y la 3.x
 Por sencillez vamos a usar la sintaxis de la rama 2.x
 
-TODO: VIDEO DE PYTHON
+[Video: Python en Raspberry Pi](https://youtu.be/Yy2oad1Xnoo)
 
 Podemos utilizar la herramienta Idle o python directamente para programar con él.
 
