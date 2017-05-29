@@ -1,9 +1,11 @@
 Videos Raspberry
 
+## Que es Raspberry
 
+[Modelos de Raspberry Pi](https://youtu.be/ZBq6ZPE5r9c)
+[Carcasas para Raspberry pi](https://youtu.be/RHmBmK33iuY)
+[Clones de Raspberry](https://youtu.be/OX3YdERMgOo)
 
-[Conversor de niveles entre Raspberry Pi y electrónica - level shifter](https://youtu.be/ZD7_mfx_T_k)
-[Añadir etiquetas a los gpio de Raspberry](https://youtu.be/9UiZ7m6UacM)
 
 ## Configuración y uso básico
 [Uso del escritorio Pixel de Raspberry Pi](https://www.youtube.com/watch?v=IrjWoxWfewo&index)
@@ -37,3 +39,9 @@ Videos Raspberry
 [Programando con Scratch en Raspberry Pi](https://youtu.be/6veM85OpsKI)
 [Trabajando con Shell  Scripts Raspberry pi](https://youtu.be/L5HfjbKyth0)
 [Python en Raspberry Pi](https://youtu.be/Yy2oad1Xnoo)
+
+
+## Varios
+
+[Conversor de niveles entre Raspberry Pi y electrónica - level shifter](https://youtu.be/ZD7_mfx_T_k)
+[Añadir etiquetas a los gpio de Raspberry](https://youtu.be/9UiZ7m6UacM)
