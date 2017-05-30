@@ -64,7 +64,7 @@ Apareció en 2011 y tenía 256MB de RAM, un único USB y no tenía conector Ethe
 
 El micro quad core va a 900MHz  y tiene 1Gb de RAM, 4 puertos USBs. Incorporan el nuevo formato de los 40 pines GPIO
 
-![Modelo 2 B](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Raspberry_Pi_2_Model_B_v1.1_top_new.jpg/220px-Raspberry_Pi_2_Model_B_v1.1_top_new.jpg)
+![Modelo 2 B](./images/Raspberry_Pi_2_Model_B_v1.1_top_new.jpg)
 
 #### [Versión B+](https://www.raspberrypi.org/documentation/hardware/raspberrypi/models/README.md#modelbplus)
 
