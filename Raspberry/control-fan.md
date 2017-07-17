@@ -1,15 +1,16 @@
 ## Controlando un ventilador para refrigerar la Raspberry Pi
 
-(Basado en el tutorial de [hackernoon](https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c)
+(Basado en el tutorial de [hackernoon](https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c) con algunos retoques/arreglos)
 
 Se trata de controlar un ventilador desde los GPIO para refrigerar la Raspberry Pi.
 
 Se establecerá una temperatura umbral (60º en nuestro caso) a partir de la cual se encenderá un ventilador. Inicialmente se va a usar control todo/nada, dejando para más adelante la posibilidad de usar diferentes velocidades del ventilador mediante PWM
 
-Este es el script para encender/apagar el ventilador en función de
+Este es el script ([control-fan.py](./codigo/control-fan.py)) para encender/apagar el ventilador en función de
 
     #!/usr/bin/env python3
     # Author: Edoardo Paolo Scalafiotti <edoardo849@gmail.com>
+    # Some changes/typos by @javacasm
     import os
     from time import sleep
     import signal
@@ -51,38 +52,40 @@ Este es el script para encender/apagar el ventilador en función de
     except KeyboardInterrupt: # trap a CTRL+C keyboard interrupt
         GPIO.cleanup() # resets all GPIO ports used by this program
 
-## Servicio control fan
+Script para arrancar/parar el servicio de control del ventilador según la temperatura ([run-fan.sh](./codigo/run-fan.sh)).
+
+    ## Servicio control fan
 
 
-#! /bin/sh
+    #! /bin/sh
 
-### BEGIN INIT INFO
-# Provides:          run-fan.py
-# Required-Start:    $remote_fs $syslog
-# Required-Stop:     $remote_fs $syslog
-# Default-Start:     2 3 4 5
-# Default-Stop:      0 1 6
-### END INIT INFO
+    ### BEGIN INIT INFO
+    # Provides:          run-fan.py
+    # Required-Start:    $remote_fs $syslog
+    # Required-Stop:     $remote_fs $syslog
+    # Default-Start:     2 3 4 5
+    # Default-Stop:      0 1 6
+    ### END INIT INFO
 
-# If you want a command to always run, put it here
+    # If you want a command to always run, put it here
 
-# Carry out specific functions when asked to by the system
-case "$1" in
-  start)
-    echo "Starting control-fan.py"
-    /usr/local/bin/run-fan.py &
-    ;;
-  stop)
-    echo "Stopping listen-for-shutdown.py"
-    pkill -f /usr/local/bin/run-fan.py
-    ;;
-  *)
-    echo "Usage: /etc/init.d/control-fan.sh {start|stop}"
-    exit 1
-    ;;
-esac
+    # Carry out specific functions when asked to by the system
+    case "$1" in
+      start)
+        echo "Starting control-fan.py"
+        /usr/local/bin/run-fan.py &
+        ;;
+      stop)
+        echo "Stopping listen-for-shutdown.py"
+        pkill -f /usr/local/bin/run-fan.py
+        ;;
+      *)
+        echo "Usage: /etc/init.d/control-fan.sh {start|stop}"
+        exit 1
+        ;;
+    esac
 
-exit 0
+    exit 0
 
 
 
