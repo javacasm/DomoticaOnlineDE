@@ -1,49 +1,55 @@
+## Controlando un ventilador para refrigerar la Raspberry Pi
 
-## Run fan
+(Basado en el tutorial de [hackernoon](https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c)
 
-#!/usr/bin/env python3
-# Author: Edoardo Paolo Scalafiotti <edoardo849@gmail.com>
-import os
-from time import sleep
-import signal
-import sys
-import RPi.GPIO as GPIO
-pin = 18 # The pin ID, edit here to change it
-maxTMP = 80 # The maximum temperature in Celsius after which we trigger the fan
-def setup():
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setup(pin, GPIO.OUT)
-    GPIO.setwarnings(False)
-    return()
-def getCPUtemperature():
-    res = os.popen('vcgencmd measure_temp').readline()
-    temp =(res.replace("temp=","").replace("'C\n",""))
-    #print("temp is {0}".format(temp)) #Uncomment here for testing
-    return temp
-def fanON():
-    setPin(True)
-    return()
-def fanOFF():
-    setPin(False)
-    return()
-def getTEMP():
-    CPU_temp = float(getCPUtemperature())
-    if CPU_temp>maxTMP:
-        fanON()
-    else:
-        fanOFF()
-    return()
-def setPin(mode): # A little redundant function but useful if you want to add logging
-    GPIO.output(pin, mode)
-    return()
-try:
-    setup()
-    while True:
-        getTEMP()
-    sleep(5) # Read the temperature every 5 sec, increase or decrease this limit if you want
-except KeyboardInterrupt: # trap a CTRL+C keyboard interrupt
-    GPIO.cleanup() # resets all GPIO ports used by this program
+Se trata de controlar un ventilador desde los GPIO para refrigerar la Raspberry Pi.
 
+Se establecerá una temperatura umbral (60º en nuestro caso) a partir de la cual se encenderá un ventilador. Inicialmente se va a usar control todo/nada, dejando para más adelante la posibilidad de usar diferentes velocidades del ventilador mediante PWM
+
+Este es el script para encender/apagar el ventilador en función de
+
+    #!/usr/bin/env python3
+    # Author: Edoardo Paolo Scalafiotti <edoardo849@gmail.com>
+    import os
+    from time import sleep
+    import signal
+    import sys
+    import RPi.GPIO as GPIO
+    pin = 18 # The pin ID, edit here to change it
+    maxTMP = 60 # The maximum temperature in Celsius after which we trigger the fan
+    def setup():
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setup(pin, GPIO.OUT)
+        GPIO.setwarnings(False)
+        return()
+    def getCPUtemperature():
+        res = os.popen('vcgencmd measure_temp').readline()
+        temp =(res.replace("temp=","").replace("'C\n",""))
+        #print("temp is {0}".format(temp)) #Uncomment here for testing
+        return temp
+    def fanON():
+        setPin(True)
+        return()
+    def fanOFF():
+        setPin(False)
+        return()
+    def getTEMP():
+        CPU_temp = float(getCPUtemperature())
+        if CPU_temp>maxTMP:
+            fanON()
+        else:
+            fanOFF()
+        return()
+    def setPin(mode): # A little redundant function but useful if you want to add logging
+        GPIO.output(pin, mode)
+        return()
+    try:
+        setup()
+        while True:
+            getTEMP()
+            sleep(5) # Read the temperature every 5 sec, increase or decrease this limit if you want
+    except KeyboardInterrupt: # trap a CTRL+C keyboard interrupt
+        GPIO.cleanup() # resets all GPIO ports used by this program
 
 ## Servicio control fan
 
