@@ -2,14 +2,17 @@
 
 (Basado en [este tutorial](https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi))
 
-Desgraciadamente la Raspberry Pi (ni siquiera en su versión 3) tiene un botón de encendido apagado.
+Desgraciadamente la Raspberry Pi (ni siquiera en su versión 3) tiene un botón de encendido apagado y el conectar y desconectar el cable de alimentación USB implica un doble riesgo: el producir errores en los ficheros por apagar bruscamente y dañar el conector USB.
 
-Sí que dispone de una funcionalidad hardware que permite arrancarla desde el estado Halt cuando se detecta un estado a 0V del GPIO 3
+Por ello sería ideal si pudiedarmos añadir una manera de inducir un apagado ordenado (shutdown) y un posterior encendido.
 
-El arranque desde el estado Halt es fácil de resolver, basta con conectar un pulsador entre el GPIO 3 y GND (pines 5 y 6). Para ello usaré un pulsador del [Squid Combo Pack de  MonkMakes](https://www.monkmakes.com/squid_combo) (También he utilizado una placa-etiqueta del mismo kit para no liarla en la conexión)
+Buscando en Internet he visto que los diseñadores ya pensaron en ello permitiendo arrancar desde el estado de Halt (al que se llega desde un shutdown).
 
+Esta funcionalidad hardware permite arrancarla desde el mencionado estado Halt cuando se detecta un estado a 0V del GPIO 3
 
-Para el apagado vamos a crear unos script que vigilen (mediante interrupciones para no consumir CPU) el estado del GPIO 3 y en caso de que detecte que está a 0v pongan la Raspberry en estado Halt (en la imagen también se ve que he añadido un ventilador para mantener la raspberry fresquita en este tórrido verano)
+Por ello el arranque desde este estado Halt es fácil de resolver: basta con conectar un pulsador entre el GPIO 3 y GND (pines 5 y 6). Para ello usaré un pulsador del [Squid Combo Pack de  MonkMakes](https://www.monkmakes.com/squid_combo) (También he utilizado una placa-etiqueta del mismo kit para no liarla en la conexión)
+
+Para el apagado podemos usar un script que vigile (mediante interrupciones para no consumir CPU) el estado del ya usado GPIO 3 y en caso de que detecte que está a 0v ponga la Raspberry en estado Halt (en la imagen también se ve que he añadido un ventilador para mantener la raspberry fresquita en este tórrido verano)
 
 ![boton on-off](./images/Boton_on-off.jpg)
 
@@ -90,3 +93,5 @@ Para probarlo arrancamos manualmente el servicio con
     sudo service listen-for-shutdown start
 
 Al pulsar el botón por primera vez se apagará y volverá
+
+Todos los scripts se pueden descargar desde el [repositorio github de Howchoo](https://github.com/Howchoo/pi-power-button)
