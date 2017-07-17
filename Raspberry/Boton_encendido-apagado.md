@@ -94,4 +94,12 @@ Para probarlo arrancamos manualmente el servicio con
 
 Al pulsar el botón por primera vez se apagará y volverá
 
+Veamos el consumo cuando está en estado Halt, unos 50mA
+
+![Consumo Halt](./images/ConsumoHalt.jpg)
+
+Y cuando está en funcionamiento normal, unos 420mA
+
+![Consumo Normal](./images/ConsumoNomal.jpg)
+
 Todos los scripts se pueden descargar desde el [repositorio github de Howchoo](https://github.com/Howchoo/pi-power-button)
