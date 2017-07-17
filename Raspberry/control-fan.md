@@ -10,30 +10,37 @@ Este es el script ([control-fan.py](./codigo/control-fan.py)) para encender/apag
 
     #!/usr/bin/env python3
     # Author: Edoardo Paolo Scalafiotti <edoardo849@gmail.com>
-    # Some changes/typos by @javacasm
+    # Some changes&typos by @javacasm
+
     import os
     from time import sleep
     import signal
     import sys
     import RPi.GPIO as GPIO
+
     pin = 18 # The pin ID, edit here to change it
     maxTMP = 60 # The maximum temperature in Celsius after which we trigger the fan
+
     def setup():
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(pin, GPIO.OUT)
         GPIO.setwarnings(False)
         return()
+
     def getCPUtemperature():
         res = os.popen('vcgencmd measure_temp').readline()
         temp =(res.replace("temp=","").replace("'C\n",""))
         #print("temp is {0}".format(temp)) #Uncomment here for testing
         return temp
+
     def fanON():
         setPin(True)
         return()
+
     def fanOFF():
         setPin(False)
         return()
+
     def getTEMP():
         CPU_temp = float(getCPUtemperature())
         if CPU_temp>maxTMP:
@@ -41,9 +48,11 @@ Este es el script ([control-fan.py](./codigo/control-fan.py)) para encender/apag
         else:
             fanOFF()
         return()
+
     def setPin(mode): # A little redundant function but useful if you want to add logging
         GPIO.output(pin, mode)
         return()
+
     try:
         setup()
         while True:
@@ -51,8 +60,6 @@ Este es el script ([control-fan.py](./codigo/control-fan.py)) para encender/apag
             sleep(5) # Read the temperature every 5 sec, increase or decrease this limit if you want
     except KeyboardInterrupt: # trap a CTRL+C keyboard interrupt
         GPIO.cleanup() # resets all GPIO ports used by this program
-
-
 
 Copiamos el script run-fan.py en la carpeta del sistema
 
@@ -62,7 +69,7 @@ Le damos permisos de ejecución
 
     sudo chmod u+x /usr/local/bin/run-fan.py
 
-    Script para arrancar/parar el servicio de control del ventilador según la temperatura ([run-fan.sh](./codigo/run-fan.sh)).
+Veamos ahora el script para arrancar/parar el servicio de control del ventilador según la temperatura ([run-fan.sh](./codigo/run-fan.sh)).
 
         ## Servicio control fan
 
@@ -97,7 +104,7 @@ Le damos permisos de ejecución
 
         exit 0
 
-Copiamos el script de control del servicio
+Copiamos el script de control del servicio en la carpeta _/etc/init.d/_
 
     sudo cp control-fan.sh /etc/init.d/
 
@@ -105,10 +112,10 @@ Le damos permisos de ejecución
 
     sudo chmod u+x /etc/init.d/control-fan.sh
 
-Registramos el servicio en el sistema
+Y registramos el servicio en el sistema
 
   sudo update-rc.d control-fan.sh defaults
 
-Arrancamos el servicio (en el siguiente rearranque se hará automáticamente)
+Arrancamos el servicio para probarlo (en el siguiente rearranque se hará automáticamente)
 
   sudo service control-fan start
