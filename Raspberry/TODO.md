@@ -22,3 +22,5 @@ Incluir donde corresponda
 Usar los wiimote desde rapsberry [I ](https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=132340)
 y
 [II](https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=131870)
+
+[Control de la CPU](https://geekytheory.com/obtener-datos-de-la-cpu-en-linux-de-8-formas-diferentes)
