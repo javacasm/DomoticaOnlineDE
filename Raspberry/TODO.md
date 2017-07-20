@@ -1,7 +1,15 @@
 # TODO
 
 
+
+
 Incluir donde corresponda
+
+[Physical computing con python](https://www.raspberrypi.org/learning/physical-computing-with-python/)
+
+[Guía del profesor para aprender Raspberry](https://www.raspberrypi.org/learning/teachers-guide/)
+
+[Control remoto de la impresorta 3D](https://lisergio.wordpress.com/2016/03/28/control-remoto-para-tu-impresora-3d-con-raspberry-pi-1a-parte/)
 
 [Predicción meteorológica](https://www.instructables.com/id/Weather-Forecast-Cloud/)
 
@@ -26,3 +34,6 @@ Incluir donde corresponda
 Usar los wiimote desde rapsberry [I ](https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=132340)
 y
 [II](https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=131870)
+
+([RetroOrange](http://www.retrorangepi.org/))
+##
