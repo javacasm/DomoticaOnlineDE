@@ -5,6 +5,8 @@
 
 Incluir donde corresponda
 
+[Poner Ip Static a la Raspberry](https://www.modmypi.com/blog/how-to-give-your-raspberry-pi-a-static-ip-address-update)
+
 [Physical computing con python](https://www.raspberrypi.org/learning/physical-computing-with-python/)
 
 [Guía del profesor para aprender Raspberry](https://www.raspberrypi.org/learning/teachers-guide/)
