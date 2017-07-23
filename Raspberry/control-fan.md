@@ -71,8 +71,7 @@ Le damos permisos de ejecución
 
 Veamos ahora el script para arrancar/parar el servicio de control del ventilador según la temperatura ([run-fan.sh](./codigo/run-fan.sh)).
 
-        ## Servicio control fan
-
+## Servicio control fan
 
         #! /bin/sh
 
@@ -114,8 +113,8 @@ Le damos permisos de ejecución
 
 Y registramos el servicio en el sistema
 
-  sudo update-rc.d control-fan.sh defaults
+    sudo update-rc.d control-fan.sh defaults
 
 Arrancamos el servicio para probarlo (en el siguiente rearranque se hará automáticamente)
 
-  sudo service control-fan start
+    sudo service control-fan start
