@@ -5,6 +5,8 @@
 
 Incluir donde corresponda
 
+[Convierte tu Raspbery en un servidor de videojuegos](https://www.redeszone.net/2017/09/17/raspberry-pi-servidor-juegos-lan/)
+
 [Asegura tu raspberry frente a amenazas externas](https://www.redeszone.net/2017/09/14/pasos-asegurar-raspberry-pi-frente-posibles-amenazas/)
 
 [Acompañamiento de piano con Raspberry](https://hackaday.com/2017/09/06/raspberry-pi-ai-plays-piano/)
