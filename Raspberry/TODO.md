@@ -5,6 +5,14 @@
 
 Incluir donde corresponda
 
+[Asegura tu raspberry frente a amenazas externas](https://www.redeszone.net/2017/09/14/pasos-asegurar-raspberry-pi-frente-posibles-amenazas/)
+
+[Acompañamiento de piano con Raspberry](https://hackaday.com/2017/09/06/raspberry-pi-ai-plays-piano/)
+
+[Robot que resuelve el cubo de rubick con una raspberry](https://www.raspberrypi.org/blog/rubiks-cube-solver/)
+
+[Streaming con tu raspberry](http://randomnerdtutorials.com/video-streaming-with-raspberry-pi-camera/)
+
 [Poner Ip Static a la Raspberry](https://www.modmypi.com/blog/how-to-give-your-raspberry-pi-a-static-ip-address-update)
 
 [Physical computing con python](https://www.raspberrypi.org/learning/physical-computing-with-python/)
