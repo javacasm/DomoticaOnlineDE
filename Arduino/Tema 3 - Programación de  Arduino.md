@@ -18,7 +18,7 @@ Veamos las diferentes opciones que tenemos para programar Arduino:
 
 [Codebender](http://codebender.cc "codebender")
 
-Entorno de desarrollo totalmente basado en aplicaciones web, decir, sólo necesitamos un navegador web para poder desarrollar con Arduino. Permite la edición, compilación y la programación de Arduino. Podéis probarlo en [https://codebender.cc/](https://codebender.cc/)|
+Entorno de desarrollo totalmente basado en aplicaciones web, decir, sólo necesitamos un navegador web para poder desarrollar con Arduino. Permite la edición, compilación y la programación de Arduino. Podéis probarlo en [https://codebender.cc/](https://codebender.cc/)
 
 #### Entorno de programación Bitbloq
 
