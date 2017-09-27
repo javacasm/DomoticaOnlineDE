@@ -5,6 +5,9 @@
 
 Incluir donde corresponda
 
+
+[ADC con la Raspberry](https://hackaday.com/2017/09/22/8-channel-adc-for-the-raspberry-pi/)
+
 [Convierte tu Raspbery en un servidor de videojuegos](https://www.redeszone.net/2017/09/17/raspberry-pi-servidor-juegos-lan/)
 
 [Asegura tu raspberry frente a amenazas externas](https://www.redeszone.net/2017/09/14/pasos-asegurar-raspberry-pi-frente-posibles-amenazas/)
