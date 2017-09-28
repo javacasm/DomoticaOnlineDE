@@ -5,6 +5,7 @@
 
 Incluir donde corresponda
 
+[OpenCV y autopilot](https://github.com/hamuchiwa/AutoRCCar)
 
 [ADC con la Raspberry](https://hackaday.com/2017/09/22/8-channel-adc-for-the-raspberry-pi/)
 
