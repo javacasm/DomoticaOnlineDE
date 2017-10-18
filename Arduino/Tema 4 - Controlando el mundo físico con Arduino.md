@@ -12,23 +12,33 @@ Nuestras actuaciones pueden ser accionamiento de motores, servos o cualquier otr
 
 En este módulo veremos como hacerlo.
 
-### Introducción a la electrónica
+## Introducción a la electrónica
 
 En la siguiente presentación puedes ver una introducción a la electrónica:
 
 <iframe width="960" height="749" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="https://docs.google.com/presentation/embed?id=1mlXV-Wxtx7rHHfaTzzLYdnhHpBFAmaWu-jC891pyYyE&amp;start=false&amp;loop=false&amp;delayms=60000"></iframe>
+
+
 [Presentación: introducción a la electrónica](https://docs.google.com/presentation/embed?id=1mlXV-Wxtx7rHHfaTzzLYdnhHpBFAmaWu-jC891pyYyE&amp;start=false&amp;loop=false&amp;delayms=60000)
+
+
 
 [Enlace para descarga](https://www.dropbox.com/s/heovmlqccxoc9ta/4.0%20-%20Introducci%C3%B3n%20a%20la%20electr%C3%B3nica.pdf?dl=0)
 
 
-### Múndo digital
+
+
+
+## Múndo digital
+
 
 ![Señales digitales](./images/Senales.png)
+
 
 En el mundo digital sólo existen dos estados, 0 y 1. Eléctricamente estos estados corresponden con 0 voltios y 5 voltios. En sistemas de bajo consumo, el estado 1 puede bajar a 3.3 voltios.
 
 En sistemas reales las señales no son realmente como esperamos sino que están mezcladas con ruido. Cómo vemos en la imagen, este ruido complica el reconocer los estados. Para evitar esto se definen un nivel por encima de los cual se toma un valor 1 (la línea roja) y otro por debajo del cual se considera el nivel 0 (la línea azul)
+
 
 ### Salidas digitales
 
@@ -151,9 +161,11 @@ De esta manera tendremos el valor convertido. Podrías hacer ese cálculo con un
 
 Los rangos se pueden poner con el mínimo y el máximo invertido, así conseguiremos una proporcionalidad inversa, es decir cuando más grande sea el valor original más pequeño será el valor convertido.
 
-## Salidas analógicas
+### Salidas analógicas
+
 
 ![PWM](./images/SalidaAnalogica.png)
+
 
 Una salida analógica es aquella capaz de dar un valor intermedio entre sus límites. La mayoría de los Arduinos no es capaz de hacer eso (sólo el DUE), pero si puede simularlo. Lo que realmente nos interesa la mayor parte de las veces es modular la potencia que enviamos por una patilla (que tiene casi el mismo efecto sobre cargas reales). Así si queremos una salida al 50% lo que haremos será tener la patilla a 1 el 50% del tiempo y a 0 el otro 50%. Haciéndolo suficientemente rápido no se nota la diferencia.
 
