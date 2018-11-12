@@ -5,7 +5,6 @@
 
 Incluir donde corresponda
 
-[OpenCV y autopilot](https://github.com/hamuchiwa/AutoRCCar)
 
 [ADC con la Raspberry](https://hackaday.com/2017/09/22/8-channel-adc-for-the-raspberry-pi/)
 
@@ -52,4 +51,15 @@ y
 [II](https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=131870)
 
 ([RetroOrange](http://www.retrorangepi.org/))
-##
+## [Upgrade](./upgrade_so.md)
+
+## Cambiar configuraci'on de red de estatica a dinamica https://es.mathworks.com/help/supportpkg/raspberrypi/ug/getting-the-raspberry_pi-ip-address.html
+
+## Comandos
+
+[Comandos basicos](https://raspberrytips.com/raspberry-pi-commands/)
+[43 Comandos basicos](http://www.circuitbasics.com/useful-raspberry-pi-commands/)
+
+## Bot Telegram
+
+[Crear bot para telegram](http://soloelectronicos.com/2018/11/07/bot-de-telegram-con-raspberry-pi)
