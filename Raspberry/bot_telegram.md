@@ -1,4 +1,4 @@
-una de las funcionalidades más interesantes de Telegram es el uso de Bots, unos sencillos programas que permiten interactuar con dispositivos usando la plataforma de comunicaciones.
+Una de las funcionalidades más interesantes de Telegram es el uso de Bots, unos sencillos programas que permiten interactuar con dispositivos usando la plataforma de comunicaciones.
 
 Por ejemplo podemos acceder desde internet a un dispositivo que está conectado a un wifi detrás del router de casa.
 
